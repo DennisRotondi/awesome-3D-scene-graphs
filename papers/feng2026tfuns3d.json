@@ -6,7 +6,7 @@
   "ABSTRACT": "Open-vocabulary 3D functionality segmentation enables robots to localize functional object components in 3D scenes. It is a challenging task that requires spatial understanding and task interpretation. Current open-vocabulary 3D segmentation methods primarily focus on object-level recognition, while scene-wide part segmentation methods attempt to segment the entire scene exhaustively, making them highly resource-intensive and time consuming. Balancing segmentation performance in terms of granularity, accuracy, and speed remains a challenge. As one step towards alleviating this, we introduce T-FunS3D, a task-driven hierarchical open-vocabulary 3D functionality segmentation method that provides actionable perception for robotic applications. Our method takes as input the 3D point cloud and posed RGB-D images of an indoor scene. We construct an open-vocabulary scene graph by extracting instances and their visual embeddings in the environment. Given a task description, T-FunS3D identifies the most relevant instances in the scene graph and locates their functional components leveraging a vision-language model. Experiments on the SceneFun3D dataset demonstrate that T-FunS3D is comparable to state-of-the-art in open-vocabulary 3D functionality segmentation, while achieving faster runtime and reduced memory usage.",
   "ARXIV": "https://arxiv.org/abs/2606.05975",
   "FIRSTINSTITUTE": "TU Delft",
-  "KEYWORD": "Application, LLM, SUN, Indoor, Hierarchical, Pre-Built PCD, RGB-D, Open-Vocabulary, Affordances",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Hierarchical, Pre-Built PCD, RGB-D, Open-Vocabulary, Affordance",
   "SITE": "https://t-funs3d.github.io",
   "CODE": "",
   "VIDEO": "",
