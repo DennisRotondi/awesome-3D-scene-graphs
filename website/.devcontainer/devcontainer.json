@@ -1,0 +1,10 @@
+// website/.devcontainer/devcontainer.json
+{
+  "name": "Website Dev Container (Compose)",
+  "dockerComposeFile": [
+    "../../docker-compose.yaml"
+  ],
+  "service": "website",
+  "workspaceFolder": "/app",
+  "remoteUser": "root"
+}

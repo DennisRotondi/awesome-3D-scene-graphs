@@ -1,0 +1,82 @@
+.pickerbox {
+  font-family: 'Ubuntu Sans', sans-serif;
+  border: 0.15rem solid #3b4248 !important;
+  border-radius: 0.25rem;
+  font-size: 1.3rem !important;
+  text-align: center; 
+  height: 100%;
+  /* max-width: 6%; */
+
+}
+
+.x-icon {
+  right: 0.65rem;           /* distance from the right edge */
+  top: 50%;                 /* vertically center */
+  transform: translateY(-50%);
+  position: absolute;
+  color: #3b4248ff;           /* optional gray color */
+  cursor: pointer;
+  pointer-events: auto;      /* allow clicking */
+}
+
+.selector {
+  z-index: 2000; /* stay above Toast */
+  max-height: 40vh;
+}
+
+.selectorItem{
+  font-size: 1rem;
+  color: #3b4248;
+  max-height: 80vh;
+
+}
+
+
+.toastItem{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    width: 90%;
+    max-width: 350px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.rdp-nav{
+  transform: translateX(+10%);
+}
+
+.rdp-chevron{
+    fill: #9CAFAA;
+}
+
+.rdp-button_previous{
+  margin-left: 3rem;
+}
+
+.rdp-range-start{
+    background-color: #9CAFAA !important;
+}
+
+/* DatePicker.css */
+.rdp-root {
+  --rdp-range_end-date-background-color: #9CAFAA !important; 
+  --rdp-range_start-date-background-color: #9CAFAA !important;
+  --rdp-accent-color: #9CAFAA !important;
+  --rdp-range_middle-color: #3b4248 !important;
+}
+
+[data-slot="select-trigger"] [data-slot="select-value"] {
+  font-size: 1rem; 
+  font-weight: 600;  
+  color: #3b4248;
+}
+
+.input-picker:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
+}

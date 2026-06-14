@@ -1,0 +1,14 @@
+{
+  "TITLE": "Long-Term Planning Around Humans in Domestic Environments with 3D Scene Graphs",
+  "VENUE": "arXiv25",
+  "DATE": "2025/03/12",
+  "AUTHOR": "Ermanno Bartoli, Dennis Rotondi, Kai O. Arras, Iolanda Leite",
+  "ABSTRACT": "Long-term planning for robots operating in domestic environments poses unique challenges due to the interactions between humans, objects, and spaces. Recent advancements in trajectory planning have leveraged vision-language models (VLMs) to extract contextual information for robots operating in real-world environments. While these methods achieve satisfying performance, they do not explicitly model human activities. Such activities influence surrounding objects and reshape spatial constraints. This paper presents a novel approach to trajectory planning that integrates human preferences, activities, and spatial context through an enriched 3D scene graph (3DSG) representation. By incorporating activity-based relationships, our method captures the spatial impact of human actions, leading to more context-sensitive trajectory adaptation. Preliminary results demonstrate that our approach effectively assigns costs to spaces influenced by human activities, ensuring that the robot trajectory remains contextually appropriate and sensitive to the ongoing environment. This balance between task efficiency and social appropriateness enhances context-aware human-robot interactions in domestic settings. Future work includes implementing a full planning pipeline and conducting user studies to evaluate trajectory acceptability.",
+  "ARXIV": "https://arxiv.org/abs/2503.09173",
+  "FIRSTINSTITUTE": "KTH",
+  "KEYWORD": "Application, Navigation, LLM, Indoor, Incremental, RGB-D, Humans",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{bartoli2025longtermplanning,\n  title = {Long-Term Planning Around Humans in Domestic Environments with 3D Scene Graphs},\n  author = {Bartoli, Ermanno and Rotondi, Dennis and Arras, Kai O. and Leite, Iolanda},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

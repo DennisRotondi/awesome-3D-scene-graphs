@@ -1,0 +1,14 @@
+{
+  "TITLE": "Articulated 3D Scene Graphs for Open-World Mobile Manipulation",
+  "VENUE": "arXiv26",
+  "DATE": "2026/02/18",
+  "AUTHOR": "Martin Büchner, Adrian Röfer, Tim Engelbracht, Tim Welschehold, Zuria Bauer, Hermann Blum, Marc Pollefeys, Abhinav Valada",
+  "ABSTRACT": "Semantics has enabled 3D scene understanding and affordance-driven object interaction. However, robots operating in real-world environments face a critical limitation: they cannot anticipate how objects move. Long-horizon mobile manipulation requires closing the gap between semantics, geometry, and kinematics. In this work, we present MoMa-SG, a novel framework for building semantic-kinematic 3D scene graphs of articulated scenes containing a myriad of interactable objects. Given RGB-D sequences containing multiple object articulations, we temporally segment object interactions and infer object motion using occlusion-robust point tracking. We then lift point trajectories into 3D and estimate articulation models using a novel unified twist estimation formulation that robustly estimates revolute and prismatic joint parameters in a single optimization pass. We also introduce the novel Arti4D-Semantic dataset. Real-world experiments on both a quadruped and a mobile manipulator demonstrate that our semantic-kinematic scene graphs enable robust manipulation of articulated objects.",
+  "ARXIV": "https://arxiv.org/abs/2602.16356",
+  "FIRSTINSTITUTE": "UniFreiburg",
+  "KEYWORD": "Application, Open-Vocabulary, Indoor, Manipulation, Hierarchical, Active, LLM, Dataset, SUN, RGB-D",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{buchner2026momasg,\n  title = {Articulated 3D Scene Graphs for Open-World Mobile Manipulation},\n  author = {Büchner, Martin and Röfer, Adrian and Engelbracht, Tim and Welschehold, Tim and Bauer, Zuria and Blum, Hermann and Pollefeys, Marc and Valada, Abhinav},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+}

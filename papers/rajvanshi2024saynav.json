@@ -1,0 +1,14 @@
+{
+  "TITLE": "SayNav: Grounding Large Language Models for Dynamic Planning to Navigation in New Environments",
+  "VENUE": "AAAI25",
+  "DATE": "2023/09/08",
+  "AUTHOR": "Abhinav Rajvanshi, Karan Sikka, Xiao Lin, Bhoram Lee, Han-Pang Chiu, Alvaro Velasquez",
+  "ABSTRACT": "Semantic reasoning and dynamic planning capabilities are crucial for an autonomous agent to perform complex navigation tasks in unknown environments. It requires a large amount of common-sense knowledge, that humans possess, to succeed in these tasks. We present SayNav, a new approach that leverages human knowledge from Large Language Models (LLMs) for efficient generalization to complex navigation tasks in unknown large-scale environments. SayNav uses a novel grounding mechanism, that incrementally builds a 3D scene graph of the explored environment as inputs to LLMs, for generating feasible and contextually appropriate high-level plans for navigation. The LLM-generated plan is then executed by a pre-trained low-level planner, that treats each planned step as a short-distance point-goal navigation sub-task. SayNav dynamically generates step-by-step instructions during navigation and continuously refines future steps based on newly perceived information. We evaluate SayNav on multi-object navigation (MultiON) task, that requires the agent to utilize a massive amount of human knowledge to efficiently search multiple different objects in an unknown environment. We also introduce a benchmark dataset for MultiON task employing ProcTHOR framework that provides large photo-realistic indoor environments with variety of objects. SayNav achieves state-of-the-art results and even outperforms an oracle based baseline with strong ground-truth assumptions by more than 8% in terms of success rate, highlighting its ability to generate dynamic plans for successfully locating objects in large-scale new environments.",
+  "ARXIV": "https://arxiv.org/abs/2309.04077",
+  "FIRSTINSTITUTE": "SRI",
+  "KEYWORD": "Application, RGB-D, Indoor, Navigation, LLM, Planning, Incremental, Open-Vocabulary",
+  "SITE": "https://www.sri.com/publication/saynav-grounding-large-language-models-for-dynamic-planning-to-navigation-in-new-environments/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{rajvanshi2024saynav,\n  title = {SayNav: Grounding Large Language Models for Dynamic Planning to Navigation in New Environments},\n  author = {Rajvanshi, Abhinav and Sikka, Karan and Lin, Xiao and Lee, Bhoram and Chiu, Han-Pang and Velasquez, Alvaro},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2025}\n}"
+}

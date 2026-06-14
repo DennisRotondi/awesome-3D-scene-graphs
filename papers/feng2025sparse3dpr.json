@@ -1,0 +1,14 @@
+{
+  "TITLE": "Sparse3DPR: Training-Free 3D Hierarchical Scene Parsing and Task-Adaptive Subgraph Reasoning from Sparse RGB Views",
+  "VENUE": "AAAI26",
+  "DATE": "2025/11/11",
+  "AUTHOR": "Haida Feng, Hao Wei, Zewen Xu, Haolin Wang, Chade Li, Yihong Wu",
+  "ABSTRACT": "Recently, large language models (LLMs) have been explored widely for 3D scene understanding. Among them, training-free approaches are gaining attention for their flexibility and generalization over training-based methods. However, they typically struggle with accuracy and efficiency in practical deployment. To address the problems, we propose Sparse3DPR, a novel training-free framework for open-ended scene understanding, which leverages the reasoning capabilities of pre-trained LLMs and requires only sparse-view RGB inputs. Specifically, we introduce a hierarchical plane-enhanced scene graph that supports open vocabulary and adopts dominant planar structures as spatial anchors, which enables clearer reasoning chains and more reliable high-level inferences. Furthermore, we design a task-adaptive subgraph extraction method to filter query-irrelevant information dynamically, reducing contextual noise and improving 3D scene reasoning efficiency and accuracy. Experimental results demonstrate the superiority of Sparse3DPR, which achieves a 28.7% EM@1 improvement and a 78.2% speedup compared with ConceptGraphs on the Space3D-Bench. Moreover, Sparse3DPR obtains comparable performance to training-based methods on ScanQA, with additional real-world experiments confirming its robustness and generalization capability.",
+  "ARXIV": "https://arxiv.org/abs/2511.07813",
+  "FIRSTINSTITUTE": "CAS",
+  "KEYWORD": "Application, Indoor, Open-Vocabulary, LLM, Pre-Built PCD, Hierarchical, SUN",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{feng2025sparse3dpr,\n  title = {Sparse3DPR: Training-Free 3D Hierarchical Scene Parsing and Task-Adaptive Subgraph Reasoning from Sparse RGB Views},\n  author = {Feng, Haida and Wei, Hao and Xu, Zewen and Wang, Haolin and Li, Chade and Wu, Yihong},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
+}

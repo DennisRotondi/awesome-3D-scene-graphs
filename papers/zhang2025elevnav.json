@@ -1,0 +1,14 @@
+{
+  "TITLE": "ElevNav: Large Language Model-Guided Robot Navigation via 3D Scene Graphs in Elevator Environments",
+  "VENUE": "OMNN25",
+  "DATE": "2025/09/17",
+  "AUTHOR": "Huzhenyu Zhang",
+  "ABSTRACT": "Cross-floor robotic navigation has become an increasingly critical capability for autonomous systems operating in multi-floor buildings. While 3D scene graphs have demonstrated promise for representing hierarchical spatial relationships, current approaches predominantly address cross-floor navigation by stairs, overlooking the practical challenges of elevator-mediated navigation in modern buildings. This paper presents ElevNav, a novel framework that bridges this gap through two key innovations: (1) automatic construction of semantically-rich 3D scene graphs from RGB-D sequences with estimated camera trajectories, and (2) task decomposition using large language models to translate natural language commands into executable action sequences. Our method addresses elevator interaction through specialized action primitives such as pressing buttons, entering and exiting the elevator, and moving toward target objects. We evaluate ElevNav in complex simulated environments built using Isaac Sim, demonstrating robust performance in multi-floor navigation scenarios.",
+  "ARXIV": "https://link.springer.com/article/10.3103/S1060992X25700109",
+  "FIRSTINSTITUTE": "MIPT",
+  "KEYWORD": "Application, RGB-D, LLM, Hierarchical, Navigation, Indoor",
+  "SITE": "",
+  "CODE": "https://github.com/zhanghuzhenyu/elevnav",
+  "VIDEO": "",
+  "BIBTEX": "@article{zhang2025elevnav,\n  title = {ElevNav: Large Language Model-Guided Robot Navigation via 3D Scene Graphs in Elevator Environments},\n  author = {Zhang, Huzhenyu},\n  journal = {Optical Memory and Neural Networks},\n  year = {2025}\n}"
+}

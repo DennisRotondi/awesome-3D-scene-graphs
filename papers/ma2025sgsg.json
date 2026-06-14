@@ -1,0 +1,14 @@
+{
+  "TITLE": "SGSG: Stroke-Guided Scene Graph Generation",
+  "VENUE": "TVCG25",
+  "DATE": "2025/10/02",
+  "AUTHOR": "Qixiang Ma, Runze Fan, Lizhi Zhao, Jian Wu, Sio-Kei Im, Lili Wang",
+  "ABSTRACT": "3D scene graph generation is essential for spatial computing in Extended Reality (XR), providing structured semantics for task planning and intelligent perception. However, unlike instance-segmentation-driven setups, generating semantic scene graphs still suffer from limited accuracy due to coarse and noisy point cloud data typically acquired in practice, and from the lack of interactive strategies to incorporate users, spatialized and intuitive guidance. We identify three key challenges: designing controllable interaction forms, involving guidance in inference, and generalizing from local corrections. To address these, we propose SGSG, a Stroke-Guided Scene Graph generation method that enables users to interactively refine 3D semantic relationships and improve predictions in real time. We propose three types of strokes and a lightweight SGstrokes dataset tailored for this modality. Our model integrates stroke guidance representation and injection for spatio-temporal feature learning and reasoning correction, along with intervention losses that combine consistency-repulsive and geometry-sensitive constraints to enhance accuracy and generalization. Experiments and the user study show that SGSG outperforms state-of-the-art methods 3DSSG and SGFN in overall accuracy and precision, surpasses JointSSG in predicate-level metrics, and reduces task load across all control conditions, establishing SGSG as a new benchmark for interactive 3D scene graph generation and semantic understanding in XR.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/11192081",
+  "FIRSTINSTITUTE": "BUAA",
+  "KEYWORD": "Application, XR, Dataset, Indoor, SUN, Active, Pre-Built PCD, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "https://github.com/Sycamore-Ma/SGSG-runtime",
+  "VIDEO": "",
+  "BIBTEX": "@article{ma2025sgsg,\n  title = {SGSG: Stroke-Guided Scene Graph Generation},\n  author = {Ma, Qixiang and Fan, Runze and Zhao, Lizhi and Wu, Jian and Im, Sio-Kei and Wang, Lili},\n  journal = {IEEE Trans. Vis. Comput. Graph.},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations",
+  "VENUE": "RAL23",
+  "DATE": "2022/12/22",
+  "AUTHOR": "Hriday Bavle, Jose Luis Sanchez-Lopez, Muhammad Shaheer, Javier Civera, Holger Voos",
+  "ABSTRACT": "In this paper, we present an evolved version of Situational Graphs, which jointly models in a single optimizable factor graph (1) a pose graph, as a set of robot keyframes comprising associated measurements and robot poses, and (2) a 3D scene graph, as a high-level representation of the environment that encodes its different geometric elements with semantic attributes and the relational information between them. Specifically, our S-Graphs+ is a novel four-layered factor graph that includes: (1) a keyframes layer with robot pose estimates, (2) a walls layer representing wall surfaces, (3) a rooms layer encompassing sets of wall planes, and (4) a floors layer gathering the rooms within a given floor level. The above graph is optimized in real-time to obtain a robust and accurate estimate of the robots pose and its map, simultaneously constructing and leveraging high-level information of the environment. To extract this high-level information, we present novel room and floor segmentation algorithms utilizing the mapped wall planes and free-space clusters. We tested S-Graphs+ on multiple datasets, including simulated and real data of indoor environments from varying construction sites, and on a real public dataset of several indoor office areas. On average over our datasets, S-Graphs+ outperforms the accuracy of the second-best method by a margin of 10.67%, while extending the robot situational awareness by a richer scene model. Moreover, we make the software available as a docker file.",
+  "ARXIV": "http://arxiv.org/abs/2212.11770v3",
+  "FIRSTINSTITUTE": "UniLu",
+  "KEYWORD": "LiDAR, Hierarchical, SLAM, Incremental, Real-Time, Indoor",
+  "SITE": "https://snt-arg.github.io/s_graphs_docker/#v2",
+  "CODE": "https://github.com/snt-arg/s_graphs_docker",
+  "VIDEO": "",
+  "BIBTEX": "@article{bavle2023sgraphs,\n  title = {S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations},\n  author = {Bavle, Hriday and Sanchez-Lopez, Jose Luis and Shaheer, Muhammad and Civera, Javier and Voos, Holger},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2023}\n}"
+}

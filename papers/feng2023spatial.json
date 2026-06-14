@@ -1,0 +1,14 @@
+{
+  "TITLE": "3D Spatial Multimodal Knowledge Accumulation for Scene Graph Prediction in Point Cloud",
+  "VENUE": "CVPR23",
+  "DATE": "2023/06/17",
+  "AUTHOR": "Mingtao Feng, Haoran Hou, Liang Zhang, Ziiie Wu, Yulan Guo, Ajmal Mian",
+  "ABSTRACT": "In-depth understanding of a 3D scene not only involves locating/recognizing individual objects, but also requires to infer the relationships and interactions among them. However, since 3D scenes contain partially scanned objects with physical connections, dense placement, changing sizes, and a wide variety of challenging relationships, existing methods perform quite poorly with limited training samples. In this work, we find that the inherently hierarchical structures of physical space in 3D scenes aid in the automatic association of semantic and spatial arrangements, specifying clear patterns and leading to less ambiguous predictions. Thus, they well meet the challenges due to the rich variations within scene categories. To achieve this, we explicitly unify these structural cues of 3D physical spaces into deep neural networks to facilitate scene graph prediction. Specifically, we exploit an external knowledge base as a baseline to accumulate both contextualized visual content and textual facts to form a 3D spatial multimodal knowledge graph. Moreover, we propose a knowledge-enabled scene graph prediction module benefiting from the 3D spatial knowledge to effectively regularize semantic space of relationships. Extensive experiments demonstrate the superiority of the proposed method over current state-of-the-art competitors.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/10204093",
+  "FIRSTINSTITUTE": "XDU",
+  "KEYWORD": "Indoor, Pre-Built PCD, Hierarchical",
+  "SITE": "https://cvpr.thecvf.com/virtual/2023/poster/23209",
+  "CODE": "https://github.com/HHrEtvP/SMKA",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{feng2023spatial,\n  title = {3D Spatial Multimodal Knowledge Accumulation for Scene Graph Prediction in Point Cloud},\n  author = {Feng, Mingtao and Hou, Haoran and Zhang, Liang and Wu, Ziiie and Guo, Yulan and Mian, Ajmal},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2023}\n}"
+}

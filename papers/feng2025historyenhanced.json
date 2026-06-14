@@ -1,0 +1,14 @@
+{
+  "TITLE": "History-Enhanced 3D Scene Graph Reasoning from RGB-D Sequences",
+  "VENUE": "TCSVT25",
+  "DATE": "2025/03/05",
+  "AUTHOR": "Mingtao Feng, Chenbo Yan, Zijie Wu, Weisheng Dong, Yaonan Wang, Ajmal Mian",
+  "ABSTRACT": "3D scene graph has emerged as a powerful high-level representation of the environment, and is considered a prerequisite for long-term autonomous robotic operations. However, building rich representations from RGB-D sequences remains a challenging problem. Existing methods ignore the semantic gap between linguistic and geometric feature spaces or neglect the importance of historical context in incrementally captured data. This limits the learning of visual-textual correspondence and the capability of relationship prediction. To address these problems, we propose a history-enhanced 3D scene graph reasoning framework that incrementally builds a consistent 3D semantic scene graph from an RGB-D image sequence. Specifically, we first introduce a cross-domain unified feature representation module to describe the object instances and their relationships distinctly. Next, we build a one-hot candidate matrix-enabled recurrent mechanism to reason the 3D scene graph, combining the perceived global and local history information. Finally, we design history-aware supervised semantics contrastive learning to optimize the scene-specific global history features. Extensive experiments on the 3DSSG dataset show the effectiveness of the proposed method in this challenging task, outperforming state-of-the-art approaches.",
+  "ARXIV": "https://ieeexplore.ieee.org/abstract/document/10912709",
+  "FIRSTINSTITUTE": "XDU",
+  "KEYWORD": "RGB-D, Pre-Built PCD, Incremental, Indoor",
+  "SITE": "",
+  "CODE": "https://github.com/cbyan1003/HE-3DSG",
+  "VIDEO": "",
+  "BIBTEX": "@article{feng2025historyenhanced,\n  title = {History-Enhanced 3D Scene Graph Reasoning from RGB-D Sequences},\n  author = {Feng, Mingtao and Yan, Chenbo and Wu, Zijie and Dong, Weisheng and Wang, Yaonan and Mian, Ajmal},\n  journal = {IEEE Trans. on Circuits and Systems for Video Technology (TCSVT)},\n  year = {2025}\n}"
+}

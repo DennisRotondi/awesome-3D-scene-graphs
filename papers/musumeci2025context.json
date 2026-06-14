@@ -1,0 +1,14 @@
+{
+  "TITLE": "Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning",
+  "VENUE": "arXiv25",
+  "DATE": "2025/10/08",
+  "AUTHOR": "Emanuele Musumeci, Michele Brienza, Francesco Argenziano, Abdel Hakim Drid, Vincenzo Suriani, Daniele Nardi, Domenico D. Bloisi",
+  "ABSTRACT": "Embodied agents need to plan and act reliably in real and complex 3D environments. Classical planning (e.g., PDDL) offers structure and guarantees, but in practice it fails under noisy perception and incorrect predicate grounding. On the other hand, Large Language Models (LLMs)-based planners leverage commonsense reasoning, yet frequently propose actions that are unfeasible or unsafe. Following recent works that combine the two approaches, we introduce ContextMatters, a framework that fuses LLMs and classical planning to perform hierarchical goal relaxation: the LLM helps ground symbols to the scene and, when the target is unreachable, it proposes functionally equivalent goals that progressively relax constraints, adapting the goal to the context of the agent's environment. Operating on 3D Scene Graphs, this mechanism turns many nominally unfeasible tasks into tractable plans and enables context-aware partial achievement when full completion is not achievable. Our experimental results show a +52.45% Success Rate improvement over state-of-the-art LLMs+PDDL baseline, demonstrating the effectiveness of our approach. Moreover, we validate the execution of ContextMatter in a real world scenario by deploying it on a TIAGo robot. Code, dataset, and supplementary materials are available to the community at this https URL.",
+  "ARXIV": "https://arxiv.org/abs/2506.15828",
+  "FIRSTINSTITUTE": "Sapienza",
+  "KEYWORD": "Application, Hierarchical, Indoor, Planning",
+  "SITE": "https://lab-rococo-sapienza.github.io/context-matters/",
+  "CODE": "https://github.com/Lab-RoCoCo-Sapienza/context-matters",
+  "VIDEO": "",
+  "BIBTEX": "@misc{musumeci2025context,\n  title = {Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning},\n  author = {Musumeci, Emanuele and Brienza, Michele and Argenziano, Francesco and Drid, Abdel Hakim and Suriani, Vincenzo and Nardi, Daniele and Bloisi, Domenico D.},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

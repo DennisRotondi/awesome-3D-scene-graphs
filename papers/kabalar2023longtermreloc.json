@@ -1,0 +1,14 @@
+{
+  "TITLE": "Towards Long-Term Retrieval-Based Visual Localization in Indoor Environments with Changes",
+  "VENUE": "RAL23",
+  "DATE": "2023/02/06",
+  "AUTHOR": "Julia Kabalar, Shun-Cheng Wu, Johanna Wald, Keisuke Tateno, Nassir Navab, Federico Tombari",
+  "ABSTRACT": "Visual localization is a challenging task due to the presence of illumination changes, occlusion, and perception from novel viewpoints. Re-localizing the camera pose in long-term setups raises difficulties caused by changes in scene appearance and geometry introduced by human or natural deterioration. Many existing methods use static scene assumptions and fail in dynamic indoor scenes. Only a few works handle scene changes by introducing outlier awareness with pure learning methods. Other recent approaches use semantics to robustify camera localization in changing setups. However, to the best of our knowledge, no method has yet used scene graphs in feature-based approaches to introduce change awareness. In this work, we propose a novel feature-based camera re-localization method that leverages scene graphs within retrieval and feature detection and matching. Semantic scene graphs are used to estimate scene changes by matching instances and relationship triplets. The knowledge of scene changes is then used for our change-aware image retrieval and feature correspondence verification. We show the potential of integrating higher-level knowledge about the scene within a retrieval-based localization pipeline. Our method is evaluated on the RIO10 benchmark with comprehensive evaluations on different levels of scene changes.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/10038537",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, Indoor, Long-Term Dynamics, RGB-D, Incremental, SUN",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{kabalar2023longtermreloc,\n  title = {Towards Long-Term Retrieval-Based Visual Localization in Indoor Environments with Changes},\n  author = {Kabalar, Julia and Wu, Shun-Cheng and Wald, Johanna and Tateno, Keisuke and Navab, Nassir and Tombari, Federico},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2023}\n}"
+}

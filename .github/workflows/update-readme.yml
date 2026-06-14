@@ -1,0 +1,34 @@
+name: Update README from papers.json
+
+on:
+  push:
+    branches: ['main', 'pages']
+    paths:
+      - 'papers/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate README and plots
+        run: cd scripts && uv run python json_to_md.py
+
+      - name: Commit updated README and plots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md plots/
+          git diff --staged --quiet || git commit -m "auto: update README from papers/"
+          git push

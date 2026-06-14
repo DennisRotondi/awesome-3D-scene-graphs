@@ -1,0 +1,14 @@
+{
+  "TITLE": "D-Lite: Navigation-Oriented Compression of 3D Scene Graphs for Multi-Robot Collaboration",
+  "VENUE": "RAL23",
+  "DATE": "2022/09/13",
+  "AUTHOR": "Yun Chang, Luca Ballotta, Luca Carlone",
+  "ABSTRACT": "For a multi-robot team that collaboratively explores an unknown environment, it is of vital importance that collected information is efficiently shared among robots in order to support exploration and navigation tasks. Practical constraints of wireless channels, such as limited bandwidth, urge robots to carefully select information to be transmitted. In this paper, we consider the case where environmental information is modeled using a 3D Scene Graph, a hierarchical map representation that describes both geometric and semantic aspects of the environment. Then, we leverage graph-theoretic tools, namely graph spanners, to design greedy algorithms that efficiently compress 3D Scene Graphs with the aim of enabling communication between robots under bandwidth constraints. Our compression algorithms are navigation-oriented in that they are designed to approximately preserve shortest paths between locations of interest, while meeting a user-specified communication budget constraint. The effectiveness of the proposed algorithms is demonstrated in synthetic robot navigation experiments in a realistic simulator.",
+  "ARXIV": "http://arxiv.org/abs/2209.06111v6",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, Hierarchical, Compression, Navigation, Indoor, Multi-Robot",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "https://youtu.be/nKYXU5VC6A8",
+  "BIBTEX": "@article{chang2023dlite,\n  title = {D-Lite: Navigation-Oriented Compression of 3D Scene Graphs for Multi-Robot Collaboration},\n  author = {Chang, Yun and Ballotta, Luca and Carlone, Luca},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2023}\n}"
+}

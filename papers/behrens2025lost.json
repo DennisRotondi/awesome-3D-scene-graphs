@@ -1,0 +1,14 @@
+{
+  "TITLE": "Lost & Found: Tracking Changes from Egocentric Observations in 3D Dynamic Scene Graphs",
+  "VENUE": "RAL25",
+  "DATE": "2024/11/28",
+  "AUTHOR": "Tjark Behrens, René Zurbrügg, Marc Pollefeys, Zuria Bauer, Hermann Blum",
+  "ABSTRACT": "Recent approaches have successfully focused on the segmentation of static reconstructions, thereby equipping downstream applications with semantic 3D understanding. However, the world in which we live is dynamic, characterized by numerous interactions between the environment and humans or robotic agents. Static semantic maps are unable to capture this information, and the naive solution of rescanning the environment after every change is both costly and ineffective in tracking e.g. objects being stored away in drawers. With Lost & Found we present an approach that addresses this limitation. Based solely on egocentric recordings with corresponding hand position and camera pose estimates, we are able to track the 6DoF poses of the moving object within the detected interaction interval. These changes are applied online to a transformable scene graph that captures object-level relations. Compared to state-of-the-art object pose trackers, our approach is more reliable in handling the challenging egocentric viewpoint and the lack of depth information. It outperforms the second-best approach by 34% and 56% for translational and orientational error, respectively, and produces visibly smoother 6DoF object trajectories. In addition, we illustrate how the acquired interaction information in the dynamic scene graph can be employed in the context of robotic applications that would otherwise be unfeasible: We show how our method allows to command a mobile manipulator through teach & repeat, and how information about prior interaction allows a mobile manipulator to retrieve an object hidden in a drawer.",
+  "ARXIV": "https://arxiv.org/abs/2411.19162",
+  "FIRSTINSTITUTE": "ETH",
+  "KEYWORD": "Application, XR, SUN, LiDAR, Active, Long-Term Dynamics, Indoor, Hierarchical",
+  "SITE": "https://behretj.github.io/LostAndFound/",
+  "CODE": "https://github.com/behretj/LostFound",
+  "VIDEO": "https://www.youtube.com/watch?v=xxMsaBSeMXo",
+  "BIBTEX": "@article{behrens2025lost,\n  title = {Lost & Found: Tracking Changes from Egocentric Observations in 3D Dynamic Scene Graphs},\n  author = {Behrens, Tjark and Zurbrügg, René and Pollefeys, Marc and Bauer, Zuria and Blum, Hermann},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2025}\n}"
+}

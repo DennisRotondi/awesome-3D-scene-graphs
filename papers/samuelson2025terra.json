@@ -1,0 +1,14 @@
+{
+  "TITLE": "Terra: Hierarchical Terrain-Aware 3D Scene Graph for Task-Agnostic Outdoor Mapping",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/23",
+  "AUTHOR": "Chad R. Samuelson, Abigail Austin, Seth Knoop, Blake Romrell, Gabriel R. Slade, Timothy W. McLain, Joshua G. Mangelson",
+  "ABSTRACT": "Outdoor intelligent autonomous robotic operation relies on a sufficiently expressive map of the environment. Classical geometric mapping methods retain essential structural environment information, but lack a semantic understanding and organization to allow high-level robotic reasoning. 3D scene graphs (3DSGs) address this limitation by integrating geometric, topological, and semantic relationships into a multi-level graph-based map. Outdoor autonomous operations commonly rely on terrain information either due to task-dependence or the traversability of the robotic platform. We propose a novel approach that combines indoor 3DSG techniques with standard outdoor geometric mapping and terrain-aware reasoning, producing terrain-aware place nodes and hierarchically organized regions for outdoor environments. Our method generates a task-agnostic metric-semantic sparse map and constructs a 3DSG from this map for downstream planning tasks, all while remaining lightweight for autonomous robotic operation. Our thorough evaluation demonstrates our 3DSG method performs on par with state-of-the-art camera-based 3DSG methods in object retrieval and surpasses them in region classification while remaining memory efficient. We demonstrate its effectiveness in diverse robotic tasks of object retrieval and region monitoring in both simulation and real-world environments.",
+  "ARXIV": "https://arxiv.org/abs/2509.19579",
+  "FIRSTINSTITUTE": "BYU",
+  "KEYWORD": "Application, Hierarchical, Outdoor, Open-Vocabulary, LiDAR, Incremental, Navigation",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{samuelson2025terra,\n  title = {Terra: Hierarchical Terrain-Aware 3D Scene Graph for Task-Agnostic Outdoor Mapping},\n  author = {Samuelson, Chad R. and Austin, Abigail and Knoop, Seth and Romrell, Blake and Slade, Gabriel R. and McLain, Timothy W. and Mangelson, Joshua G.},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

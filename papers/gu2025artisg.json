@@ -1,0 +1,14 @@
+{
+  "TITLE": "ArtiSG: Functional 3D Scene Graph Construction via Human-demonstrated Articulated Objects Manipulation",
+  "VENUE": "arXiv25",
+  "DATE": "2025/12/31",
+  "AUTHOR": "Qiuyi Gu, Yuze Sheng, Jincheng Yu, Jiahao Tang, Xiaolong Shan, Zhaoyang Shen, Tinghao Yi, Xiaodan Liang, Xinlei Chen, Yu Wang",
+  "ABSTRACT": "3D scene graphs have empowered robots with semantic understanding for navigation and planning, yet they often lack the functional information required for physical manipulation, particularly regarding articulated objects. Existing approaches for inferring articulation mechanisms from static observations are prone to visual ambiguity, while methods that estimate parameters from state changes typically rely on constrained settings such as fixed cameras and unobstructed views. Furthermore, fine-grained functional elements like small handles are frequently missed by general object detectors. To bridge this gap, we present ArtiSG, a framework that constructs functional 3D scene graphs by encoding human demonstrations into structured robotic memory. Our approach leverages a robust articulation data collection pipeline utilizing a portable setup to accurately estimate 6-DoF articulation trajectories and axes even under camera ego-motion. We integrate these kinematic priors into a hierarchical and open-vocabulary graph while utilizing interaction data to discover inconspicuous functional elements missed by visual perception. Extensive real-world experiments demonstrate that ArtiSG significantly outperforms baselines in functional element recall and articulation estimation precision. Moreover, we show that the constructed graph serves as a reliable functional memory that effectively guides robots to perform language-directed manipulation tasks in real-world environments containing diverse articulated objects.",
+  "ARXIV": "https://arxiv.org/abs/2512.24845",
+  "FIRSTINSTITUTE": "Tsinghua",
+  "KEYWORD": "Application, Manipulation, Indoor, RGB-D, Hierarchical, Active, SUN, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{gu2025artisg,\n  title = {ArtiSG: Functional 3D Scene Graph Construction via Human-demonstrated Articulated Objects Manipulation},\n  author = {Gu, Qiuyi and Sheng, Yuze and Yu, Jincheng and Tang, Jiahao and Shan, Xiaolong and Shen, Zhaoyang and Yi, Tinghao and Liang, Xiaodan and Chen, Xinlei and Wang, Yu},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

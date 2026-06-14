@@ -1,0 +1,14 @@
+{
+  "TITLE": "Integrating Prior Observations for Incremental 3D Scene Graph Prediction",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/15",
+  "AUTHOR": "Marian Renz, Felix Igelbrink, Martin Atzmueller",
+  "ABSTRACT": "3D semantic scene graphs (3DSSG) provide compact structured representations of environments by explicitly modeling objects, attributes, and relationships. While 3DSSGs have shown promise in robotics and embodied AI, many existing methods rely mainly on sensor data, not integrating further information from semantically rich environments. Additionally, most methods assume access to complete scene reconstructions, limiting their applicability in real-world, incremental settings. This paper introduces a novel heterogeneous graph model for incremental 3DSSG prediction that integrates additional, multi-modal information, such as prior observations, directly into the message-passing process. Utilizing multiple layers, the model flexibly incorporates global and local scene representations without requiring specialized modules or full scene reconstructions. We evaluate our approach on the 3DSSG dataset, showing that GNNs enriched with multi-modal information such as semantic embeddings (e.g., CLIP) and prior observations offer a scalable and generalizable solution for complex, real-world environments.",
+  "ARXIV": "https://arxiv.org/abs/2509.11895",
+  "FIRSTINSTITUTE": "DFKI",
+  "KEYWORD": "Pre-Built PCD, Incremental, Indoor",
+  "SITE": "",
+  "CODE": "https://github.com/m4renz/incremental-scene-graph-prediction",
+  "VIDEO": "",
+  "BIBTEX": "@misc{renz2025integrating,\n  title = {Integrating Prior Observations for Incremental 3D Scene Graph Prediction},\n  author = {Renz, Marian and Igelbrink, Felix and Atzmueller, Martin},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

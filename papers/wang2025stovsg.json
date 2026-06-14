@@ -1,0 +1,14 @@
+{
+  "TITLE": "Open-Vocabulary Spatio-Temporal Scene Graph for Robot Perception and Teleoperation Planning",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/27",
+  "AUTHOR": "Yi Wang, Zeyu Xue, Mujie Liu, Tongqin Zhang, Yan Hu, Zhou Zhao, Chenguang Yang, Zhenyu Lu",
+  "ABSTRACT": "Teleoperation via natural-language reduces operator workload and enhances safety in high-risk or remote settings. However, in dynamic remote scenes, transmission latency during bidirectional communication creates gaps between remote perceived states and operator intent, leading to command misunderstanding and incorrect execution. To mitigate this, we introduce the Spatio-Temporal Open-Vocabulary Scene Graph (ST-OVSG), a representation that enriches open-vocabulary perception with temporal dynamics and lightweight latency annotations. ST-OVSG leverages LVLMs to construct open-vocabulary 3D object representations, and extends them into the temporal domain via Hungarian assignment with our temporal matching cost, yielding a unified spatio-temporal scene graph. A latency tag is embedded to enable LVLM planners to retrospectively query past scene states, thereby resolving local-remote state mismatches caused by transmission delays. To further reduce redundancy and highlight task-relevant cues, we propose a task-oriented subgraph filtering strategy that produces compact inputs for the planner. ST-OVSG generalizes to novel categories and enhances planning robustness against transmission latency without requiring fine-tuning. Experiments show that our method achieves 74 percent node accuracy on the Replica benchmark, outperforming ConceptGraph. Notably, in the latency-robustness experiment, the LVLM planner assisted by ST-OVSG achieved a planning success rate of 70.5 percent.",
+  "ARXIV": "https://arxiv.org/abs/2509.23107",
+  "FIRSTINSTITUTE": "SCUT",
+  "KEYWORD": "Application, Open-Vocabulary, RGB-D, Indoor, LLM, Planning, Short-Term Dynamics",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{wang2025stovsg,\n  title = {Open-Vocabulary Spatio-Temporal Scene Graph for Robot Perception and Teleoperation Planning},\n  author = {Wang, Yi and Xue, Zeyu and Liu, Mujie and Zhang, Tongqin and Hu, Yan and Zhao, Zhou and Yang, Chenguang and Lu, Zhenyu},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images",
+  "VENUE": "ICCV25",
+  "DATE": "2025/08/05",
+  "AUTHOR": "Qi Xun Yeo, Yanyan Li, Gim Hee Lee",
+  "ABSTRACT": "Modern 3D semantic scene graph estimation methods utilize ground truth 3D annotations to accurately predict target objects, predicates, and relationships. In the absence of given 3D ground truth representations, we explore leveraging only multi-view RGB images to tackle this task. To attain robust features for accurate scene graph estimation, we must overcome the noisy reconstructed pseudo point-based geometry from predicted depth maps and reduce the amount of background noise present in multi-view image features. The key is to enrich node and edge features with accurate semantic and spatial information and through neighboring relations. We obtain semantic masks to guide feature aggregation to filter background features and design a novel method to incorporate neighboring node information to aid robustness of our scene graph estimates. Furthermore, we leverage on explicit statistical priors calculated from the training summary statistics to refine node and edge predictions based on their one-hop neighborhood. Our experiments show that our method outperforms current methods purely using multi-view images as the initial input.",
+  "ARXIV": "https://arxiv.org/abs/2508.06546",
+  "FIRSTINSTITUTE": "NUS",
+  "KEYWORD": "RGB-D, Pre-Built PCD, Indoor",
+  "SITE": "https://qixun1.github.io/projects/SCRSSG/",
+  "CODE": "https://github.com/qixun1/scrssg",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{Yeo_2025_ICCV,\n  title = {Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images},\n  author = {Yeo, Qi Xun and Li, Yanyan and Lee, Gim Hee},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
+}

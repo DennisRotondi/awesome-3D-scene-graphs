@@ -1,0 +1,14 @@
+{
+  "TITLE": "Holistic OR domain modeling: a semantic scene graph approach",
+  "VENUE": "IJCARS24",
+  "DATE": "2024/01/01",
+  "AUTHOR": "Ege Özsoy, Tobias Czempiel, Evin Pınar Örnek, Ulrich Eck, Federico Tombari, Nassir Navab",
+  "ABSTRACT": "Surgical procedures take place in highly complex operating rooms (OR), involving medical staff, patients, devices and their interactions. Until now, only medical professionals are capable of comprehending these intricate links and interactions. This work advances the field toward automated, comprehensive and semantic understanding and modeling of the OR domain by introducing semantic scene graphs (SSG) as a novel approach to describing and summarizing surgical environments in a structured and semantically rich manner.",
+  "ARXIV": "https://link.springer.com/article/10.1007/s11548-023-03022-w",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, RGB-D, Indoor, Humans, SUN",
+  "SITE": "",
+  "CODE": "https://github.com/egeozsoy/4D-OR",
+  "VIDEO": "",
+  "BIBTEX": "@article{ozsoy2024holistic,\n  title = {Holistic OR domain modeling: a semantic scene graph approach},\n  author = {Özsoy, Ege and Czempiel, Tobias and Örnek, Evin Pınar and Eck, Ulrich and Tombari, Federico and Navab, Nassir},\n  journal = {Intl. Journal of Computer Assisted Radiology and Surgery (IJCARS)},\n  year = {2024}\n}"
+}

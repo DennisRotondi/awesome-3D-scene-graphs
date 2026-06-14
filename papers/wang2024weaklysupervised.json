@@ -1,0 +1,14 @@
+{
+  "TITLE": "Weakly-Supervised 3D Scene Graph Generation via Visual-Linguistic Assisted Pseudo-labeling",
+  "VENUE": "TMM24",
+  "DATE": "2024/04/03",
+  "AUTHOR": "Xu Wang, Yifan Li, Qiudan Zhang, Wenhui Wu, Mark Junjie Li, Jianmin Jinag",
+  "ABSTRACT": "Learning to build 3D scene graphs is essential for real-world perception in a structured and rich fashion. However, previous 3D scene graph generation methods utilize a fully supervised learning manner and require a large amount of entity-level annotation data of objects and relations, which is extremely resource-consuming and tedious to obtain. To tackle this problem, we propose 3D-VLAP, a weakly-supervised 3D scene graph generation method via Visual-Linguistic Assisted Pseudo-labeling. Specifically, our 3D-VLAP exploits the superior ability of current large-scale visual-linguistic models to align the semantics between texts and 2D images, as well as the naturally existing correspondences between 2D images and 3D point clouds, and thus implicitly constructs correspondences between texts and 3D point clouds. First, we establish the positional correspondence from 3D point clouds to 2D images via camera intrinsic and extrinsic parameters, thereby achieving alignment of 3D point clouds and 2D images. Subsequently, a large-scale cross-modal visual-linguistic model is employed to indirectly align 3D instances with the textual category labels of objects by matching 2D images with object category labels. The pseudo labels for objects and relations are then produced for 3D-VLAP model training by calculating the similarity between visual embeddings and textual category embeddings of objects and relations encoded by the visual-linguistic model, respectively. Ultimately, we design an edge self-attention based graph neural network to generate scene graphs of 3D point cloud scenes. Extensive experiments demonstrate that our 3D-VLAP achieves comparable results with current advanced fully supervised methods, meanwhile significantly alleviating the pressure of data annotation.",
+  "ARXIV": "https://arxiv.org/abs/2404.02527",
+  "FIRSTINSTITUTE": "SZU",
+  "KEYWORD": "Pre-Built PCD, Indoor, RGB-D",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{wang2024weaklysupervised,\n  title = {Weakly-Supervised 3D Scene Graph Generation via Visual-Linguistic Assisted Pseudo-labeling},\n  author = {Wang, Xu and Li, Yifan and Zhang, Qiudan and Wu, Wenhui and Li, Mark Junjie and Jinag, Jianmin},\n  journal = {IEEE Transactions on Multimedia},\n  year = {2024}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "ViewInfer3D: 3D Visual Grounding Based on Embodied Viewpoint Inference",
+  "VENUE": "RAL24",
+  "DATE": "2024/07/10",
+  "AUTHOR": "Liang Geng, Jianqin Yin",
+  "ABSTRACT": "3D Visual Grounding (3D VG) is a fundamental task in embodied intelligence, which entails robots interpreting natural language descriptions to locate objects within 3D environments. The complexity of this task emerges as robots perceive the spatial relationships of objects differently depending on their observational viewpoints. In this work, we propose ViewInfer3D, a framework that leverages Large Language Models (LLMs) to infer embodied viewpoints, thereby avoiding incorrect observational viewpoints. To enhance the reliability and speed of reasoning from embodied viewpoints, we have designed three sub-strategies: constructing a hierarchical 3D scene graph, implementing embodied viewpoint parsing, and applying scene graph reasoning. Through extensive experiments, we demonstrate that this framework can improve performance in 3D Visual Grounding tasks through embodied viewpoint reasoning. Our framework achieves the best performance among all zero-shot methods on the ScanRefer and Nr3D/Sr3D datasets, without significantly increasing inference time.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/10592798",
+  "FIRSTINSTITUTE": "BUPT",
+  "KEYWORD": "Application, Hierarchical, Indoor, LLM, SUN, Pre-Built PCD",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{geng2024viewinfer3d,\n  title = {ViewInfer3D: 3D Visual Grounding Based on Embodied Viewpoint Inference},\n  author = {Geng, Liang and Yin, Jianqin},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2024}\n}"
+}

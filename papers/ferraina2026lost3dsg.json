@@ -1,0 +1,14 @@
+{
+  "TITLE": "Lost-3DSG: Lightweight Open-Vocabulary 3D Scene Graphs with Semantic Tracking in Dynamic Environments",
+  "VENUE": "arXiv26",
+  "DATE": "2026/01/06",
+  "AUTHOR": "Sara Micol Ferraina, Michele Brienza, Francesco Argenziano, Emanuele Musumeci, Vincenzo Suriani, Domenico D. Bloisi, Daniele Nardi",
+  "ABSTRACT": "Tracking objects that move within dynamic environments is a core challenge in robotics. Recent research has advanced this topic significantly; however, many existing approaches remain inefficient due to their reliance on heavy foundation models. To address this limitation, we propose LOST-3DSG, a lightweight open-vocabulary 3D scene graph designed to track dynamic objects in real-world environments. Our method adopts a semantic approach to entity tracking based on word2vec and sentence embeddings, enabling an open-vocabulary representation while avoiding the necessity of storing dense CLIP visual features. As a result, LOST-3DSG achieves superior performance compared to approaches that rely on high-dimensional visual embeddings. We evaluate our method through qualitative and quantitative experiments conducted in a real 3D environment using a TIAGo robot. The results demonstrate the effectiveness and efficiency of LOST-3DSG in dynamic object tracking.",
+  "ARXIV": "https://arxiv.org/abs/2601.02905",
+  "FIRSTINSTITUTE": "Sapienza",
+  "KEYWORD": "Indoor, Long-Term Dynamics, RGB-D, Incremental, Hierarchical, Open-Vocabulary",
+  "SITE": "https://lab-rococo-sapienza.github.io/lost-3dsg/",
+  "CODE": "https://github.com/Lab-RoCoCo-Sapienza/lost-3dsg",
+  "VIDEO": "",
+  "BIBTEX": "@misc{ferraina2026lost3dsg,\n  title = {Lost-3DSG: Lightweight Open-Vocabulary 3D Scene Graphs with Semantic Tracking in Dynamic Environments},\n  author = {Ferraina, Sara Micol and Brienza, Michele and Argenziano, Francesco and Musumeci, Emanuele and Suriani, Vincenzo and Bloisi, Domenico D. and Nardi, Daniele},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+}

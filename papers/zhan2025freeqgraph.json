@@ -1,0 +1,14 @@
+{
+  "TITLE": "FreeQ-Graph: Free-form Querying with Semantic Consistent Scene Graph for 3D Scene Understanding",
+  "VENUE": "arXiv25",
+  "DATE": "2025/06/16",
+  "AUTHOR": "Chenlu Zhan, Yufei Zhang, Gaoang Wang, Hongwei Wang",
+  "ABSTRACT": "Semantic querying in complex 3D scenes through free-form language presents a significant challenge. Existing 3D scene understanding methods use large-scale training data and CLIP to align text queries with 3D semantic features. However, their reliance on predefined vocabulary priors from training data hinders free-form semantic querying. Besides, recent advanced methods rely on LLMs for scene understanding but lack comprehensive 3D scene-level information and often overlook the potential inconsistencies in LLM-generated outputs. In our paper, we propose FreeQ-Graph, which enables Free-form Querying with a semantic consistent scene Graph for 3D scene understanding. The core idea is to encode free-form queries from a complete and accurate 3D scene graph without predefined vocabularies, and to align them with 3D consistent semantic labels, which accomplished through three key steps. We initiate by constructing a complete and accurate 3D scene graph that maps free-form objects and their relations through LLM and LVLM guidance, entirely free from training data or predefined priors. Most importantly, we align graph nodes with accurate semantic labels by leveraging 3D semantic aligned features from merged superpoints, enhancing 3D semantic consistency. To enable free-form semantic querying, we then design an LLM-based reasoning algorithm that combines scene-level and object-level information to intricate reasoning. We conducted extensive experiments on 3D semantic grounding, segmentation, and complex querying tasks, while also validating the accuracy of graph generation. Experiments on 6 datasets show that our model excels in both complex free-form semantic queries and intricate relational reasoning.",
+  "ARXIV": "https://arxiv.org/abs/2506.13629",
+  "FIRSTINSTITUTE": "ZJU",
+  "KEYWORD": "Application, SUN, Pre-Built PCD, LLM, Open-Vocabulary, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{zhan2025freeqgraph,\n  title = {FreeQ-Graph: Free-form Querying with Semantic Consistent Scene Graph for 3D Scene Understanding},\n  author = {Zhan, Chenlu and Zhang, Yufei and Wang, Gaoang and Wang, Hongwei},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "MA3DSG: Multi-Agent 3D Scene Graph Generation for Large-Scale Indoor Environments",
+  "VENUE": "arXiv26",
+  "DATE": "2026/02/04",
+  "AUTHOR": "Yirum Kim, Jaewoo Kim, Ue-Hwan Kim",
+  "ABSTRACT": "Current 3D scene graph generation (3DSGG) approaches heavily rely on a single-agent assumption and small-scale environments, exhibiting limited scalability to real-world scenarios. In this work, we introduce Multi-Agent 3D Scene Graph Generation (MA3DSG) model, the first framework designed to tackle this scalability challenge using multiple agents. We develop a training-free graph alignment algorithm that efficiently merges partial query graphs from individual agents into a unified global scene graph. Leveraging extensive analysis and empirical insights, our approach enables conventional single-agent systems to operate collaboratively without requiring any learnable parameters. To rigorously evaluate 3DSGG performance, we propose MA3DSG-Bench-a benchmark that supports diverse agent configurations, domain sizes, and environmental conditions-providing a more general and extensible evaluation framework. This work lays a solid foundation for scalable, multi-agent 3DSGG research.",
+  "ARXIV": "https://arxiv.org/abs/2602.04152",
+  "FIRSTINSTITUTE": "GIST",
+  "KEYWORD": "Indoor, RGB-D, Multi-Robot, Hierarchical, Incremental",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{kim2026ma3dsg,\n  title = {MA3DSG: Multi-Agent 3D Scene Graph Generation for Large-Scale Indoor Environments},\n  author = {Kim, Yirum and Kim, Jaewoo and Kim, Ue-Hwan},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+}

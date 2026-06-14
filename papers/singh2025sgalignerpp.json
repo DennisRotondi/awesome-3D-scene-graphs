@@ -1,0 +1,14 @@
+{
+  "TITLE": "SGAligner++: Cross-Modal Language-Aided 3D Scene Graph Alignment",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/23",
+  "AUTHOR": "Binod Singh, Sayan Deb Sarkar, Iro Armeni",
+  "ABSTRACT": "Aligning 3D scene graphs is a crucial initial step for several applications in robot navigation and embodied perception. Current methods in 3D scene graph alignment often rely on single-modality point cloud data and struggle with incomplete or noisy input. We introduce SGAligner++, a cross-modal, language-aided framework for 3D scene graph alignment. Our method addresses the challenge of aligning partially overlapping scene observations across heterogeneous modalities by learning a unified joint embedding space, enabling accurate alignment even under low-overlap conditions and sensor noise. By employing lightweight unimodal encoders and attention-based fusion, SGAligner++ enhances scene understanding for tasks such as visual localization, 3D reconstruction, and navigation, while ensuring scalability and minimal computational overhead. Extensive evaluations on real-world datasets demonstrate that SGAligner++ outperforms state-of-the-art methods by up to 40% on noisy real-world reconstructions, while enabling cross-modal generalization.",
+  "ARXIV": "https://arxiv.org/abs/2509.20401",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, Indoor, Pre-Built PCD, SUN",
+  "SITE": "https://singhbino3d.github.io/sgpp/",
+  "CODE": "",
+  "VIDEO": "youtube.com/watch?v=IIw3UrR-JXs",
+  "BIBTEX": "@misc{singh2025sgalignerpp,\n  title = {SGAligner++: Cross-Modal Language-Aided 3D Scene Graph Alignment},\n  author = {Singh, Binod and Sarkar, Sayan Deb and Armeni, Iro},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

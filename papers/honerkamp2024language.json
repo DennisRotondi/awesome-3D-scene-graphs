@@ -1,0 +1,14 @@
+{
+  "TITLE": "Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation",
+  "VENUE": "RAL24",
+  "DATE": "2024/03/13",
+  "AUTHOR": "Daniel Honerkamp, Martin Büchner, Fabien Despinoy, Tim Welschehold, Abhinav Valada",
+  "ABSTRACT": "To fully leverage the capabilities of mobile manipulation robots, it is imperative that they are able to autonomously execute long-horizon tasks in large unexplored environments. While large language models (LLMs) have shown emergent reasoning skills on arbitrary tasks, existing work primarily concentrates on explored environments, typically focusing on either navigation or manipulation tasks in isolation. In this work, we propose MoMa-LLM, a novel approach that grounds language models within structured representations derived from open-vocabulary scene graphs, dynamically updated as the environment is explored. We tightly interleave these representations with an object-centric action space. Given object detections, the resulting approach is zero-shot, open-vocabulary, and readily extendable to a spectrum of mobile manipulation and household robotic tasks. We demonstrate the effectiveness of MoMa-LLM in a novel semantic interactive search task in large realistic indoor environments. In extensive experiments in both simulation and the real world, we show substantially improved search efficiency compared to conventional baselines and state-of-the-art approaches, as well as its applicability to more abstract tasks.",
+  "ARXIV": "http://arxiv.org/abs/2403.08605v4",
+  "FIRSTINSTITUTE": "UniFreiburg",
+  "KEYWORD": "Application, Indoor, RGB-D, Hierarchical, Manipulation, Navigation, Open-Vocabulary, Long-Term Dynamics",
+  "SITE": "http://moma-llm.cs.uni-freiburg.de/",
+  "CODE": "https://github.com/robot-learning-freiburg/MoMa-LLM",
+  "VIDEO": "",
+  "BIBTEX": "@article{honerkamp2024language,\n  title = {Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation},\n  author = {Honerkamp, Daniel and Büchner, Martin and Despinoy, Fabien and Welschehold, Tim and Valada, Abhinav},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2024}\n}"
+}

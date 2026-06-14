@@ -1,0 +1,14 @@
+{
+  "TITLE": "Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction",
+  "VENUE": "NeurIPS25",
+  "DATE": "2025/10/06",
+  "AUTHOR": "KunHo Heo, GiHyun Kim, SuYeon Kim, MyeongAh Cho",
+  "ABSTRACT": "3D Semantic Scene Graph Prediction aims to detect objects and their semantic relationships in 3D scenes, and has emerged as a crucial technology for robotics and AR/VR applications. While previous research has addressed dataset limitations and explored various approaches including Open-Vocabulary settings, they frequently fail to optimize the representational capacity of object and relationship features, showing excessive reliance on Graph Neural Networks despite insufficient discriminative capability. In this work, we demonstrate through extensive analysis that the quality of object features plays a critical role in determining overall scene graph accuracy. To address this challenge, we design a highly discriminative object feature encoder and employ a contrastive pretraining strategy that decouples object representation learning from the scene graph prediction. This design not only enhances object classification accuracy but also yields direct improvements in relationship prediction. Notably, when plugging in our pretrained encoder into existing frameworks, we observe substantial performance improvements across all evaluation metrics. Additionally, whereas existing approaches have not fully exploited the integration of relationship information, we effectively combine both geometric and semantic features to achieve superior relationship prediction. Comprehensive experiments on the 3DSSG dataset demonstrate that our approach significantly outperforms previous state-of-the-art methods.",
+  "ARXIV": "https://arxiv.org/abs/2510.04714",
+  "FIRSTINSTITUTE": "KHU",
+  "KEYWORD": "Pre-Built PCD, Indoor",
+  "SITE": "",
+  "CODE": "https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes",
+  "VIDEO": "",
+  "BIBTEX": "@article{heo2025objectcentric,\n  title = {Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction},\n  author = {Heo, KunHo and Kim, GiHyun and Kim, SuYeon and Cho, MyeongAh},\n  journal = {Advances in Neural Information Processing Systems (NeurIPS)},\n  year = {2025}\n}"
+}

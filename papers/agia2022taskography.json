@@ -1,0 +1,14 @@
+{
+  "TITLE": "TASKOGRAPHY: Evaluating robot task planning over large 3D scene graphs",
+  "VENUE": "CoRL21",
+  "DATE": "2022/07/11",
+  "AUTHOR": "Christopher Agia, Krishna Murthy Jatavallabhula, Mohamed Khodeir, Ondrej Miksik, Vibhav Vineet, Mustafa Mukadam, Liam Paull, Florian Shkurti",
+  "ABSTRACT": "3D scene graphs (3DSGs) are an emerging description; unifying symbolic, topological, and metric scene representations. However, typical 3DSGs contain hundreds of objects and symbols even for small environments; rendering task planning on the full graph impractical. We construct TASKOGRAPHY, the first large-scale robotic task planning benchmark over 3DSGs. While most benchmarking efforts in this area focus on vision-based planning, we systematically study symbolic planning, to decouple planning performance from visual representation learning. We observe that, among existing methods, neither classical nor learning-based planners are capable of real-time planning over full 3DSGs. Enabling real-time planning demands progress on both (a) sparsifying 3DSGs for tractable planning and (b) designing planners that better exploit 3DSG hierarchies. Towards the former goal, we propose SCRUB, a task-conditioned 3DSG sparsification method; enabling classical planners to match and in some cases surpass state-of-the-art learning-based planners. Towards the latter goal, we propose SEEK, a procedure enabling learning-based planners to exploit 3DSG structure, reducing the number of replanning queries required by current best approaches by an order of magnitude. We will open-source all code and baselines to spur further research along the intersections of robot task planning, learning and 3DSGs.",
+  "ARXIV": "http://arxiv.org/abs/2207.05006v1",
+  "FIRSTINSTITUTE": "UToronto",
+  "KEYWORD": "Application, Indoor, Planning, Hierarchical",
+  "SITE": "https://taskography.github.io/",
+  "CODE": "https://github.com/taskography/taskography",
+  "VIDEO": "https://www.youtube.com/watch?v=mM4v5hP4LdA&ab_channel=KrishnaMurthy",
+  "BIBTEX": "@inproceedings{agia2022taskography,\n  title = {TASKOGRAPHY: Evaluating robot task planning over large 3D scene graphs},\n  author = {Agia, Christopher and Jatavallabhula, Krishna Murthy and Khodeir, Mohamed and Miksik, Ondrej and Vineet, Vibhav and Mukadam, Mustafa and Paull, Liam and Shkurti, Florian},\n  booktitle = {Conf. on Robot Learning (CoRL)},\n  year = {2021}\n}"
+}

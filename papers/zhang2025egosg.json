@@ -1,0 +1,14 @@
+{
+  "TITLE": "EgoSG: Learning 3D Scene Graphs from Egocentric RGB-D Sequences",
+  "VENUE": "CVPRW24",
+  "DATE": "2024/06/17",
+  "AUTHOR": "Chaoyi Zhang, Xitong Yang, Ji Hou, Kris Kitani, Weidong Cai, Fu-Jen Chu",
+  "ABSTRACT": "Constructing a 3D scene graph of an environment is essential for agents and smart glasses assistants to develop an understanding of their surroundings and predict relationships between various entities within it. 3D Scene Graph Prediction (3DSGP) is commonly adopted to predict the spatial and semantic relationships between objects in a 3D environment reconstructed from posed (calibrated) RGB-D sequences, such as object containment or adjacency. However, reconstructing a scene can be time-consuming and computationally intensive, and requires specialized hardware like IMUs for accurate poses. The reliance on (1) robust algorithms and (2) accurate camera poses limits its applicability. Unlike existing 3DSGP methods, we propose to perform perception and reasoning on each frame without assuming available camera poses, which we call EgoSG, to estimate 3D scene graphs directly from egocentric frame sequences. In our method, per-frame instance features are acquired from a partial (per-frame) point cloud. By globally optimizing per-frame features, object instances are then associated across the egocentric frames, and graph representations are aggregated for 3D scene graph prediction. Compared to the state-of-the-art methods that heavily rely on 3D reconstruction, our approach is reconstruction-free and can be derived directly from unposed RGB-D sequences. We benchmark our EgoSG framework against existing reconstruction-based approaches on 3DSGP tasks. Our method outperforms the state-of-the-art methods by a large margin, achieving +44.63 R@1 in Object and +22.74 R@1 in Predicate from egocentric sequences without any reliance on reconstruction algorithms or camera poses.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/10678198",
+  "FIRSTINSTITUTE": "USYD",
+  "KEYWORD": "Application, RGB-D, Incremental, Indoor, Pre-Built PCD, XR",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{zhang2025egosg,\n  title = {EgoSG: Learning 3D Scene Graphs from Egocentric RGB-D Sequences},\n  author = {Zhang, Chaoyi and Yang, Xitong and Hou, Ji and Kitani, Kris and Cai, Weidong and Chu, Fu-Jen},\n  booktitle = {IEEE/CVF Conf. on Computer Vision and Pattern Recognition Workshops},\n  year = {2024}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Lang3DSG: Language-based contrastive pre-training for 3D Scene Graph prediction",
+  "VENUE": "3DV24",
+  "DATE": "2023/10/25",
+  "AUTHOR": "Sebastian Koch, Pedro Hermosilla, Narunas Vaskevicius, Mirco Colosi, Timo Ropinski",
+  "ABSTRACT": "3D scene graphs are an emerging 3D scene representation, that models both the objects present in the scene as well as their relationships. However, learning 3D scene graphs is a challenging task because it requires not only object labels but also relationship annotations, which are very scarce in datasets. While it is widely accepted that pre-training is an effective approach to improve model performance in low data regimes, in this paper, we find that existing pre-training methods are ill-suited for 3D scene graphs. To solve this issue, we present the first language-based pre-training approach for 3D scene graphs, whereby we exploit the strong relationship between scene graphs and language. To this end, we leverage the language encoder of CLIP, a popular vision-language model, to distill its knowledge into our graph-based network. We formulate a contrastive pre-training, which aligns text embeddings of relationships (subject-predicate-object triplets) and predicted 3D graph features. Our method achieves state-of-the-art results on the main semantic 3D scene graph benchmark by showing improved effectiveness over pre-training baselines and outperforming all the existing fully supervised scene graph prediction methods by a significant margin. Furthermore, since our scene graph features are language-aligned, it allows us to query the language space of the features in a zero-shot manner. In this paper, we show an example of utilizing this property of the features to predict the room type of a scene without further training.",
+  "ARXIV": "http://arxiv.org/abs/2310.16494v1",
+  "FIRSTINSTITUTE": "Bosch",
+  "KEYWORD": "Pre-Built PCD, Indoor",
+  "SITE": "https://kochsebastian.com/lang3dsg",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{koch2024lang3dsg,\n  title = {Lang3DSG: Language-based contrastive pre-training for 3D Scene Graph prediction},\n  author = {Koch, Sebastian and Hermosilla, Pedro and Vaskevicius, Narunas and Colosi, Mirco and Ropinski, Timo},\n  booktitle = {Intl. Conf. on 3D Vision (3DV)} },\n  year = {2024}\n}"
+}

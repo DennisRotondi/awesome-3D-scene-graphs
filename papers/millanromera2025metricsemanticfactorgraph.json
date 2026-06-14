@@ -1,0 +1,14 @@
+{
+  "TITLE": "Metric-Semantic Factor Graph Generation based on Graph Neural Networks",
+  "VENUE": "ICRA25",
+  "DATE": "2024/09/18",
+  "AUTHOR": "Jose Andres Millan-Romera, Hriday Bavle, Muhammad Shaheer, Holger Voos, Jose Luis Sanchez-Lopez",
+  "ABSTRACT": "Understanding the relationships between geometric structures and semantic concepts is crucial for building accurate models of complex environments. In indoors, certain spatial constraints, such as the relative positioning of planes, remain consistent despite variations in layout. This paper explores how these invariant relationships can be captured in a graph SLAM framework by representing high-level concepts like rooms and walls, linking them to geometric elements like planes through an optimizable factor graph. Several efforts have tackled this issue with add-hoc solutions for each concept generation and with manually-defined factors. This paper proposes a novel method for metric-semantic factor graph generation which includes defining a semantic scene graph, integrating geometric information, and learning the interconnecting factors, all based on Graph Neural Networks (GNNs). An edge classification network (G-GNN) sorts the edges between planes into same room, same wall or none types. The resulting relations are clustered, generating a room or wall for each cluster. A second family of networks (F-GNN) infers the geometrical origin of the new nodes. The definition of the factors employs the same F-GNN used for the metric attribute of the generated nodes. Furthermore, share the new factor graph with the S-Graphs+ algorithm, extending its graph expressiveness and scene representation with the ultimate goal of improving the SLAM performance. The complexity of the environments is increased to N-plane rooms by training the networks on L-shaped rooms. The framework is evaluated in synthetic and simulated scenarios as no real datasets of the required complex layouts are available.",
+  "ARXIV": "https://arxiv.org/abs/2409.11972",
+  "FIRSTINSTITUTE": "UniLu",
+  "KEYWORD": "SLAM, Indoor, Hierarchical, RGB-D",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{millanromera2025metricsemanticfactorgraph,\n  title = {Metric-Semantic Factor Graph Generation based on Graph Neural Networks},\n  author = {Millan-Romera, Jose Andres and Bavle, Hriday and Shaheer, Muhammad and Voos, Holger and Sanchez-Lopez, Jose Luis},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2025}\n}"
+}

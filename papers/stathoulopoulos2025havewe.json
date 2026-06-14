@@ -1,0 +1,14 @@
+{
+  "TITLE": "Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression",
+  "VENUE": "RAL25",
+  "DATE": "2025/10/09",
+  "AUTHOR": "Nikolaos Stathoulopoulos, Christoforos Kanellakis, George Nikolakopoulos",
+  "ABSTRACT": "Efficient transmission of 3D point cloud data is critical for advanced perception in centralized and decentralized multi-agent robotic systems, especially nowadays with the growing reliance on edge and cloud-based processing. However, the large and complex nature of point clouds creates challenges under bandwidth constraints and intermittent connectivity, often degrading system performance. We propose a deep compression framework based on semantic scene graphs. The method decomposes point clouds into semantically coherent patches and encodes them into compact latent representations with semantic-aware encoders conditioned by Feature-wise Linear Modulation (FiLM). A folding-based decoder, guided by latent features and graph node attributes, enables structurally accurate reconstruction. Experiments on the SemanticKITTI and nuScenes datasets show that the framework achieves state-of-the-art compression rates, reducing data size by up to 98% while preserving both structural and semantic fidelity. In addition, it supports downstream applications such as multi-robot pose graph optimization and map merging, achieving trajectory accuracy and map alignment comparable to those obtained with raw LiDAR scans.",
+  "ARXIV": "https://arxiv.org/abs/2510.08512",
+  "FIRSTINSTITUTE": "LTU",
+  "KEYWORD": "Application, Compression, LiDAR, Outdoor, Navigation, Hierarchical",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{stathoulopoulos2025havewe,\n  title = {Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression},\n  author = {Stathoulopoulos, Nikolaos and Kanellakis, Christoforos and Nikolakopoulos, George},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2025}\n}"
+}

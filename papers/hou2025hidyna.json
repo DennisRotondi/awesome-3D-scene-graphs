@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hi-Dyna Graph: Hierarchical Dynamic Scene Graph for Robotic Autonomy in Human-Centric Environments",
+  "VENUE": "arXiv26",
+  "DATE": "2025/05/30",
+  "AUTHOR": "Jiawei Hou, Xiangyang Xue, Taiping Zeng",
+  "ABSTRACT": "Autonomous operation of service robotics in human-centric scenes remains challenging due to the need for understanding of changing environments and context-aware decision-making. While existing approaches like topological maps offer efficient spatial priors, they fail to model transient object relationships, whereas dense neural representations (e.g., NeRF) incur prohibitive computational costs. Inspired by the hierarchical scene representation and video scene graph generation works, we propose Hi-Dyna Graph, a hierarchical dynamic scene graph architecture that integrates persistent global layouts with localized dynamic semantics for embodied robotic autonomy. Our framework constructs a global topological graph from posed RGB-D inputs, encoding room-scale connectivity and large static objects (e.g., furniture), while environmental and egocentric cameras populate dynamic subgraphs with object position relations and human-object interaction patterns. A hybrid architecture is conducted by anchoring these subgraphs to the global topology using semantic and spatial constraints, enabling seamless updates as the environment evolves. An agent powered by large language models (LLMs) is employed to interpret the unified graph, infer latent task triggers, and generate executable instructions grounded in robotic affordances. We conduct complex experiments to demonstrate Hi-Dyna Grap's superior scene representation effectiveness. Real-world deployments validate the system's practicality with a mobile manipulator: robotics autonomously complete complex tasks with no further training or complex rewarding in a dynamic scene as cafeteria assistant.",
+  "ARXIV": "https://arxiv.org/abs/2506.00083",
+  "FIRSTINSTITUTE": "Fudan",
+  "KEYWORD": "Application, Navigation, Manipulation, Indoor, Hierarchical, Short-Term Dynamics, Humans, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{hou2025hidyna,\n  title = {Hi-Dyna Graph: Hierarchical Dynamic Scene Graph for Robotic Autonomy in Human-Centric Environments},\n  author = {Hou, Jiawei and Xue, Xiangyang and Zeng, Taiping},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+}

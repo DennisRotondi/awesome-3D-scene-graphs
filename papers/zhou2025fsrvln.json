@@ -1,0 +1,14 @@
+{
+  "TITLE": "FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/17",
+  "AUTHOR": "Xiaolin Zhou, Tingyang Xiao, Liu Liu, Yucheng Wang, Maiyue Chen, Xinrui Meng, Xinjie Wang, Wei Feng, Wei Sui, Zhizhong Su",
+  "ABSTRACT": "Visual-Language Navigation (VLN) is a fundamental challenge in robotic systems, with broad applications for the deployment of embodied agents in real-world environments. Despite recent advances, existing approaches are limited in long-range spatial reasoning, often exhibiting low success rates and high inference latency, particularly in long-range navigation tasks. To address these limitations, we propose FSR-VLN, a vision-language navigation system that combines a Hierarchical Multi-modal Scene Graph (HMSG) with Fast-to-Slow Navigation Reasoning (FSR). The HMSG provides a multi-modal map representation supporting progressive retrieval, from coarse room-level localization to fine-grained goal view and object identification. Building on HMSG, FSR first performs fast matching to efficiently select candidate rooms, views, and objects, then applies VLM-driven refinement for final goal selection. We evaluated FSR-VLN across four comprehensive indoor datasets collected by humanoid robots, utilizing 87 instructions that encompass a diverse range of object categories. FSR-VLN achieves state-of-the-art (SOTA) performance in all datasets, measured by the retrieval success rate (RSR), while reducing the response time by 82% compared to VLM-based methods on tour videos by activating slow reasoning only when fast intuition fails. Furthermore, we integrate FSR-VLN with speech interaction, planning, and control modules on a Unitree-G1 humanoid robot, enabling natural language interaction and real-time navigation.",
+  "ARXIV": "https://arxiv.org/abs/2509.13733",
+  "FIRSTINSTITUTE": "HorizonRobotics",
+  "KEYWORD": "Application, Navigation, Hierarchical, LLM, RGB-D, Open-Vocabulary, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{zhou2025fsrvln,\n  title = {FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph},\n  author = {Zhou, Xiaolin and Xiao, Tingyang and Liu, Liu and Wang, Yucheng and Chen, Maiyue and Meng, Xinrui and Wang, Xinjie and Feng, Wei and Sui, Wei and Su, Zhizhong},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

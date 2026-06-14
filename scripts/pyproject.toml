@@ -1,0 +1,15 @@
+[project]
+name = "3dsg-scripts"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "loguru",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "seaborn",
+    "tabulate",
+]
+
+[tool.uv]
+package = false

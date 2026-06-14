@@ -1,0 +1,14 @@
+{
+  "TITLE": "Event-Grounding Graph: Unified Spatio-Temporal Scene Graph from Robotic Observations",
+  "VENUE": "arXiv25",
+  "DATE": "2025/10/21",
+  "AUTHOR": "Phuoc Nguyen, Francesco Verdoja, Ville Kyrki",
+  "ABSTRACT": "A fundamental aspect for building intelligent autonomous robots that can assist humans in their daily lives is the construction of rich environmental representations. While advances in semantic scene representations have enriched robotic scene understanding, current approaches lack a connection between spatial features and dynamic events; e.g., connecting the blue mug to the event washing a mug. In this work, we introduce the event-grounding graph (EGG), a framework grounding event interactions to spatial features of a scene. This representation allows robots to perceive, reason, and respond to complex spatio-temporal queries. Experiments using real robotic data demonstrate EGG's capability to retrieve relevant information and respond accurately to human inquiries concerning the environment and events within.",
+  "ARXIV": "https://arxiv.org/abs/2510.18697",
+  "FIRSTINSTITUTE": "AALTO",
+  "KEYWORD": "Application, Indoor, SUN, Hierarchical, Long-Term Dynamics, RGB-D, LLM, Compression",
+  "SITE": "",
+  "CODE": "https://github.com/aalto-intelligent-robotics/EGG",
+  "VIDEO": "",
+  "BIBTEX": "@misc{nguyen2025egg,\n  title = {Event-Grounding Graph: Unified Spatio-Temporal Scene Graph from Robotic Observations},\n  author = {Nguyen, Phuoc and Verdoja, Francesco and Kyrki, Ville},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

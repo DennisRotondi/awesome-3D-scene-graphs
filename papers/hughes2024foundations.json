@@ -1,0 +1,14 @@
+{
+  "TITLE": "Foundations of Spatial Perception for Robotics: Hierarchical Representations and Real-time Systems",
+  "VENUE": "IJRR24",
+  "DATE": "2023/05/11",
+  "AUTHOR": "Nathan Hughes, Yun Chang, Siyi Hu, Rajat Talak, Rumaisa Abdulhai, Jared Strader, Luca Carlone",
+  "ABSTRACT": "3D spatial perception is the problem of building and maintaining an actionable and persistent representation of the environment in real-time using sensor data and prior knowledge. Despite the fast-paced progress in robot perception, most existing methods either build purely geometric maps (as in traditional SLAM) or flat metric-semantic maps that do not scale to large environments or large dictionaries of semantic labels. The first part of this paper is concerned with representations: we show that scalable representations for spatial perception need to be hierarchical in nature. Hierarchical representations are efficient to store, and lead to layered graphs with small treewidth, which enable provably efficient inference. We then introduce an example of hierarchical representation for indoor environments, namely a 3D scene graph, and discuss its structure and properties. The second part of the paper focuses on algorithms to incrementally construct a 3D scene graph as the robot explores the environment. Our algorithms combine 3D geometry, topology (to cluster the places into rooms), and geometric deep learning (e.g., to classify the type of rooms the robot is moving across). The third part of the paper focuses on algorithms to maintain and correct 3D scene graphs during long-term operation. We propose hierarchical descriptors for loop closure detection and describe how to correct a scene graph in response to loop closures, by solving a 3D scene graph optimization problem. We conclude the paper by combining the proposed perception algorithms into Hydra, a real-time spatial perception system that builds a 3D scene graph from visual-inertial data in real-time. We showcase Hydra's performance in photo-realistic simulations and real data collected by a Clearpath Jackal robots and a Unitree A1 robot.",
+  "ARXIV": "https://arxiv.org/abs/2305.07154",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "RGB-D, Hierarchical, Real-Time, SLAM, Indoor, Incremental",
+  "SITE": "https://github.com/MIT-SPARK/Hydra",
+  "CODE": "https://github.com/MIT-SPARK/Hydra/",
+  "VIDEO": "",
+  "BIBTEX": "@article{hughes2024foundations,\n  title = {Foundations of Spatial Perception for Robotics: Hierarchical Representations and Real-time Systems},\n  author = {Hughes, Nathan and Chang, Yun and Hu, Siyi and Talak, Rajat and Abdulhai, Rumaisa and Strader, Jared and Carlone, Luca},\n  journal = {Intl. J. of Robotics Research},\n  year = {2024}\n}"
+}

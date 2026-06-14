@@ -1,0 +1,14 @@
+{
+  "TITLE": "Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation",
+  "VENUE": "RAL25",
+  "DATE": "2024/10/15",
+  "AUTHOR": "Zhijie Yan, Shufei Li, Zuoxu Wang, Lixiu Wu, Han Wang, Jun Zhu, Lijiang Chen, Jihong Liu",
+  "ABSTRACT": "Enabling mobile robots to perform long-term tasks in dynamic real-world environments is a formidable challenge, especially when the environment changes frequently due to human-robot interactions or the robot's own actions. Traditional methods typically assume static scenes, which limits their applicability in the continuously changing real world. To overcome these limitations, we present DovSG, a novel mobile manipulation framework that leverages dynamic open-vocabulary 3D scene graphs and a language-guided task planning module for long-term task execution. DovSG takes RGB-D sequences as input and utilizes vision-language models (VLMs) for object detection to obtain high-level object semantic features. Based on the segmented objects, a structured 3D scene graph is generated for low-level spatial relationships. Furthermore, an efficient mechanism for locally updating the scene graph, allows the robot to adjust parts of the graph dynamically during interactions without the need for full scene reconstruction. This mechanism is particularly valuable in dynamic environments, enabling the robot to continually adapt to scene changes and effectively support the execution of long-term tasks. We validated our system in real-world environments with varying degrees of manual modifications, demonstrating its effectiveness and superior performance in long-term tasks.",
+  "ARXIV": "https://arxiv.org/abs/2410.11989",
+  "FIRSTINSTITUTE": "BUAA",
+  "KEYWORD": "Application, Open-Vocabulary, Manipulation, Long-Term Dynamics, RGB-D, LLM, Planning, Navigation, Incremental, Indoor",
+  "SITE": "https://bjhyzj.github.io/dovsg-web/",
+  "CODE": "https://github.com/BJHYZJ/DovSG",
+  "VIDEO": "https://www.youtube.com/watch?v=xmUCHzE6EYc&feature=youtu.be",
+  "BIBTEX": "@article{yan2025dynamicopenvocabulary,\n  title = {Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation},\n  author = {Yan, Zhijie and Li, Shufei and Wang, Zuoxu and Wu, Lixiu and Wang, Han and Zhu, Jun and Chen, Lijiang and Liu, Jihong},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2025}\n}"
+}

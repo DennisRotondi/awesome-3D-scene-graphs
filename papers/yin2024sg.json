@@ -1,0 +1,14 @@
+{
+  "TITLE": "SG-Nav: Online 3D Scene Graph Prompting for LLM-based Zero-shot Object Navigation",
+  "VENUE": "NeurIPS24",
+  "DATE": "2024/10/10",
+  "AUTHOR": "Hang Yin, Xiuwei Xu, Zhenyu Wu, Jie Zhou, Jiwen Lu",
+  "ABSTRACT": "In this paper, we propose a new framework for zero-shot object navigation. Existing zero-shot object navigation methods prompt LLM with the text of spatially closed objects, which lacks enough scene context for in-depth reasoning. To better preserve the information of environment and fully exploit the reasoning ability of LLM, we propose to represent the observed scene with 3D scene graph. The scene graph encodes the relationships between objects, groups and rooms with a LLM-friendly structure, for which we design a hierarchical chain-of-thought prompt to help LLM reason the goal location according to scene context by traversing the nodes and edges. Moreover, benefit from the scene graph representation, we further design a re-perception mechanism to empower the object navigation framework with the ability to correct perception error. We conduct extensive experiments on MP3D, HM3D and RoboTHOR environments, where SG-Nav surpasses previous state-of-the-art zero-shot methods by more than 10% SR on all benchmarks, while the decision process is explainable. To the best of our knowledge, SG-Nav is the first zero-shot method that achieves even higher performance than supervised object navigation methods on the challenging MP3D benchmark.",
+  "ARXIV": "https://arxiv.org/abs/2410.08189",
+  "FIRSTINSTITUTE": "THU",
+  "KEYWORD": "Application, LLM, Indoor, Navigation, Hierarchical, RGB-D, Incremental, Compression",
+  "SITE": "https://bagh2178.github.io/SG-Nav/",
+  "CODE": "https://github.com/bagh2178/SG-Nav",
+  "VIDEO": "",
+  "BIBTEX": "@article{yin2024sg,\n  title = {SG-Nav: Online 3D Scene Graph Prompting for LLM-based Zero-shot Object Navigation},\n  author = {Yin, Hang and Xu, Xiuwei and Wu, Zhenyu and Zhou, Jie and Lu, Jiwen},\n  journal = {Advances in Neural Information Processing Systems (NeurIPS)},\n  year = {2024}\n}"
+}

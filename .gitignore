@@ -1,0 +1,9 @@
+website/build
+website/dist
+website/node_modules
+certs/
+*.DS_Store
+__pycache__/
+awesome-3D-scene-graphs
+scripts/table.csv
+website/.vite/deps

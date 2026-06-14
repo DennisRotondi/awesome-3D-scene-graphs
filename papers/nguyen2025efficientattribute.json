@@ -1,0 +1,14 @@
+{
+  "TITLE": "REACT: Real-time Efficient Attribute Clustering and Transfer for Updatable 3D Scene Graph",
+  "VENUE": "IROS25",
+  "DATE": "2025/03/05",
+  "AUTHOR": "Phuoc Nguyen, Francesco Verdoja, Ville Kyrki",
+  "ABSTRACT": "Modern-day autonomous robots need high-level map representations to perform sophisticated tasks. Recently, 3D scene graphs (3DSGs) have emerged as a promising alternative to traditional grid maps, blending efficient memory use and rich feature representation. However, most efforts to apply them have been limited to static worlds. This work introduces REACT, a framework that efficiently performs real-time attribute clustering and transfer to relocalize object nodes in a 3DSG. REACT employs a novel method for comparing object instances using an embedding model trained on triplet loss, facilitating instance clustering and matching. Experimental results demonstrate that REACT is able to relocalize objects while maintaining computational efficiency. The REACT framework's source code will be available as an open-source project, promoting further advancements in reusable and updatable 3DSGs.",
+  "ARXIV": "https://arxiv.org/abs/2503.03412",
+  "FIRSTINSTITUTE": "AALTO",
+  "KEYWORD": "Application, RGB-D, Incremental, Long-Term Dynamics, Indoor, Real-Time, Hierarchical, SUN",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{nguyen2025efficientattribute,\n  title = {REACT: Real-time Efficient Attribute Clustering and Transfer for Updatable 3D Scene Graph},\n  author = {Nguyen, Phuoc and Verdoja, Francesco and Kyrki, Ville},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2025}\n}"
+}

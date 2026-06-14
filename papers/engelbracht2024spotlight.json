@@ -1,0 +1,14 @@
+{
+  "TITLE": "SpotLight: Robotic Scene Understanding through Interaction and Affordance Detection",
+  "VENUE": "HUMANOIDS25",
+  "DATE": "2024/09/18",
+  "AUTHOR": "Tim Engelbracht, René Zurbrügg, Marc Pollefeys, Hermann Blum, Zuria Bauer",
+  "ABSTRACT": "Despite increasing research efforts on household robotics, robots intended for deployment in domestic settings still struggle with more complex tasks such as interacting with functional elements like drawers or light switches, largely due to limited task-specific understanding and interaction capabilities. These tasks require not only detection and pose estimation but also an understanding of the affordances these elements provide. To address these challenges and enhance robotic scene understanding, we introduce SpotLight: A comprehensive framework for robotic interaction with functional elements, specifically light switches. Furthermore, this framework enables robots to improve their environmental understanding through interaction. Leveraging VLM-based affordance prediction to estimate motion primitives for light switch interaction, we achieve up to 84% operation success in real world experiments. We further introduce a specialized dataset containing 715 images as well as a custom detection model for light switch detection. We demonstrate how the framework can facilitate robot learning through physical interaction by having the robot explore the environment and discover previously unknown relationships in a scene graph representation.",
+  "ARXIV": "http://arxiv.org/abs/2409.11870v1",
+  "FIRSTINSTITUTE": "ETH",
+  "KEYWORD": "Application, Indoor, SUN, Open-Vocabulary, Active, LLM, Pre-Built PCD, Manipulation",
+  "SITE": "https://timengelbracht.github.io/SpotLight/",
+  "CODE": "https://github.com/timengelbracht/Spot-Light",
+  "VIDEO": "youtube.com/watch?v=Vw7gLxTEJkE",
+  "BIBTEX": "@inproceedings{engelbracht2024spotlight,\n  title = {SpotLight: Robotic Scene Understanding through Interaction and Affordance Detection},\n  author = {Engelbracht, Tim and Zurbrügg, René and Pollefeys, Marc and Blum, Hermann and Bauer, Zuria},\n  booktitle = {IEEE Intl. Conf. on Humanoid Robots},\n  year = {2025}\n}"
+}

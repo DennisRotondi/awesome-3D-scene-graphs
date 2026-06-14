@@ -1,0 +1,14 @@
+{
+  "TITLE": "SpatialRGPT: Grounded Spatial Reasoning in Vision-Language Models",
+  "VENUE": "NeurIPS24",
+  "DATE": "2024/06/03",
+  "AUTHOR": "An-Chieh Cheng, Hongxu Yin, Yang Fu, Qiushan Guo, Ruihan Yang, Jan Kautz, Xiaolong Wang, Sifei Liu",
+  "ABSTRACT": "Vision Language Models (VLMs) have demonstrated remarkable performance in 2D vision and language tasks. However, their ability to reason about spatial arrangements remains limited. In this work, we introduce Spatial Region GPT (SpatialRGPT) to enhance VLMs' spatial perception and reasoning capabilities. SpatialRGPT advances VLMs' spatial understanding through two key innovations: (1) a data curation pipeline that enables effective learning of regional representation from 3D scene graphs, and (2) a flexible plugin module for integrating depth information into the visual encoder of existing VLMs. During inference, when provided with user-specified region proposals, SpatialRGPT can accurately perceive their relative directions and distances. Additionally, we propose SpatialRGBT-Bench, a benchmark with ground-truth 3D annotations encompassing indoor, outdoor, and simulated environments, for evaluating 3D spatial cognition in VLMs. Our results demonstrate that SpatialRGPT significantly enhances performance in spatial reasoning tasks, both with and without local region prompts. The model also exhibits strong generalization capabilities, effectively reasoning about complex spatial relations and functioning as a region-aware dense reward annotator for robotic tasks.",
+  "ARXIV": "https://arxiv.org/abs/2406.01584",
+  "FIRSTINSTITUTE": "UCSD",
+  "KEYWORD": "Application, RGB-D, LLM, Open-Vocabulary, SUN, Outdoor, Indoor",
+  "SITE": "https://www.anjiecheng.me/SpatialRGPT",
+  "CODE": "https://github.com/AnjieCheng/SpatialRGPT",
+  "VIDEO": "",
+  "BIBTEX": "@article{cheng2025spatialrgpt,\n  title = {SpatialRGPT: Grounded Spatial Reasoning in Vision-Language Models},\n  author = {Cheng, An-Chieh and Yin, Hongxu and Fu, Yang and Guo, Qiushan and Yang, Ruihan and Kautz, Jan and Wang, Xiaolong and Liu, Sifei},\n  journal = {Advances in Neural Information Processing Systems (NeurIPS)},\n  year = {2024}\n}"
+}

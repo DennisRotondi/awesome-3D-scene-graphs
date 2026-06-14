@@ -1,0 +1,14 @@
+{
+  "TITLE": "Describe Anything Anywhere At Any Moment",
+  "VENUE": "arXiv25",
+  "DATE": "2025/11/29",
+  "AUTHOR": "Nicolas Gorlo, Lukas Schmid, Luca Carlone",
+  "ABSTRACT": "Computer vision and robotics applications ranging from augmented reality to robot autonomy in large-scale environments require spatio-temporal memory frameworks that capture both geometric structure for accurate language-grounding as well as semantic detail. Existing methods face a tradeoff, where producing rich open-vocabulary descriptions comes at the expense of real-time performance when these descriptions have to be grounded in 3D. To address these challenges, we propose Describe Anything, Anywhere, at Any Moment (DAAAM), a novel spatio-temporal memory framework for large-scale and real-time 4D scene understanding. DAAAM introduces a novel optimization-based frontend to infer detailed semantic descriptions from localized captioning models, such as the Describe Anything Model (DAM), leveraging batch processing to speed up inference by an order of magnitude for online processing. It leverages such semantic understanding to build a hierarchical 4D scene graph (SG), which acts as an effective globally spatially and temporally consistent memory representation. DAAAM constructs 4D SGs with detailed, geometrically grounded descriptions while maintaining real-time performance. We show that DAAAM's 4D SG interfaces well with a tool-calling agent for inference and reasoning. We thoroughly evaluate DAAAM in the complex task of spatio-temporal question answering on the NaVQA benchmark and show its generalization capabilities for sequential task grounding on the SG3D benchmark. We further curate an extended OC-NaVQA benchmark for large-scale and long-time evaluations. DAAAM achieves state-of-the-art results in both tasks, improving OC-NaVQA question accuracy by 53.6%, position errors by 21.9%, temporal errors by 21.6%, and SG3D task grounding accuracy by 27.8% over the most competitive baselines, respectively. We release our data and code open-source.",
+  "ARXIV": "https://arxiv.org/abs/2512.00565",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, Indoor, Outdoor, LLM, RGB-D, SUN, Real-Time, Short-Term Dynamics, SLAM, Hierarchical, Incremental, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{gorlo2025daam,\n  title = {Describe Anything Anywhere At Any Moment},\n  author = {Gorlo, Nicolas and Schmid, Lukas and Carlone, Luca},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

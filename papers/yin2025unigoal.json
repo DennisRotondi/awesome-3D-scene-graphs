@@ -1,0 +1,14 @@
+{
+  "TITLE": "UniGoal: Towards Universal Zero-shot Goal-oriented Navigation",
+  "VENUE": "CVPR25",
+  "DATE": "2025/03/13",
+  "AUTHOR": "Hang Yin, Xiuwei Xu, Lingqing Zhao, Ziwei Wang, Jie Zhou, Jiwen Lu",
+  "ABSTRACT": "In this paper, we propose a general framework for universal zero-shot goal-oriented navigation. Existing zero-shot methods build inference framework upon large language models (LLM) for specific tasks, which differs a lot in overall pipeline and fails to generalize across different types of goal. Towards the aim of universal zero-shot navigation, we propose a uniform graph representation to unify different goals, including object category, instance image and text description. We also convert the observation of agent into an online maintained scene graph. With this consistent scene and goal representation, we preserve most structural information compared with pure text and are able to leverage LLM for explicit graph-based reasoning. Specifically, we conduct graph matching between the scene graph and goal graph at each time instant and propose different strategies to generate long-term goal of exploration according to different matching states. The agent first iteratively searches subgraph of goal when zero-matched. With partial matching, the agent then utilizes coordinate projection and anchor pair alignment to infer the goal location. Finally scene graph correction and goal verification are applied for perfect matching. We also present a blacklist mechanism to enable robust switch between stages. Extensive experiments on several benchmarks show that our UniGoal achieves state-of-the-art zero-shot performance on three studied navigation tasks with a single model, even outperforming task-specific zero-shot methods and supervised universal methods.",
+  "ARXIV": "https://arxiv.org/abs/2503.10630",
+  "FIRSTINSTITUTE": "THU",
+  "KEYWORD": "Application, Navigation, RGB-D, Hierarchical, LLM, Indoor",
+  "SITE": "https://bagh2178.github.io/UniGoal/",
+  "CODE": "https://github.com/bagh2178/UniGoal",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{yin2025unigoal,\n  title = {UniGoal: Towards Universal Zero-shot Goal-oriented Navigation},\n  author = {Yin, Hang and Xu, Xiuwei and Zhao, Lingqing and Wang, Ziwei and Zhou, Jie and Lu, Jiwen},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2025}\n}"
+}

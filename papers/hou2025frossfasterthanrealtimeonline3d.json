@@ -1,0 +1,14 @@
+{
+  "TITLE": "FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images",
+  "VENUE": "ICCV25",
+  "DATE": "2025/07/26",
+  "AUTHOR": "Hao-Yu Hou, Chun-Yi Lee, Motoharu Sonogashira, Yasutomo Kawanishi",
+  "ABSTRACT": "The ability to abstract complex 3D environments into simplified and structured representations is crucial across various domains. 3D semantic scene graphs (SSGs) achieve this by representing objects as nodes and their interrelationships as edges, facilitating high-level scene understanding. Existing methods for 3D SSG generation, however, face significant challenges, including high computational demands and non-incremental processing that hinder their suitability for real-time open-world applications. To address this issue, we propose FROSS (Faster-than-Real-Time Online 3D Semantic Scene Graph Generation), an innovative approach for online and faster-than-real-time 3D SSG generation that leverages the direct lifting of 2D scene graphs to 3D space and represents objects as 3D Gaussian distributions. This framework eliminates the dependency on precise and computationally-intensive point cloud processing. Furthermore, we extend the Replica dataset with inter-object relationship annotations, creating the ReplicaSSG dataset for comprehensive evaluation of FROSS. The experimental results from evaluations on ReplicaSSG and 3DSSG datasets show that FROSS can achieve superior performance while operating significantly faster than prior 3D SSG generation methods.",
+  "ARXIV": "https://arxiv.org/abs/2507.19993",
+  "FIRSTINSTITUTE": "NTHU",
+  "KEYWORD": "Application, RGB-D, Real-Time, Incremental, SUN, Indoor, Dataset",
+  "SITE": "",
+  "CODE": "https://github.com/Howardkhh/FROSS",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{hou2025frossfasterthanrealtimeonline3d,\n  title = {FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images},\n  author = {Hou, Hao-Yu and Lee, Chun-Yi and Sonogashira, Motoharu and Kawanishi, Yasutomo},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
+}

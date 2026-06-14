@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hierarchical 3D Scene Graph based Semantic-Metric SLAM for Plant Inspection and Fruit Counting in Intelligent Hydroponics System",
+  "VENUE": "IoTJ25",
+  "DATE": "2025/08/19",
+  "AUTHOR": "Wenyu Yang, Kang Liu, Zheng Tan, Li-Yu Lo, Yinglun Wang, Ka-Hing Wong",
+  "ABSTRACT": "The synergistic development of Internet of Things(IoT), robotics, and Artificial Intelligence (AI) is reshaping the technological paradigms of interdisciplinary laboratories and industrial ecosystems. IoT-enabled vertical farming systems demonstrate significant advantages, achieving yield enhancement while reducing carbon emissions compared to traditional agriculture, thereby providing innovative solutions for sustainable food production. The advancement of robotic technologies further expands the application dimensions of mobile intelligent sensors in vertical farm IoT networks. Based on an autonomous farming system that integrates Unmanned Aerial Vehicle (UAV), sensors, and modular vertical farming units, this study proposes a three dimensional Scene Graph (3DSG)-based hierarchical mapping method for the dynamic monitoring of plant and fruit growth. Through feedback mechanisms, the system optimizes growth conditions by adjusting lighting and nutrient delivery, while the hierarchical mapping architecture reduces detection errors and enables comprehensive 3D visualization. The main contributions of this research include: 1) Pioneering application of 3DSG technology to establish a multi-dimensional spatiotemporal representation model for plant growth processes, supporting interpretable analysis and traceable monitoring; 2) Establishing an uncertainty model through error propagation by systematically analyzing sensor models (covering various common sensor combinations) and integrating these models into 3D object pose estimation algorithms. This highlights the necessity of hierarchical abstraction levels. The system is validated through simulations and real-world experiments, providing a quantitative evaluation of object pose estimation; and 3) An IoT-driven intelligent vertical farming architecture that integrating mobile robotic perception networks and environmental regulation devices, enabling dynamic acquisition and closed-loop control of plant growth parameters.",
+  "ARXIV": "https://ieeexplore.ieee.org/abstract/document/11130485",
+  "FIRSTINSTITUTE": "PolyU",
+  "KEYWORD": "Hierarchical, LiDAR, SLAM, RGB-D, Outdoor",
+  "SITE": "",
+  "CODE": "https://github.com/allenthreee/scene_graph",
+  "VIDEO": "https://youtu.be/dhc8RLmX7hc",
+  "BIBTEX": "@article{yang2025h3dsgplant,\n  title = {Hierarchical 3D Scene Graph based Semantic-Metric SLAM for Plant Inspection and Fruit Counting in Intelligent Hydroponics System},\n  author = {Yang, Wenyu and Liu, Kang and Tan, Zheng and Lo, Li-Yu and Wang, Yinglun and Wong, Ka-Hing},\n  journal = {IEEE Internet of Things Journal},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+  "VENUE": "arXiv25",
+  "DATE": "2025/05/27",
+  "AUTHOR": "Liu Dai, Haina Wang, Weikang Wan, Hao Su",
+  "ABSTRACT": "Building embodied agents capable of accomplishing arbitrary tasks is a core objective towards achieving embodied artificial general intelligence (E-AGI). While recent work has advanced such general robot policies, their training and evaluation are often limited to tasks within specific scenes, involving restricted instructions and scenarios. Existing benchmarks also typically rely on manual annotation of limited tasks in a few scenes. We argue that exploring the full spectrum of feasible tasks within any given scene is crucial, as they provide both extensive benchmarks for evaluation and valuable resources for agent improvement. Towards this end, we introduce ManiTaskGen, a novel system that automatically generates comprehensive, diverse, feasible mobile manipulation tasks for any given scene. The generated tasks encompass both process-based, specific instructions (e.g., \"move object from X to Y\") and outcome-based, abstract instructions (e.g., \"clear the table\"). We apply ManiTaskGen to both simulated and real-world scenes, demonstrating the validity and diversity of the generated tasks. We then leverage these tasks to automatically construct benchmarks, thoroughly evaluating the embodied decision-making capabilities of agents built upon existing vision-language models (VLMs). Furthermore, we propose a simple yet effective method that utilizes ManiTaskGen tasks to enhance embodied decision-making. Overall, this work presents a universal task generation framework for arbitrary scenes, facilitating both benchmarking and improvement of embodied decision-making agents.",
+  "ARXIV": "https://arxiv.org/abs/2505.20726",
+  "FIRSTINSTITUTE": "UC",
+  "KEYWORD": "Application, Hierarchical, LLM, Indoor, Manipulation",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{dai2025manitaskgencomprehensivetaskgenerator,\n  title = {ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making},\n  author = {Dai, Liu and Wang, Haina and Wan, Weikang and Su, Hao},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

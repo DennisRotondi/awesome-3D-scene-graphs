@@ -1,0 +1,14 @@
+{
+  "TITLE": "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding",
+  "VENUE": "arXiv24",
+  "DATE": "2024/12/24",
+  "AUTHOR": "Tatiana Zemskova, Dmitry Yudin",
+  "ABSTRACT": "A 3D scene graph represents a compact scene model by capturing both the objects present and the semantic relationships between them, making it a promising structure for robotic applications. To effectively interact with users, an embodied intelligent agent should be able to answer a wide range of natural language queries about the surrounding 3D environment. Large Language Models (LLMs) are beneficial solutions for user-robot interaction due to their natural language understanding and reasoning abilities. Recent methods for learning scene representations have shown that adapting these representations to the 3D world can significantly improve the quality of LLM responses. However, existing methods typically rely only on geometric information, such as object coordinates, and overlook the rich semantic relationships between objects. In this work, we propose 3DGraphLLM, a method for constructing a learnable representation of a 3D scene graph that explicitly incorporates semantic relationships. This representation is used as input to LLMs for performing 3D vision-language tasks. In our experiments on popular ScanRefer, Multi3DRefer, ScanQA, Sqa3D, and Scan2cap datasets, we demonstrate that our approach outperforms baselines that do not leverage semantic relationships between objects.",
+  "ARXIV": "https://arxiv.org/abs/2412.18450",
+  "FIRSTINSTITUTE": "AIRI",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Pre-Built PCD",
+  "SITE": "",
+  "CODE": "https://github.com/CognitiveAISystems/3DGraphLLM",
+  "VIDEO": "",
+  "BIBTEX": "@misc{zemskova20243dgraphllm,\n  title = {3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding},\n  author = {Zemskova, Tatiana and Yudin, Dmitry},\n  archivePrefix = {arXiv preprint},\n  year = {2024}\n}"
+}

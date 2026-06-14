@@ -1,0 +1,14 @@
+{
+  "TITLE": "Social 3D Scene Graphs: Modeling Human Actions and Relations for Interactive Service Robots",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/29",
+  "AUTHOR": "Ermanno Bartoli, Dennis Rotondi, Buwei He, Patric Jensfelt, Kai O. Arras, Iolanda Leite",
+  "ABSTRACT": "Understanding how people interact with their surroundings and each other is essential for enabling robots to act in socially compliant and context-aware ways. While 3D Scene Graphs have emerged as a powerful semantic representation for scene understanding, existing approaches largely ignore humans in the scene, also due to the lack of annotated human-environment relationships. Moreover, existing methods typically capture only open-vocabulary relations from single image frames, which limits their ability to model long-range interactions beyond the observed content. We introduce Social 3D Scene Graphs, an augmented 3D Scene Graph representation that captures humans, their attributes, activities and relationships in the environment, both local and remote, using an open-vocabulary framework. Furthermore, we introduce a new benchmark consisting of synthetic environments with comprehensive human-scene relationship annotations and diverse types of queries for evaluating social scene understanding in 3D. The experiments demonstrate that our representation improves human activity prediction and reasoning about human-environment relations, paving the way toward socially intelligent robots.",
+  "ARXIV": "https://arxiv.org/abs/2509.24966",
+  "FIRSTINSTITUTE": "KTH",
+  "KEYWORD": "Application, Navigation, LLM, SUN, Indoor, Incremental, RGB-D, Open-Vocabulary, Humans",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{rotondi2025social3dsg,\n  title = {Social 3D Scene Graphs: Modeling Human Actions and Relations for Interactive Service Robots},\n  author = {Bartoli, Ermanno and Rotondi, Dennis and He, Buwei and Jensfelt, Patric and Arras, Kai O. and Leite, Iolanda},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

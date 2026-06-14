@@ -1,0 +1,14 @@
+{
+  "TITLE": "Open-Vocabulary Indoor Object Grounding with 3D Hierarchical Scene Graph",
+  "VENUE": "arXiv25",
+  "DATE": "2025/07/16",
+  "AUTHOR": "Sergey Linok, Gleb Naumov",
+  "ABSTRACT": "We propose OVIGo-3DHSG method - Open-Vocabulary Indoor Grounding of objects using 3D Hierarchical Scene Graph. OVIGo-3DHSG represents an extensive indoor environment over a Hierarchical Scene Graph derived from sequences of RGB-D frames utilizing a set of open-vocabulary foundation models and sensor data processing. The hierarchical representation explicitly models spatial relations across floors, rooms, locations, and objects. To effectively address complex queries involving spatial reference to other objects, we integrate the hierarchical scene graph with a Large Language Model for multistep reasoning. This integration leverages inter-layer (e.g., room-to-object) and intra-layer (e.g., object-to-object) connections, enhancing spatial contextual understanding. We investigate the semantic and geometry accuracy of hierarchical representation on Habitat Matterport 3D Semantic multi-floor scenes. Our approach demonstrates efficient scene comprehension and robust object grounding compared to existing methods. Overall OVIGo-3DHSG demonstrates strong potential for applications requiring spatial reasoning and understanding of indoor environments.",
+  "ARXIV": "https://arxiv.org/abs/2507.12123",
+  "FIRSTINSTITUTE": "MIPT",
+  "KEYWORD": "Application, Open-Vocabulary, Indoor, Hierarchical, SUN, RGB-D, LLM",
+  "SITE": "",
+  "CODE": "https://github.com/linukc/OVIGo-3DHSG",
+  "VIDEO": "",
+  "BIBTEX": "@misc{linok2025indoorgrounding,\n  title = {Open-Vocabulary Indoor Object Grounding with 3D Hierarchical Scene Graph},\n  author = {Linok, Sergey and Naumov, Gleb},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Exploring 3D Activity Reasoning and Planning: From Implicit Human Intentions to Route-Aware Planning",
+  "VENUE": "arXiv25",
+  "DATE": "2025/03/17",
+  "AUTHOR": "Xueying Jiang, Wenhao Li, Xiaoqin Zhang, Ling Shao, Shijian Lu",
+  "ABSTRACT": "3D task planning has attracted increasing attention in human-robot interaction and embodied AI thanks to the recent advances in multimodal learning. However, most existing studies are facing two common challenges: 1) heavy reliance on explicit instructions with little reasoning on implicit user intention; 2) negligence of inter-step route planning on robot moves. We address the above challenges by proposing 3D Reasoning-Driven Planning, a novel 3D task that reasons the intended activities from implicit instructions and decomposes them into steps with inter-step routes and planning under the guidance of fine-grained 3D object shapes and locations from scene segmentation. We tackle the new 3D task from two perspectives. First, we construct ReasonPlan3D, a large-scale benchmark that covers diverse 3D scenes with rich implicit instructions and detailed annotations for multi-step task planning, inter-step route planning, and fine-grained segmentation. Second, we design a novel framework that introduces progressive plan generation with contextual consistency across multiple steps, as well as a scene graph that is updated dynamically for capturing critical objects and their spatial relations. Extensive experiments demonstrate the effectiveness of our benchmark and framework in reasoning activities from implicit human instructions, producing accurate stepwise task plans and seamlessly integrating route planning for multi-step moves.",
+  "ARXIV": "https://arxiv.org/abs/2503.12974",
+  "FIRSTINSTITUTE": "NTU",
+  "KEYWORD": "Application, Humans, Planning, Indoor, LLM, SUN",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{jiang2025exploring3dactivity,\n  title = {Exploring 3D Activity Reasoning and Planning: From Implicit Human Intentions to Route-Aware Planning},\n  author = {Jiang, Xueying and Li, Wenhao and Zhang, Xiaoqin and Shao, Ling and Lu, Shijian},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

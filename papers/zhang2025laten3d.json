@@ -1,0 +1,14 @@
+{
+  "TITLE": "Latent 3D Scene Graph with Aligned Visual-Language Perception for Object-Goal Navigation",
+  "VENUE": "ICMCR25",
+  "DATE": "2025/02/14",
+  "AUTHOR": "Jianwei Zhang, Kang Zhou, Junjie Yang; Xiaojian Li",
+  "ABSTRACT": "Object-goal navigation requires agents to accurately locate and navigate to specified target objects in complex indoor environments. Existing methods primarily rely on single visual observations or simple semantic matching, making it difficult to effectively understand 3D scene relationships between target objects, which leads to inefficient path planning during navigation. Furthermore, the feature discrepancy between visual and language modalities poses challenges for accurate target identification. To address these issues, we propose Latent 3D Scene Graph with Aligned Visual-Language Perception (LSGAP), a novel approach that explicitly models 3D scene relationships between objects through depth perception and latent 3D scene graph construction. Meanwhile, we leverage multimodal pretraining strategies to achieve effective visual-language feature alignment, enhancing the model's target recognition capabilities. This end-to-end architectural design improves spatial cognition ability and enables more efficient navigation decision-making. We conduct extensive experimental evaluations in the AI2THOR interactive environment to validate the effectiveness of our navigator.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/10962894",
+  "FIRSTINSTITUTE": "SUSTech",
+  "KEYWORD": "Application, Indoor, Navigation, RGB-D, Policy",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{zhang2025laten3d,\n  title = {Latent 3D Scene Graph with Aligned Visual-Language Perception for Object-Goal Navigation},\n  author = {Zhang, Jianwei and Zhou, Kang and Li, Junjie Yang; Xiaojian},\n  booktitle = {Intl. Conf. on Mechatronics, Control and Robotics (ICMCR)},\n  year = {2025}\n}"
+}

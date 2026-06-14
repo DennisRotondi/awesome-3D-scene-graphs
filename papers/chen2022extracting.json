@@ -1,0 +1,14 @@
+{
+  "TITLE": "Extracting Zero-shot Common Sense from Large Language Models for Robot 3D Scene Understanding",
+  "VENUE": "arXiv22",
+  "DATE": "2022/06/09",
+  "AUTHOR": "William Chen, Siyi Hu, Rajat Talak, Luca Carlone",
+  "ABSTRACT": "Semantic 3D scene understanding is a problem of critical importance in robotics. While significant advances have been made in simultaneous localization and mapping algorithms, robots are still far from having the common sense knowledge about household objects and their locations of an average human. We introduce a novel method for leveraging common sense embedded within large language models for labelling rooms given the objects contained within. This algorithm has the added benefits of (i) requiring no task-specific pre-training (operating entirely in the zero-shot regime) and (ii) generalizing to arbitrary room and object labels, including previously-unseen ones -- both of which are highly desirable traits in robotic scene understanding algorithms. The proposed algorithm operates on 3D scene graphs produced by modern spatial perception systems, and we hope it will pave the way to more generalizable and scalable high-level 3D scene understanding for robotics.",
+  "ARXIV": "http://arxiv.org/abs/2206.04585v2",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, Indoor, LLM, SUN",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{chen2022extracting,\n  title = {Extracting Zero-shot Common Sense from Large Language Models for Robot 3D Scene Understanding},\n  author = {Chen, William and Hu, Siyi and Talak, Rajat and Carlone, Luca},\n  archivePrefix = {arXiv preprint},\n  year = {2022}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Event-Driven Storytelling with Multiple Lifelike Humans in a 3D Scene",
+  "VENUE": "ICCV25",
+  "DATE": "2025/07/25",
+  "AUTHOR": "Donggeun Lim, Jinseok Bae, Inwoo Hwang, Seungmin Lee, Hwanhee Lee, Young Min Kim",
+  "ABSTRACT": "In this work, we propose a framework that creates a lively virtual dynamic scene with contextual motions of multiple humans. Generating multi-human contextual motion requires holistic reasoning over dynamic relationships among human-human and human-scene interactions. We adapt the power of a large language model (LLM) to digest the contextual complexity within textual input and convert the task into tangible subproblems such that we can generate multi-agent behavior beyond the scale that was not considered before. Specifically, our event generator formulates the temporal progression of a dynamic scene into a sequence of small events. Each event calls for a well-defined motion involving relevant characters and objects. Next, we synthesize the motions of characters at positions sampled based on spatial guidance. We employ a high-level module to deliver scalable yet comprehensive context, translating events into relative descriptions that enable the retrieval of precise coordinates. As the first to address this problem at scale and with diversity, we offer a benchmark to assess diverse aspects of contextual reasoning. Benchmark results and user studies show that our framework effectively captures scene context with high scalability.",
+  "ARXIV": "https://arxiv.org/abs/2507.19232",
+  "FIRSTINSTITUTE": "SNU",
+  "KEYWORD": "Application, Planning, LLM, Humans, Indoor",
+  "SITE": "https://rms0329.github.io/Event-Driven-Storytelling/",
+  "CODE": "https://github.com/rms0329/Event-Driven-Storytelling",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{lim2025eventdrivenstorytellingmultiplelifelike,\n  title = {Event-Driven Storytelling with Multiple Lifelike Humans in a 3D Scene},\n  author = {Lim, Donggeun and Bae, Jinseok and Hwang, Inwoo and Lee, Seungmin and Lee, Hwanhee and Kim, Young Min},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Structured Interfaces for Automated Reasoning with 3D Scene Graphs",
+  "VENUE": "arXiv25",
+  "DATE": "2025/10/18",
+  "AUTHOR": "Aaron Ray, Jacob Arkin, Harel Biggie, Chuchu Fan, Luca Carlone, Nicholas Roy",
+  "ABSTRACT": "In order to provide a robot with the ability to understand and react to a user's natural language inputs, the natural language must be connected to the robot's underlying representations of the world. Recently, large language models (LLMs) and 3D scene graphs (3DSGs) have become a popular choice for grounding natural language and representing the world. In this work, we address the challenge of using LLMs with 3DSGs to ground natural language. Existing methods encode the scene graph as serialized text within the LLM's context window, but this encoding does not scale to large or rich 3DSGs. Instead, we propose to use a form of Retrieval Augmented Generation to select a subset of the 3DSG relevant to the task. We encode a 3DSG in a graph database and provide a query language interface (Cypher) as a tool to the LLM with which it can retrieve relevant data for language grounding. We evaluate our approach on instruction following and scene question-answering tasks and compare against baseline context window and code generation methods. Our results show that using Cypher as an interface to 3D scene graphs scales significantly better to large, rich graphs on both local and cloud-based models. This leads to large performance improvements in grounded language tasks while also substantially reducing the token count of the scene graph content.",
+  "ARXIV": "https://arxiv.org/abs/2510.16643",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, LLM, SUN, Planning",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "https://www.youtube.com/watch?v=zY_YI9giZSA",
+  "BIBTEX": "@misc{ra2025structuredinterface,\n  title = {Structured Interfaces for Automated Reasoning with 3D Scene Graphs},\n  author = {Ray, Aaron and Arkin, Jacob and Biggie, Harel and Fan, Chuchu and Carlone, Luca and Roy, Nicholas},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

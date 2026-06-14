@@ -1,0 +1,14 @@
+{
+  "TITLE": "Task and Motion Planning in Hierarchical 3D Scene Graphs",
+  "VENUE": "ISRR24",
+  "DATE": "2024/03/12",
+  "AUTHOR": "Aaron Ray, Christopher Bradley, Luca Carlone, Nicholas Roy",
+  "ABSTRACT": "Recent work in the construction of 3D scene graphs has enabled mobile robots to build large-scale metric-semantic hierarchical representations of the world. These detailed models contain information that is useful for planning, however an open question is how to derive a planning domain from a 3D scene graph that enables efficient computation of executable plans. In this work, we present a novel approach for defining and solving Task and Motion Planning problems in large-scale environments using hierarchical 3D scene graphs. We describe a method for building sparse problem instances which enables scaling planning to large scenes, and we propose a technique for incrementally adding objects to that domain during planning time that minimizes computation on irrelevant elements of the scene graph. We evaluate our approach in two real scene graphs built from perception, including one constructed from the KITTI dataset. Furthermore, we demonstrate our approach in the real world, building our representation, planning in it, and executing those plans on a real robotic mobile manipulator.",
+  "ARXIV": "https://arxiv.org/abs/2403.08094",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, Hierarchical, Outdoor, Planning, Navigation",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "https://youtu.be/v8fkwLjBn58",
+  "BIBTEX": "@article{ray2024taskmotion,\n  title = {Task and Motion Planning in Hierarchical 3D Scene Graphs},\n  author = {Ray, Aaron and Bradley, Christopher and Carlone, Luca and Roy, Nicholas},\n  journal = {Intl. Symp. of Robotics Research (ISRR)},\n  year = {2024}\n}"
+}

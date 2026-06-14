@@ -1,0 +1,14 @@
+{
+  "TITLE": "xFLIE: Leveraging Actionable Hierarchical Scene Representations for Autonomous Semantic-Aware Inspection Missions",
+  "VENUE": "arXiv25",
+  "DATE": "2024/12/27",
+  "AUTHOR": "Vignesh Kottayam Viswanathan, Mario A.V. Saucedo, Sumeet Gajanan Satpute, Christoforos Kanellakis, George Nikolakopoulos",
+  "ABSTRACT": "This article presents xFLIE, a fully integrated 3D hierarchical scene graph based autonomous inspection architecture. Specifically, we present a tightly-coupled solution of incremental 3D Layered Semantic Graphs (LSG) construction and real-time exploitation by a multi-modal autonomy, First-Look based Inspection and Exploration (FLIE) planner, to address the task of inspection of apriori unknown semantic targets of interest in unknown environments. This work aims to address the challenge of maintaining, in addition to or as an alternative to volumetric models, an intuitive scene representation during large-scale inspection missions. Through its contributions, the proposed architecture aims to provide a high-level multi-tiered abstract environment representation whilst simultaneously maintaining a tractable foundation for rapid and informed decision-making capable of enhancing inspection planning through scene understanding, what should it inspect ?, and reasoning, why should it inspect ?. The proposed LSG framework is designed to leverage the concept of nesting lower local graphs, at multiple layers of abstraction, with the abstract concepts grounded on the functionality of the integrated FLIE planner. Through intuitive scene representation, the proposed architecture offers an easily digestible environment model for human operators which helps to improve situational awareness and their understanding of the operating environment. We highlight the use-case benefits of hierarchical and semantic path-planning capability over LSG to address queries, by the integrated planner as well as the human operator. The validity of the proposed architecture is evaluated in large-scale simulated outdoor urban scenarios as well as being deployed onboard a Boston Dynamics Spot quadruped robot for extensive outdoor field experiments.",
+  "ARXIV": "https://arxiv.org/abs/2412.19571",
+  "FIRSTINSTITUTE": "LTU",
+  "KEYWORD": "Application, Hierarchical, Outdoor, Planning, Navigation",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{viswanathan2024xflieleveragingactionablehierarchical,\n  title = {xFLIE: Leveraging Actionable Hierarchical Scene Representations for Autonomous Semantic-Aware Inspection Missions},\n  author = {Viswanathan, Vignesh Kottayam and Saucedo, Mario A.V. and Satpute, Sumeet Gajanan and Kanellakis, Christoforos and Nikolakopoulos, George},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

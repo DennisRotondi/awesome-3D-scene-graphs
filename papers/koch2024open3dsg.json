@@ -1,0 +1,14 @@
+{
+  "TITLE": "Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships",
+  "VENUE": "CVPR24",
+  "DATE": "2024/02/19",
+  "AUTHOR": "Sebastian Koch, Narunas Vaskevicius, Mirco Colosi, Pedro Hermosilla, Timo Ropinski",
+  "ABSTRACT": "Current approaches for 3D scene graph prediction rely on labeled datasets to train models for a fixed set of known object classes and relationship categories. We present Open3DSG, an alternative approach to learn 3D scene graph prediction in an open world without requiring labeled scene graph data. We co-embed the features from a 3D scene graph prediction backbone with the feature space of powerful open world 2D vision language foundation models. This enables us to predict 3D scene graphs from 3D point clouds in a zero-shot manner by querying object classes from an open vocabulary and predicting the inter-object relationships from a grounded LLM with scene graph features and queried object classes as context. Open3DSG is the first 3D point cloud method to predict not only explicit open-vocabulary object classes, but also open-set relationships that are not limited to a predefined label set, making it possible to express rare as well as specific objects and relationships in the predicted 3D scene graph. Our experiments show that Open3DSG is effective at predicting arbitrary object classes as well as their complex inter-object relationships describing spatial, supportive, semantic and comparative relationships.",
+  "ARXIV": "http://arxiv.org/abs/2402.12259v2",
+  "FIRSTINSTITUTE": "Bosch",
+  "KEYWORD": "Application, Open-Vocabulary, Indoor, LLM, Pre-Built PCD",
+  "SITE": "https://kochsebastian.com/open3dsg",
+  "CODE": "https://github.com/boschresearch/Open3DSG",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{koch2024open3dsg,\n  title = {Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships},\n  author = {Koch, Sebastian and Vaskevicius, Narunas and Colosi, Mirco and Hermosilla, Pedro and Ropinski, Timo},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2024}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "SPADE: Towards Scalable Path Planning Architecture on Actionable Multi-Domain 3D ScenE Graphs",
+  "VENUE": "IROS25",
+  "DATE": "2025/05/25",
+  "AUTHOR": "Vignesh Kottayam Viswanathan, Akash Patel, Mario Alberto Valdes Saucedo, Sumeet Satpute, Christoforos Kanellakis, George Nikolakopoulos",
+  "ABSTRACT": "In this work, we introduce SPADE, a path planning framework designed for autonomous navigation in dynamic environments using 3D scene graphs. SPADE combines hierarchical path planning with local geometric awareness to enable collision-free movement in dynamic scenes. The framework bifurcates the planning problem into two: (a) solving the sparse abstract global layer plan and (b) iterative path refinement across denser lower local layers in step with local geometric scene navigation. To ensure efficient extraction of a feasible route in a dense multi-task domain scene graphs, the framework enforces informed sampling of traversable edges prior to path-planning. This removes extraneous information not relevant to path-planning and reduces the overall planning complexity over a graph. Existing approaches address the problem of path planning over scene graphs by decoupling hierarchical and geometric path evaluation processes. Specifically, this results in an inefficient replanning over the entire scene graph when encountering path obstructions blocking the original route. In contrast, SPADE prioritizes local layer planning coupled with local geometric scene navigation, enabling navigation through dynamic scenes while maintaining efficiency in computing a traversable route. We validate SPADE through extensive simulation experiments and real-world deployment on a quadrupedal robot, demonstrating its efficacy in handling complex and dynamic scenarios.",
+  "ARXIV": "https://arxiv.org/abs/2505.19098",
+  "FIRSTINSTITUTE": "LTU",
+  "KEYWORD": "Application, Outdoor, Navigation, LiDAR, Hierarchical, Incremental, Short-Term Dynamics",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{viswanathan2025spadescalablepathplanning,\n  title = {SPADE: Towards Scalable Path Planning Architecture on Actionable Multi-Domain 3D ScenE Graphs},\n  author = {Viswanathan, Vignesh Kottayam and Patel, Akash and Saucedo, Mario Alberto Valdes and Satpute, Sumeet and Kanellakis, Christoforos and Nikolakopoulos, George},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "SGAligner: 3D Scene Alignment with Scene Graphs",
+  "VENUE": "ICCV23",
+  "DATE": "2023/04/28",
+  "AUTHOR": "Sayan Deb Sarkar, Ondrej Miksik, Marc Pollefeys, Daniel Barath, Iro Armeni",
+  "ABSTRACT": "Building 3D scene graphs has recently emerged as a topic in scene representation for several embodied AI applications to represent the world in a structured and rich manner. With their increased use in solving downstream tasks (e.g., navigation and room rearrangement), can we leverage and recycle them for creating 3D maps of environments, a pivotal step in agent operation? We focus on the fundamental problem of aligning pairs of 3D scene graphs whose overlap can range from zero to partial and can contain arbitrary changes. We propose SGAligner, the first method for aligning pairs of 3D scene graphs that is robust to in-the-wild scenarios (i.e., unknown overlap - if any - and changes in the environment). We get inspired by multi-modality knowledge graphs and use contrastive learning to learn a joint, multi-modal embedding space. We evaluate on the 3RScan dataset and further showcase that our method can be used for estimating the transformation between pairs of 3D scenes. Since benchmarks for these tasks are missing, we create them on this dataset.",
+  "ARXIV": "https://arxiv.org/abs/2304.14880",
+  "FIRSTINSTITUTE": "ETH",
+  "KEYWORD": "Application, Indoor, Pre-Built PCD, SUN",
+  "SITE": "https://sayands.github.io/sgaligner/",
+  "CODE": "https://github.com/sayands/sgaligner",
+  "VIDEO": "youtube.com/watch?v=WvJMpjNJCcc&feature=youtu.be",
+  "BIBTEX": "@inproceedings{sarkar2023sgaligner,\n  title = {SGAligner: 3D Scene Alignment with Scene Graphs},\n  author = {Sarkar, Sayan Deb and Miksik, Ondrej and Pollefeys, Marc and Barath, Daniel and Armeni, Iro},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2023}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Kimera: from SLAM to Spatial Perception with 3D Dynamic Scene Graphs",
+  "VENUE": "IJRR21",
+  "DATE": "2021/01/18",
+  "AUTHOR": "Antoni Rosinol, Andrew Violette, Marcus Abate, Nathan Hughes, Yun Chang, Jingnan Shi, Arjun Gupta, Luca Carlone",
+  "ABSTRACT": "Humans are able to form a complex mental model of the environment they move in. This mental model captures geometric and semantic aspects of the scene, describes the environment at multiple levels of abstractions (e.g., objects, rooms, buildings), includes static and dynamic entities and their relations (e.g., a person is in a room at a given time). In contrast, current robots' internal representations still provide a partial and fragmented understanding of the environment, either in the form of a sparse or dense set of geometric primitives (e.g., points, lines, planes, voxels) or as a collection of objects. This paper attempts to reduce the gap between robot and human perception by introducing a novel representation, a 3D Dynamic Scene Graph(DSG), that seamlessly captures metric and semantic aspects of a dynamic environment. A DSG is a layered graph where nodes represent spatial concepts at different levels of abstraction, and edges represent spatio-temporal relations among nodes. Our second contribution is Kimera, the first fully automatic method to build a DSG from visual-inertial data. Kimera includes state-of-the-art techniques for visual-inertial SLAM, metric-semantic 3D reconstruction, object localization, human pose and shape estimation, and scene parsing. Our third contribution is a comprehensive evaluation of Kimera in real-life datasets and photo-realistic simulations, including a newly released dataset, uHumans2, which simulates a collection of crowded indoor and outdoor scenes. Our evaluation shows that Kimera achieves state-of-the-art performance in visual-inertial SLAM, estimates an accurate 3D metric-semantic mesh model in real-time, and builds a DSG of a complex indoor environment with tens of objects and humans in minutes. Our final contribution shows how to use a DSG for real-time hierarchical semantic path-planning. The core modules in Kimera are open-source.",
+  "ARXIV": "https://arxiv.org/abs/2101.06894",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "RGB-D, Hierarchical, Indoor, Incremental, Real-Time, Short-Term Dynamics, Humans",
+  "SITE": "",
+  "CODE": "https://github.com/MIT-SPARK/Kimera",
+  "VIDEO": "https://www.youtube.com/watch?v=-5XxXRABXJs&feature=youtu.be",
+  "BIBTEX": "@article{rosinol2021kimera,\n  title = {Kimera: from SLAM to Spatial Perception with 3D Dynamic Scene Graphs},\n  author = {Rosinol, Antoni and Violette, Andrew and Abate, Marcus and Hughes, Nathan and Chang, Yun and Shi, Jingnan and Gupta, Arjun and Carlone, Luca},\n  journal = {Intl. J. of Robotics Research},\n  year = {2021}\n}"
+}

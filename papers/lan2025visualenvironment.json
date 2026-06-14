@@ -1,0 +1,14 @@
+{
+  "TITLE": "Visual Environment-Interactive Planning for Embodied Complex-Question Answering",
+  "VENUE": "TCSVT25",
+  "DATE": "2025/04/01",
+  "AUTHOR": "Ning Lan, Baoshan Ou, Xuemei Xie, Guangming Shi",
+  "ABSTRACT": "This study focuses on Embodied Complex-Question Answering task, which means the embodied robot need to understand human questions with intricate structures and abstract semantics. The core of this task lies in making appropriate plans based on the perception of the visual environment. Existing methods often generate plans in a once-for-all manner, i.e., one-step planning. Such approach rely on large models, without sufficient understanding of the environment. Considering multi-step planning, the framework for formulating plans in a sequential manner is proposed in this paper. To ensure the ability of our framework to tackle complex questions, we create a structured semantic space, where hierarchical visual perception and chain expression of the question essence can achieve iterative interaction. This space makes sequential task planning possible. Within the framework, we first parse human natural language based on a visual hierarchical scene graph, which can clarify the intention of the question. Then, we incorporate external rules to make a plan for current step, weakening the reliance on large models. Every plan is generated based on feedback from visual perception, with multiple rounds of interaction until an answer is obtained. This approach enables continuous feedback and adjustment, allowing the robot to optimize its action strategy. To test our framework, we contribute a new dataset with more complex questions. Experimental results demonstrate that our approach performs excellently and stably on complex tasks. And also, the feasibility of our approach in real-world scenarios has been established, indicating its practical applicability.",
+  "ARXIV": "https://arxiv.org/abs/2504.00775",
+  "FIRSTINSTITUTE": "XDU",
+  "KEYWORD": "Application, SUN, LLM, Planning, Indoor, RGB-D, Hierarchical",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{lan2025visualenvironment,\n  title = {Visual Environment-Interactive Planning for Embodied Complex-Question Answering},\n  author = {Lan, Ning and Ou, Baoshan and Xie, Xuemei and Shi, Guangming},\n  journal = {IEEE Trans. on Circuits and Systems for Video Technology (TCSVT)},\n  year = {2025}\n}"
+}

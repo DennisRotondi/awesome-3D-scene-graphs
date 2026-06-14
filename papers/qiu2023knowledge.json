@@ -1,0 +1,14 @@
+{
+  "TITLE": "3D Scene Graph Prediction on Point Clouds Using Knowledge Graphs",
+  "VENUE": "CASE23",
+  "DATE": "2023/08/13",
+  "AUTHOR": "Yiding Qiu, Henrik I. Christensen",
+  "ABSTRACT": "3D scene graph prediction is a task that aims to concurrently predict object classes and their relationships within a 3D environment. As these environments are primarily designed by and for humans, incorporating commonsense knowledge regarding objects and their relationships can significantly constrain and enhance the prediction of the scene graph. In this paper, we investigate the application of commonsense knowledge graphs for 3D scene graph prediction on point clouds of indoor scenes. Through experiments conducted on a real-world indoor dataset, we demonstrate that integrating external commonsense knowledge via the message-passing method leads to a 15% improvement in scene graph prediction accuracy with external knowledge and 7.96% with internal knowledge when compared to state-of-the-art algorithms. We also tested in the real world with 10 frames per second for scene graph generation to show the usage of the model in a more realistic robotics setting.",
+  "ARXIV": "http://arxiv.org/abs/2308.06719v1",
+  "FIRSTINSTITUTE": "UCSD",
+  "KEYWORD": "Pre-Built PCD, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{qiu2023knowledge,\n  title = {3D Scene Graph Prediction on Point Clouds Using Knowledge Graphs},\n  author = {Qiu, Yiding and Christensen, Henrik I.},\n  booktitle = {Intl. Conf. on Automation Science and Engineering (CASE)},\n  year = {2023}\n}"
+}

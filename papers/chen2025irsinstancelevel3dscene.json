@@ -1,0 +1,14 @@
+{
+  "TITLE": "IRS: Instance-Level 3D Scene Graphs via Room Prior Guided LiDAR-Camera Fusion",
+  "VENUE": "arXiv25",
+  "DATE": "2025/06/07",
+  "AUTHOR": "Hongming Chen, Yiyang Lin, Ziliang Li, Biyu Ye, Yuying Zhang, Ximin Lyu",
+  "ABSTRACT": "Indoor scene understanding remains a fundamental challenge in robotics, with direct implications for downstream tasks such as navigation and manipulation. Traditional approaches often rely on closed-set recognition or loop closure, limiting their adaptability in open-world environments. With the advent of visual foundation models (VFMs), open-vocabulary recognition and natural language querying have become feasible, unlocking new possibilities for 3D scene graph construction. In this paper, we propose a robust and efficient framework for instance-level 3D scene graph construction via LiDAR-camera fusion. Leveraging LiDAR's wide field of view (FOV) and long-range sensing capabilities, we rapidly acquire room-level geometric priors. Multi-level VFMs are employed to improve the accuracy and consistency of semantic extraction. During instance fusion, room-based segmentation enables parallel processing, while the integration of geometric and semantic cues significantly enhances fusion accuracy and robustness. Compared to state-of-the-art methods, our approach achieves up to an order-of-magnitude improvement in construction speed while maintaining high semantic precision. Extensive experiments in both simulated and real-world environments validate the effectiveness of our approach. We further demonstrate its practical value through a language-guided semantic navigation task, highlighting its potential for real-world robotic applications.",
+  "ARXIV": "https://arxiv.org/abs/2506.06804",
+  "FIRSTINSTITUTE": "SYSU",
+  "KEYWORD": "Application, Indoor, LiDAR, Hierarchical, Open-Vocabulary, Incremental, Navigation",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{chen2025irsinstancelevel3dscene,\n  title = {IRS: Instance-Level 3D Scene Graphs via Room Prior Guided LiDAR-Camera Fusion},\n  author = {Chen, Hongming and Lin, Yiyang and Li, Ziliang and Ye, Biyu and Zhang, Yuying and Lyu, Ximin},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

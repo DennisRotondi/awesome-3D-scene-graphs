@@ -1,0 +1,14 @@
+{
+  "TITLE": "Generating Actionable Robot Knowledge Bases by Combining 3D Scene Graphs with Robot Ontologies",
+  "VENUE": "IROS25",
+  "DATE": "2025/07/15",
+  "AUTHOR": "Giang Nguyen, Mihai Pomarlan, Sascha Jongebloed, Nils Leusmann, Minh Nhat Vu, Michael Beetz",
+  "ABSTRACT": "In robotics, the effective integration of environmental data into actionable knowledge remains a significant challenge due to the variety and incompatibility of data formats commonly used in scene descriptions, such as MJCF, URDF, and SDF. This paper presents a novel approach that addresses these challenges by developing a unified scene graph model that standardizes these varied formats into the Universal Scene Description (USD) format. This standardization facilitates the integration of these scene graphs with robot ontologies through semantic reporting, enabling the translation of complex environmental data into actionable knowledge essential for cognitive robotic control. We evaluated our approach by converting procedural 3D environments into USD format, which is then annotated semantically and translated into a knowledge graph to effectively answer competency questions, demonstrating its utility for real-time robotic decision-making. Additionally, we developed a web-based visualization tool to support the semantic mapping process, providing users with an intuitive interface to manage the 3D environment.",
+  "ARXIV": "https://arxiv.org/abs/2507.11770",
+  "FIRSTINSTITUTE": "Uni Bremen",
+  "KEYWORD": "Application, Indoor, Planning",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{nguyen2025generatingactionable,\n  title = {Generating Actionable Robot Knowledge Bases by Combining 3D Scene Graphs with Robot Ontologies},\n  author = {Nguyen, Giang and Pomarlan, Mihai and Jongebloed, Sascha and Leusmann, Nils and Vu, Minh Nhat and Beetz, Michael},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2025}\n}"
+}

@@ -1,0 +1,127 @@
+.sortsel{
+  font-family: 'Ubuntu Sans', sans-serif;
+  background-color: #d5d7d8 !important;
+  border: none !important;
+  padding-bottom: 0.15rem;
+  padding-top: 0.15rem;
+  border-radius: 0.25rem;
+  font-size: 1.3rem !important;
+  /* color: #fff !important; */
+  color: #3b4248 !important;
+  flex-shrink: 0;
+  width: auto;
+  height: 100%;
+}
+
+/* change bootstrap primary button color and lg font */
+.btn-outline-primary {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+
+  background-color: #d5d7d8 !important;
+  border: none !important;
+  /* border-color: #9CAFAA !important; */
+  font-size: 1.3rem !important;
+  /* color: #3b4248 !important; */
+  color: #3b4248 !important;
+}
+
+/* change bootstrap primary button color and lg font */
+.btn-outline-secondary {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  background-color: #9CAFAA !important;
+  border: none;
+  border-radius: 0.25rem;
+  border-width: 0.15rem;
+  /* border-color: #9CAFAA !important; */
+  font-size: 1.3rem !important;
+  /* color: #3b4248 !important; */
+  color: #fff !important;
+}
+/* website palette #D6A99D #FBF3D5 #D6DAC8 #9CAFAA*/
+
+.form-check-input{
+    border-color: #3b4248 !important;
+}
+
+.form-check-input:checked{
+  background-color: #9CAFAA !important;
+  /* border: none !important; */
+  /* outline: none !important; */
+}
+
+.form-check-input:focus{
+  /* border: none !important;
+  outline: none !important; */
+  box-shadow: none !important;
+}
+
+.card-title{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #3b4248;
+}
+
+.authors{
+  font-size: 1rem;
+  color: #3b4248;
+  font-weight: 700; 
+}
+
+.other{
+  font-size: 1rem;
+  color: #3b4248;
+  /* font-weight: 500;  */
+  opacity: 0.8;
+}
+
+.keywords{
+  font-size: 1rem;
+  color: #3b4248;
+  /* font-weight: 300; */
+  text-align: left;
+  /* opacity: 0.8; */
+}
+
+.abstract{
+  font-size: 1rem;
+  color: #3b4248;
+  
+}
+
+.card{
+  font-family: 'Ubuntu Sans', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  opacity: 1;
+}
+
+.card-copy-icon{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 0rem;
+    right: 0.1rem;
+    cursor: pointer;
+    color: #9CAFAA;
+}
+
+.card-bookmark-icon{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 0rem;
+    left: 0.1rem;
+    cursor: pointer;
+    color: #9CAFAA;
+    transition: color 0.2s ease;
+}
+
+.card-bookmark-icon.bookmarked{
+    color: #D6A99D;
+}
+
+.card-link-icon{
+    font-size: 1.3rem;
+    color: #9CAFAA;
+}

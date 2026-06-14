@@ -1,0 +1,14 @@
+{
+  "TITLE": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
+  "VENUE": "CoRL23",
+  "DATE": "2023/07/12",
+  "AUTHOR": "Krishan Rana, Jesse Haviland, Sourav Garg, Jad Abou-Chakra, Ian Reid, Niko Suenderhauf",
+  "ABSTRACT": "Large language models (LLMs) have demonstrated impressive results in developing generalist planning agents for diverse tasks. However, grounding these plans in expansive, multi-floor, and multi-room environments presents a significant challenge for robotics. We introduce SayPlan, a scalable approach to LLM-based, large-scale task planning for robotics using 3D scene graph (3DSG) representations. To ensure the scalability of our approach, we: (1) exploit the hierarchical nature of 3DSGs to allow LLMs to conduct a 'semantic search' for task-relevant subgraphs from a smaller, collapsed representation of the full graph; (2) reduce the planning horizon for the LLM by integrating a classical path planner and (3) introduce an 'iterative replanning' pipeline that refines the initial plan using feedback from a scene graph simulator, correcting infeasible actions and avoiding planning failures. We evaluate our approach on two large-scale environments spanning up to 3 floors and 36 rooms with 140 assets and objects and show that our approach is capable of grounding large-scale, long-horizon task plans from abstract, and natural language instruction for a mobile manipulator robot to execute.",
+  "ARXIV": "http://arxiv.org/abs/2307.06135v2",
+  "FIRSTINSTITUTE": "QUT",
+  "KEYWORD": "Application, Indoor, Planning, Compression, Hierarchical",
+  "SITE": "https://sayplan.github.io/",
+  "CODE": "",
+  "VIDEO": "youtube.com/watch?si=0re6L_st-x-yH_Me&v=3aMgpqnD2RY&feature=youtu.be",
+  "BIBTEX": "@inproceedings{rana2023sayplan,\n  title = {SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning},\n  author = {Rana, Krishan and Haviland, Jesse and Garg, Sourav and Abou-Chakra, Jad and Reid, Ian and Suenderhauf, Niko},\n  booktitle = {Conf. on Robot Learning (CoRL)},\n  year = {2023}\n}"
+}

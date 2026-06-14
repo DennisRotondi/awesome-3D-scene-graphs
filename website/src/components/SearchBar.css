@@ -1,0 +1,103 @@
+/* Container relative positioning */
+.react-autosuggest__container, .react-autosuggest__container--open {
+  position: relative;
+}
+
+/* Input closed */
+.react-autosuggest__input {
+  font-family: 'Ubuntu Sans', sans-serif !important;
+  font-size: 1.3rem;
+  color: #483b3b !important;
+  border: 0.15rem solid #3b4248ff;   /* your custom border */
+  border-radius: 0.25rem;            /* similar to Bootstrap's form-control */
+  padding: 0.375rem 0.75rem;         /* matches Bootstrap input padding */
+  width: 100%;
+  box-sizing: border-box;
+  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+  padding-right: 2.3rem;          /* space for the search icon */
+  border-width: 0.15rem;
+}
+.react-autosuggest__input--focused {
+  outline: none !important;
+  border-color: initial !important;
+  box-shadow: none !important;
+}
+
+/* Input when open: only top corners rounded */
+.react-autosuggest__input--open {
+  border-top: 0.15rem solid #3b4248ff;
+  border-right: 0.15rem solid #3b4248ff;
+  border-bottom: 0.15rem solid #3b4248ff; 
+  border-left: 0.15rem solid #3b4248ff;
+  border-radius: 0.25rem 0.25rem 0 0;
+  background-color: #fff;
+}
+
+/* Dropdown: only bottom corners rounded, no top border */
+.react-autosuggest__suggestions-container--open {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+
+  border-top: none;                 /* no double line */
+  border-right: 0.15rem solid #3b4248ff;
+  border-bottom: 0.15rem solid #3b4248ff;
+  border-left: 0.15rem solid #3b4248ff;
+  border-radius: 0 0 0.25rem 0.25rem;
+  max-height: 14.8rem;
+  overflow-y: auto;
+  z-index: 1000;
+}
+.react-autosuggest__container--open::-webkit-scrollbar {
+  width: 0.5rem;
+  display: block;
+}
+
+/* Suggestions container */
+.react-autosuggest__suggestions-container {
+  font-size: 1.3rem;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  
+  /* border: 0 0.15rem solid #3b4248ff; */
+  /* box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.1); */
+  z-index: 1000;
+  margin-top: 0;                /* directly below input */
+}
+
+/* List of suggestions */
+.react-autosuggest__suggestions-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each suggestion */
+.react-autosuggest__suggestion {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Highlighted suggestion */
+.react-autosuggest__suggestion--highlighted{
+  background-color: #9CAFAA6F; 
+  /* border-radius: 0.75rem; */
+}
+
+.search-icon {
+  right: 0.65rem;           /* distance from the right edge */
+  top: 50%;                 /* vertically center */
+  transform: translateY(-50%);
+  position: absolute;
+  color: #3b4248ff;           /* optional gray color */
+  cursor: pointer;
+  pointer-events: auto;      /* allow clicking */
+}
+
+.react-autosuggest__suggestion-match {
+  font-weight: bold;
+}

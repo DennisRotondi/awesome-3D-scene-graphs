@@ -1,0 +1,14 @@
+{
+  "TITLE": "Towards Terrain-Aware Task-Driven 3D Scene Graph Generation in Outdoor Environments",
+  "VENUE": "arXiv25",
+  "DATE": "2025/06/06",
+  "AUTHOR": "Chad R Samuelson, Timothy W McLain, Joshua G Mangelson",
+  "ABSTRACT": "High-level autonomous operations depend on a robot's ability to construct a sufficiently expressive model of its environment. Traditional three-dimensional (3D) scene representations, such as point clouds and occupancy grids, provide detailed geometric information but lack the structured, semantic organization needed for high-level reasoning. 3D scene graphs (3DSGs) address this limitation by integrating geometric, topological, and semantic relationships into a multi-level graph-based representation. By capturing hierarchical abstractions of objects and spatial layouts, 3DSGs enable robots to reason about environments in a structured manner, improving context-aware decision-making and adaptive planning. Although most recent work has focused on indoor 3DSGs, this paper investigates their construction and utility in outdoor environments. We present a method for generating a task-agnostic metric-semantic point cloud for large outdoor settings and propose modifications to existing indoor 3DSG generation techniques for outdoor applicability. Our preliminary qualitative results demonstrate the feasibility of outdoor 3DSGs and highlight their potential for future deployment in real-world field robotic applications.",
+  "ARXIV": "https://arxiv.org/abs/2506.06562",
+  "FIRSTINSTITUTE": "BYU",
+  "KEYWORD": "Outdoor, Hierarchical, LiDAR, Incremental, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{samuelson2025terrainawaretaskdriven,\n  title = {Towards Terrain-Aware Task-Driven 3D Scene Graph Generation in Outdoor Environments},\n  author = {Samuelson, Chad R and McLain, Timothy W and Mangelson, Joshua G},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

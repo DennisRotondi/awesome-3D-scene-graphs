@@ -1,0 +1,14 @@
+{
+  "TITLE": "Collaborative Dynamic 3D Scene Graphs for Open-Vocabulary Urban Scene Understanding",
+  "VENUE": "IROS25",
+  "DATE": "2025/03/11",
+  "AUTHOR": "Tim Steinke, Martin Büchner, Niclas Vödisch, Abhinav Valada",
+  "ABSTRACT": "Mapping and scene representation are fundamental to reliable planning and navigation in mobile robots. While purely geometric maps using voxel grids allow for general navigation, obtaining up-to-date spatial and semantically rich representations that scale to dynamic large-scale environments remains challenging. In this work, we present CURB-OSG, an open-vocabulary dynamic 3D scene graph engine that generates hierarchical decompositions of urban driving scenes via multi-agent collaboration. By fusing the camera and LiDAR observations from multiple perceiving agents with unknown initial poses, our approach generates more accurate maps compared to a single agent while constructing a unified open-vocabulary semantic hierarchy of the scene. Unlike previous methods that rely on ground truth agent poses or are evaluated purely in simulation, CURB-OSG alleviates these constraints. We evaluate the capabilities of CURB-OSG on real-world multi-agent sensor data obtained from multiple sessions of the Oxford Radar RobotCar dataset. We demonstrate improved mapping and object prediction accuracy through multi-agent collaboration as well as evaluate the environment partitioning capabilities of the proposed approach.",
+  "ARXIV": "https://arxiv.org/abs/2503.08474",
+  "FIRSTINSTITUTE": "UniFreiburg",
+  "KEYWORD": "Application, Open-Vocabulary, Outdoor, Navigation, Hierarchical, LiDAR, Incremental, Short-Term Dynamics",
+  "SITE": "https://ov-curb.cs.uni-freiburg.de/",
+  "CODE": "https://github.com/robot-learning-freiburg/CURB-OSG",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{steinke2025curbosg,\n  title = {Collaborative Dynamic 3D Scene Graphs for Open-Vocabulary Urban Scene Understanding},\n  author = {Steinke, Tim and Büchner, Martin and Vödisch, Niclas and Valada, Abhinav},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2025}\n}"
+}

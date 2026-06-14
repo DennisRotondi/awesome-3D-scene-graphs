@@ -1,0 +1,14 @@
+{
+  "TITLE": "Pixels-to-Graph: Real-time Integration of Building Information Models and Scene Graphs for Semantic-Geometric Human-Robot Understanding",
+  "VENUE": "CASE25",
+  "DATE": "2025/06/27",
+  "AUTHOR": "Antonello Longo, Chanyoung Chung, Matteo Palieri, Sung-Kyun Kim, Ali Agha, Cataldo Guaragnella, Shehryar Khattak",
+  "ABSTRACT": "Autonomous robots are increasingly playing key roles as support platforms for human operators in high-risk, dangerous applications. To accomplish challenging tasks, an efficient human-robot cooperation and understanding is required. While typically robotic planning leverages 3D geometric information, human operators are accustomed to a high-level compact representation of the environment, like top-down 2D maps representing the Building Information Model (BIM). 3D scene graphs have emerged as a powerful tool to bridge the gap between human readable 2D BIM and the robot 3D maps. In this work, we introduce Pixels-to-Graph (Pix2G), a novel lightweight method to generate structured scene graphs from image pixels and LiDAR maps in real-time for the autonomous exploration of unknown environments on resource-constrained robot platforms. To satisfy onboard compute constraints, the framework is designed to perform all operation on CPU only. The method output are a de-noised 2D top-down environment map and a structure-segmented 3D pointcloud which are seamlessly connected using a multi-layer graph abstracting information from object-level up to the building-level. The proposed method is quantitatively and qualitatively evaluated during real-world experiments performed using the NASA JPL NeBula-Spot legged robot to autonomously explore and map cluttered garage and urban office like environments in real-time.",
+  "ARXIV": "https://arxiv.org/abs/2506.22593",
+  "FIRSTINSTITUTE": "NASA",
+  "KEYWORD": "LiDAR, RGB-D, Hierarchical, Compression, Incremental",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{longo2025pixelstograph,\n  title = {Pixels-to-Graph: Real-time Integration of Building Information Models and Scene Graphs for Semantic-Geometric Human-Robot Understanding},\n  author = {Longo, Antonello and Chung, Chanyoung and Palieri, Matteo and Kim, Sung-Kyun and Agha, Ali and Guaragnella, Cataldo and Khattak, Shehryar},\n  booktitle = {Intl. Conf. on Automation Science and Engineering (CASE)},\n  year = {2025}\n}"
+}

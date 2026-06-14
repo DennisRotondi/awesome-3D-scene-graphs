@@ -1,0 +1,14 @@
+{
+  "TITLE": "Anticipatory Planning for Performant Long-Lived Robot in Large-Scale Home-Like Environments",
+  "VENUE": "ICRA25",
+  "DATE": "2024/11/19",
+  "AUTHOR": "Md Ridwan Hossain Talukder, Raihan Islam Arnob, Gregory J. Stein",
+  "ABSTRACT": "We consider the setting where a robot must complete a sequence of tasks in a persistent large-scale environment, given one at a time. Existing task planners often operate myopically, focusing solely on immediate goals without considering the impact of current actions on future tasks. Anticipatory planning, which reduces the joint objective of the immediate planning cost of the current task and the expected cost associated with future subsequent tasks, offers an approach for improving long-lived task planning. However, applying anticipatory planning in large-scale environments presents significant challenges due to the sheer number of assets involved, which strains the scalability of learning and planning. In this research, we introduce a model-based anticipatory task planning framework designed to scale to large-scale realistic environments. Our framework uses a GNN in particular via a representation inspired by a 3D Scene Graph to learn the essential properties of the environment crucial to estimating the state's expected cost and a sampling-based procedure for practical large-scale anticipatory planning. Our experimental results show that our planner reduces the cost of task sequence by 5.38% in home and 31.5% in restaurant settings. If given time to prepare in advance using our model reduces task sequence costs by 40.6% and 42.5%, respectively.",
+  "ARXIV": "https://arxiv.org/abs/2411.12837",
+  "FIRSTINSTITUTE": "GMU",
+  "KEYWORD": "Application, Indoor, Hierarchical, Planning",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{talukder2024anticipatoryplanning,\n  title = {Anticipatory Planning for Performant Long-Lived Robot in Large-Scale Home-Like Environments},\n  author = {Talukder, Md Ridwan Hossain and Arnob, Raihan Islam and Stein, Gregory J.},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2025}\n}"
+}

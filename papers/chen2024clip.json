@@ -1,0 +1,14 @@
+{
+  "TITLE": "CLIP-Driven Open-Vocabulary 3D Scene Graph Generation via Cross-Modality Contrastive Learning",
+  "VENUE": "CVPR24",
+  "DATE": "2024/06/10",
+  "AUTHOR": "Lianggangxu Chen, Xuejiao Wang, Jiale Lu, Shaohui Lin, Changbo Wang, Gaoqi He",
+  "ABSTRACT": "3D Scene Graph Generation (3DSGG) aims to classify objects and their predicates within 3D point cloud scenes. However, current 3DSGG methods struggle with two main challenges. 1) The dependency on labor-intensive groundtruth annotations. 2) Closed-set classes training hampers the recognition of novel objects and predicates. Addressing these issues, our idea is to extract cross-modality features by CLIP from text and image data naturally related to 3D point clouds. Cross-modality features are used to train a robust 3D scene graph (3DSG) feature extractor. Specifically, we propose a novel Cross-Modality Contrastive Learning 3DSGG (CCL-3DSGG) method. Firstly, to align the text with 3DSG, the text is parsed into word level that are consistent with the 3DSG annotation. To enhance robustness during the alignment, adjectives are exchanged for different objects as negative samples. Then, to align the image with 3DSG, the camera view is treated as a positive sample and other views as negatives. Lastly, the recognition of novel object and predicate classes is achieved by calculating the cosine similarity between prompts and 3DSG features. Our rigorous experiments confirm the superior open-vocabulary capability and applicability of CCL-3DSGG in real-world contexts.",
+  "ARXIV": "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_CLIP-Driven_Open-Vocabulary_3D_Scene_Graph_Generation_via_Cross-Modality_Contrastive_Learning_CVPR_2024_paper.pdf",
+  "FIRSTINSTITUTE": "ECNU",
+  "KEYWORD": "Open-Vocabulary, Pre-Built PCD, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{chen2024clip,\n  title = {CLIP-Driven Open-Vocabulary 3D Scene Graph Generation via Cross-Modality Contrastive Learning},\n  author = {Chen, Lianggangxu and Wang, Xuejiao and Lu, Jiale and Lin, Shaohui and Wang, Changbo and He, Gaoqi},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2024}\n}"
+}

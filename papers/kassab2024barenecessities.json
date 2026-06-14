@@ -1,0 +1,14 @@
+{
+  "TITLE": "The Bare Necessities: Designing Simple, Effective Open-Vocabulary Scene Graphs",
+  "VENUE": "arXiv24",
+  "DATE": "2024/12/02",
+  "AUTHOR": "Christina Kassab, Matías Mattamala, Sacha Morin, Martin Büchner, Abhinav Valada, Liam Paull, Maurice Fallon",
+  "ABSTRACT": "3D open-vocabulary scene graph methods are a promising map representation for embodied agents, however many current approaches are computationally expensive. In this paper, we reexamine the critical design choices established in previous works to optimize both efficiency and performance. We propose a general scene graph framework and conduct three studies that focus on image pre-processing, feature fusion, and feature selection. Our findings reveal that commonly used image pre-processing techniques provide minimal performance improvement while tripling computation (on a per object view basis). We also show that averaging feature labels across different views significantly degrades performance. We study alternative feature selection strategies that enhance performance without adding unnecessary computational costs. Based on our findings, we introduce a computationally balanced approach for 3D point cloud segmentation with per-object features. The approach matches state-of-the-art classification accuracy while achieving a threefold reduction in computation.",
+  "ARXIV": "https://arxiv.org/abs/2412.01539",
+  "FIRSTINSTITUTE": "Oxford",
+  "KEYWORD": "Indoor, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{kassab2024barenecessities,\n  title = {The Bare Necessities: Designing Simple, Effective Open-Vocabulary Scene Graphs},\n  author = {Kassab, Christina and Mattamala, Matías and Morin, Sacha and Büchner, Martin and Valada, Abhinav and Paull, Liam and Fallon, Maurice},\n  archivePrefix = {arXiv preprint},\n  year = {2024}\n}"
+}

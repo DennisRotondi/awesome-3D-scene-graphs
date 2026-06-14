@@ -1,0 +1,14 @@
+{
+  "TITLE": "Graph2Nav: 3D Object-Relation Graph Generation to Robot Navigation",
+  "VENUE": "arXiv25",
+  "DATE": "2025/04/23",
+  "AUTHOR": "Tixiao Shan, Abhinav Rajvanshi, Niluthpol Mithun, Han-Pang Chiu",
+  "ABSTRACT": "We propose Graph2Nav, a real-time 3D object-relation graph generation framework, for autonomous navigation in the real world. Our framework fully generates and exploits both 3D objects and a rich set of semantic relationships among objects in a 3D layered scene graph, which is applicable to both indoor and outdoor scenes. It learns to generate 3D semantic relations among objects, by leveraging and advancing state-of-the-art 2D panoptic scene graph works into the 3D world via 3D semantic mapping techniques. This approach avoids previous training data constraints in learning 3D scene graphs directly from 3D data. We conduct experiments to validate the accuracy in locating 3D objects and labeling object-relations in our 3D scene graphs. We also evaluate the impact of Graph2Nav via integration with SayNav, a state-of-the-art planner based on large language models, on an unmanned ground robot to object search tasks in real environments. Our results demonstrate that modeling object relations in our scene graphs improves search efficiency in these navigation tasks.",
+  "ARXIV": "https://arxiv.org/abs/2504.16782",
+  "FIRSTINSTITUTE": "SRI",
+  "KEYWORD": "Application, Navigation, Real-Time, Indoor, Outdoor, Hierarchical, SLAM, LLM",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{shan2025graph2nav,\n  title = {Graph2Nav: 3D Object-Relation Graph Generation to Robot Navigation},\n  author = {Shan, Tixiao and Rajvanshi, Abhinav and Mithun, Niluthpol and Chiu, Han-Pang},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

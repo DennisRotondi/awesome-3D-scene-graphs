@@ -1,0 +1,14 @@
+{
+  "TITLE": "MR-COGraphs: Communication-efficient Multi-Robot Open-vocabulary Mapping System via 3D Scene Graphs",
+  "VENUE": "IROS25",
+  "DATE": "2024/12/24",
+  "AUTHOR": "Qiuyi Gu, Zhaocheng Ye, Jincheng Yu, Jiahao Tang, Tinghao Yi, Yuhan Dong, Jian Wang, Jinqiang Cui, Xinlei Chen, Yu Wang",
+  "ABSTRACT": "Collaborative perception in unknown environments is crucial for multi-robot systems. With the emergence of foundation models, robots can now not only perceive geometric information but also achieve open-vocabulary scene understanding. However, existing map representations that support open-vocabulary queries often involve large data volumes, which becomes a bottleneck for multi-robot transmission in communication-limited environments. To address this challenge, we develop a method to construct a graph-structured 3D representation called COGraph, where nodes represent objects with semantic features and edges capture their spatial adjacency relationships. Before transmission, a data-driven feature encoder is applied to compress the feature dimensions of the COGraph. Upon receiving COGraphs from other robots, the semantic features of each node are recovered using a decoder. We also propose a feature-based approach for place recognition and translation estimation, enabling the merging of local COGraphs into a unified global map. We validate our framework on two realistic datasets and the real-world environment. The results demonstrate that, compared to existing baselines for open-vocabulary map construction, our framework reduces the data volume by over 80\\% while maintaining mapping and query performance without compromise.",
+  "ARXIV": "https://arxiv.org/abs/2412.18381",
+  "FIRSTINSTITUTE": "THU",
+  "KEYWORD": "Multi-Robot, Open-Vocabulary, SLAM, RGB-D, Compression, Indoor",
+  "SITE": "",
+  "CODE": "https://github.com/efc-robot/MR-COGraphs",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{gu2025mrcographs,\n  title = {MR-COGraphs: Communication-efficient Multi-Robot Open-vocabulary Mapping System via 3D Scene Graphs},\n  author = {Gu, Qiuyi and Ye, Zhaocheng and Yu, Jincheng and Tang, Jiahao and Yi, Tinghao and Dong, Yuhan and Wang, Jian and Cui, Jinqiang and Chen, Xinlei and Wang, Yu},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2025}\n}"
+}

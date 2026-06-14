@@ -1,0 +1,14 @@
+services:
+  website:
+    image: 3dsgwebsite:latest
+    build:
+      context: ./website
+      dockerfile: .devcontainer/Dockerfile
+    container_name: website
+    restart: always
+    volumes:
+      - ./website:/app
+      - /app/node_modules
+      - ./papers:/app/src/assets/papers
+    ports:
+      - "5173:5173"

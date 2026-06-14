@@ -1,0 +1,14 @@
+{
+  "TITLE": "Pandora: Articulated 3D Scene Graphs from Egocentric Vision",
+  "VENUE": "BMVC25",
+  "DATE": "2025/11/26",
+  "AUTHOR": "Alan Yu, Yun Chang, Christopher Xie, Luca Carlone",
+  "ABSTRACT": "Robotic mapping systems typically approach building metric-semantic scene representations from the robot’s own sensors and cameras. However, these “first person” maps inherit the robot’s own limitations due to its embodiment or skillset, which may leave many aspects of the environment unexplored. For example, the robot might not be able to open drawers or access wall cabinets. In this sense, the map representation is not as complete and requires a more capable robot to fill in the gaps. We narrow these blind spots in current methods by leveraging egocentric data captured as a human naturally explores a scene wearing Project Aria glasses [7], giving a way to directly transfer knowledge about articulation from the human to any deployable robot. We demonstrate that, by using simple heuristics, we can leverage egocentric data to recover models of articulate object parts with quality comparable to those of state-of-the-art methods based on other input modalities. We also show how to integrate these models into 3D scene graph representations, leading to a better understanding of object dynamics and object-container relationships. We finally demonstrate that these articulated 3D scene graphs enhance a robot’s ability to perform mobile manipulation tasks, showcasing an application where a Boston Dynamics Spot is tasked with retrieving concealed target items, given only the 3D scene graph as input.",
+  "ARXIV": "https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_548/paper.pdf",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, RGB-D, Manipulation, LLM",
+  "SITE": "https://alany1.github.io/#",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{yu2025articulated3Dsg,\n  title = {Pandora: Articulated 3D Scene Graphs from Egocentric Vision},\n  author = {Yu, Alan and Chang, Yun and Xie, Christopher and Carlone, Luca},\n  booktitle = {British Machine Vision Conf. (BMVC)},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "Human Interaction for Collaborative Semantic SLAM using Extended Reality",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/18",
+  "AUTHOR": "Laura Ribeiro, Muhammad Shaheer, Miguel Fernandez-Cortizas, Ali Tourani, Holger Voos, Jose Luis Sanchez-Lopez",
+  "ABSTRACT": "Semantic SLAM (Simultaneous Localization and Mapping) systems enrich robot maps with structural and semantic information, enabling robots to operate more effectively in complex environments. However, these systems struggle in real-world scenarios with occlusions, incomplete data, or ambiguous geometries, as they cannot fully leverage the higher-level spatial and semantic knowledge humans naturally apply. We introduce HICS-SLAM, a Human-in-the-Loop semantic SLAM framework that uses a shared extended reality environment for real-time collaboration. The system allows human operators to directly interact with and visualize the robot's 3D scene graph, and add high-level semantic concepts (e.g., rooms or structural entities) into the mapping process. We propose a graph-based semantic fusion methodology that integrates these human interventions with robot perception, enabling scalable collaboration for enhanced situational awareness. Experimental evaluations on real-world construction site datasets demonstrate improvements in room detection accuracy, map precision, and semantic completeness compared to automated baselines, demonstrating both the effectiveness of the approach and its potential for future extensions.",
+  "ARXIV": "https://arxiv.org/abs/2509.14949",
+  "FIRSTINSTITUTE": "UniLu",
+  "KEYWORD": "Application, SLAM, XR, Indoor, Humans, Hierarchical, LiDAR, Incremental",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{ribeiro2025collaborativeslam,\n  title = {Human Interaction for Collaborative Semantic SLAM using Extended Reality},\n  author = {Ribeiro, Laura and Shaheer, Muhammad and Fernandez-Cortizas, Miguel and Tourani, Ali and Voos, Holger and Sanchez-Lopez, Jose Luis},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

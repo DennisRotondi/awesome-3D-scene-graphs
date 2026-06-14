@@ -1,0 +1,14 @@
+{
+  "TITLE": "Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation",
+  "VENUE": "arXiv25",
+  "DATE": "2024/09/26",
+  "AUTHOR": "Quanting Xie, So Yeon Min, Pengliang Ji, Yue Yang, Tianyi Zhang, Kedi Xu, Aarav Bajaj, Ruslan Salakhutdinov, Matthew Johnson-Roberson, Yonatan Bisk",
+  "ABSTRACT": "There is no limit to how much a robot might explore and learn, but all of that knowledge needs to be searchable and actionable. Within language research, retrieval augmented generation (RAG) has become the workhorse of large-scale non-parametric knowledge; however, existing techniques do not directly transfer to the embodied domain, which is multimodal, where data is highly correlated, and perception requires abstraction. To address these challenges, we introduce Embodied-RAG, a framework that enhances the foundational model of an embodied agent with a non-parametric memory system capable of autonomously constructing hierarchical knowledge for both navigation and language generation. Embodied-RAG handles a full range of spatial and semantic resolutions across diverse environments and query types, whether for a specific object or a holistic description of ambiance. At its core, Embodied-RAG's memory is structured as a semantic forest, storing language descriptions at varying levels of detail. This hierarchical organization allows the system to efficiently generate context-sensitive outputs across different robotic platforms. We demonstrate that Embodied-RAG effectively bridges RAG to the robotics domain, successfully handling over 250 explanation and navigation queries across kilometer-level environments, highlighting its promise as a general-purpose non-parametric system for embodied agents.",
+  "ARXIV": "https://arxiv.org/abs/2409.18313",
+  "FIRSTINSTITUTE": "CMU",
+  "KEYWORD": "Application, LLM, Outdoor, Hierarchical, Incremental, SUN",
+  "SITE": "https://quanting-xie.github.io/Embodied-RAG-web/",
+  "CODE": "",
+  "VIDEO": "youtube.com/watch?v=UQdzX1G1-9o&embeds_referring_euri=https%3A%2F%2Fquanting-xie.github.io%2F&source_ve_path=MjM4NTE",
+  "BIBTEX": "@misc{xie2024embodiedrag,\n  title = {Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation},\n  author = {Xie, Quanting and Min, So Yeon and Ji, Pengliang and Yang, Yue and Zhang, Tianyi and Xu, Kedi and Bajaj, Aarav and Salakhutdinov, Ruslan and Johnson-Roberson, Matthew and Bisk, Yonatan},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

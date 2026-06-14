@@ -1,0 +1,61 @@
+/* Hide page scrollbar but allow scrolling */
+@import "tailwindcss";
+html, body, #root  {
+  height: 100%;
+  margin: 0;
+  font-family: 'Ubuntu Sans', sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  overflow: auto;              /* keep scrolling */
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* Old IE/Edge */
+}
+
+/* Chrome, Safari, Edge (Chromium) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Use sparingly—hides ALL element scrollbars */
+* { scrollbar-width: none; }
+*::-webkit-scrollbar { display: none; }
+
+/* website palette #D6A99D #FBF3D5 #D6DAC8 #9CAFAA*/
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1200px; 
+}
+
+.base_container {
+    max-width: 800px;
+}
+
+/* Drop the click/focus outline + box-shadow for mouse/touch users, but keep
+   it for keyboard navigation (:focus-visible) so accessibility is preserved. */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+.btn:focus:not(:focus-visible),
+.nav-link:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Prevent the "cheap" drag-ghost when a link or image is dragged
+   (text stays selectable). */
+a,
+img {
+  -webkit-user-drag: none;
+}
+
+/* Don't let a click on an interactive control select its label text
+   (e.g. clicking the "reviewed" filter). Body/article text stays selectable. */
+button,
+.btn,
+label,
+.nav-link,
+.form-check-label {
+  -webkit-user-select: none;
+  user-select: none;
+}

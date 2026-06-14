@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hyperrectangle Embedding for Debiased 3D Scene Graph Prediction From RGB Sequences",
+  "VENUE": "PAMI25",
+  "DATE": "2025/04/11",
+  "AUTHOR": "Mingtao Feng, Chenbo Yan, Zijie Wu, Weisheng Dong, Yaonan Wang, Ajmal Mian",
+  "ABSTRACT": "3D scene graph has emerged as a powerful high-level representation of the environment and is regarded as a prerequisite for long-term autonomous robotic operations. A practical research problem here is to predict the 3D scene graph from sequentially captured data. However, existing methods neglect the polysemy of semantic roles that coarse feature vectors are insufficient to represent entities in different relationship semantics. This extremely limits their capability to predict relationships. We propose an approach to tackle the aforementioned challenge by introducing a novel representation, the hyperrectangle embedding, which represents entity using distinctive geometry for more effective scene understanding, rather than learning within vector-based feature with blindly increasing dimensions. By incorporating an entity within two affine-transformed embeddings, each representing either the subject or object and characterized by separate learnable transformations, we achieve the polysemy of semantic roles. The intersections of affine-transformed hyperrectangle embeddings represent the bidirectional relationship between two entities. We identify bias and reliability as two challenges impeding the model learning process. In response to the bias, that arises from long-tailed distributions in the data, we propose a history-guided debiasing strategy that utilizes a confusion history block comprised of previous hyperrectangle embeddings. This strategy mitigates inherent biases by extracting pertinent information and facilitating knowledge transfer from dominant categories to rare ones. To enhance the reliability of predictions, we introduce predictive uncertainty into the 3D scene graph prediction task. We develop a post-hoc reliability enhancement strategy to identify potentially unreliable predictions and subsequently enhance the model's predictive accuracy. Extensive experiments on the 3DSSG dataset show the effectiveness of the proposed method in this challenging task, outperforming existing state-of-the-art.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/10963728",
+  "FIRSTINSTITUTE": "XDU",
+  "KEYWORD": "RGB-D, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{feng2025hyperrectangleembedding,\n  title = {Hyperrectangle Embedding for Debiased 3D Scene Graph Prediction From RGB Sequences},\n  author = {Feng, Mingtao and Yan, Chenbo and Wu, Zijie and Dong, Weisheng and Wang, Yaonan and Mian, Ajmal},\n  journal = {IEEE Trans. Pattern Anal. Machine Intell.},\n  year = {2025}\n}"
+}

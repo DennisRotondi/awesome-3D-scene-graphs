@@ -1,0 +1,14 @@
+{
+  "TITLE": "Situational Graphs for Robot Navigation in Structured Indoor Environments",
+  "VENUE": "RAL22",
+  "DATE": "2022/02/24",
+  "AUTHOR": "Hriday Bavle, Jose Luis Sanchez-Lopez, Muhammad Shaheer, Javier Civera, Holger Voos",
+  "ABSTRACT": "Mobile robots should be aware of their situation, comprising the deep understanding of their surrounding environment along with the estimation of its own state, to successfully make intelligent decisions and execute tasks autonomously in real environments. 3D scene graphs are an emerging field of research that propose to represent the environment in a joint model comprising geometric, semantic and relational/topological dimensions. Although 3D scene graphs have already been combined with SLAM techniques to provide robots with situational understanding, further research is still required to effectively deploy them on-board mobile robots. To this end, we present in this paper a novel, real-time, online built Situational Graph (S-Graph), which combines in a single optimizable graph, the representation of the environment with the aforementioned three dimensions, together with the robot pose. Our method utilizes odometry readings and planar surfaces extracted from 3D LiDAR scans, to construct and optimize in real-time a three layered S-Graph that includes (1) a robot tracking layer where the robot poses are registered, (2) a metric-semantic layer with features such as planar walls and (3) our novel topological layer constraining the planar walls using higher-level features such as corridors and rooms. Our proposal does not only demonstrate state-of-the-art results for pose estimation of the robot, but also contributes with a metric-semantic-topological model of the environment",
+  "ARXIV": "http://arxiv.org/abs/2202.12197v2",
+  "FIRSTINSTITUTE": "UniLu",
+  "KEYWORD": "Application, Hierarchical, LiDAR, Navigation, SLAM, Indoor, Incremental, Real-Time",
+  "SITE": "https://snt-arg.github.io/s_graphs_docker/",
+  "CODE": "https://github.com/snt-arg/lidar_situational_graphs",
+  "VIDEO": "",
+  "BIBTEX": "@article{bavle2022situational,\n  title = {Situational Graphs for Robot Navigation in Structured Indoor Environments},\n  author = {Bavle, Hriday and Sanchez-Lopez, Jose Luis and Shaheer, Muhammad and Civera, Javier and Voos, Holger},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2022}\n}"
+}

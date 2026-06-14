@@ -1,0 +1,14 @@
+{
+  "TITLE": "HCOA*: Hierarchical Class-ordered A* for Navigation in Semantic Environments",
+  "VENUE": "arXiv25",
+  "DATE": "2025/05/06",
+  "AUTHOR": "Evangelos Psomiadis, Panagiotis Tsiotras",
+  "ABSTRACT": "This paper addresses the problem of robot navigation in mixed geometric/semantic 3D environments. Given a hierarchical representation of the environment, the objective is to navigate from a start position to a goal, while satisfying task-specific safety constraints and minimizing computational cost. We introduce Hierarchical Class-ordered A* (HCOA*), an algorithm that leverages the environment's hierarchy for efficient and safe path-planning in mixed geometric/semantic graphs. We use a total order over the semantic classes and prove theoretical performance guarantees for the algorithm. We propose three approaches for higher-layer node classification based on the semantics of the lowest layer: a Graph Neural Network method, a k-Nearest Neighbors method, and a Majority-Class method. We evaluate HCOA* in simulations on two 3D Scene Graphs, comparing it to the state-of-the-art and assessing the performance of each classification approach. Results show that HCOA* reduces the computational time of navigation by up to 50%, while maintaining near-optimal performance across a wide range of scenarios.",
+  "ARXIV": "https://arxiv.org/abs/2505.03128",
+  "FIRSTINSTITUTE": "GATECH",
+  "KEYWORD": "Application, Navigation, Hierarchical, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{psomiadis2025hcoa,\n  title = {HCOA*: Hierarchical Class-ordered A* for Navigation in Semantic Environments},\n  author = {Psomiadis, Evangelos and Tsiotras, Panagiotis},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

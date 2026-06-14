@@ -1,0 +1,14 @@
+{
+  "TITLE": "Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds",
+  "VENUE": "ECCV24",
+  "DATE": "2024/10/29",
+  "AUTHOR": "Yanni Ma, Hao Liu, Yun Pei, Yulan Guo",
+  "ABSTRACT": "D Scene Graph Prediction (SGP) aims to recognize the objects and predict their semantic and spatial relationships in a 3D scene. Existing methods either exploit context information or emphasize knowledge prior to model the scene graph in a fully-connected homogeneous graph framework. However, these methods may lead to indiscriminate message passing among graph nodes (i.e., objects), resulting in sub-optimal performance. In this paper, we propose a 3D Heterogeneous Scene Graph Prediction (3D-HetSGP) framework, which performs graph reasoning on the 3D scene graph in a heterogeneous fashion. Specifically, our method consists of two stages: a heterogeneous graph structure learning (HGSL) stage and a heterogeneous graph reasoning (HGR) stage. In the HGSL stage, we learn the graph structure by predicting the types of different directed edges. In the HGR stage, message passing among nodes is performed on the learned graph structure for scene graph prediction. Extensive experiments show that our method achieves comparable or superior performance to existing methods on 3DSSG dataset.",
+  "ARXIV": "https://eccv.ecva.net/virtual/2024/poster/951",
+  "FIRSTINSTITUTE": "SYSU",
+  "KEYWORD": "Pre-Built PCD, Indoor",
+  "SITE": "",
+  "CODE": "https://github.com/Anne-Yanni-Ma/3DHetSGP",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{ma2025heterogeneousgraphlearning,\n  title = {Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds},\n  author = {Ma, Yanni and Liu, Hao and Pei, Yun and Guo, Yulan},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2024}\n}"
+}

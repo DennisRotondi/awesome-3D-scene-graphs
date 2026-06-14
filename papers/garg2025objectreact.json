@@ -1,0 +1,14 @@
+{
+  "TITLE": "ObjectReact: Learning Object-Relative Control for Visual Navigation",
+  "VENUE": "CoRL25",
+  "DATE": "2025/09/11",
+  "AUTHOR": "Sourav Garg, Dustin Craggs, Vineeth Bhat, Lachlan Mares, Stefan Podgorski, Madhava Krishna, Feras Dayoub, Ian Reid",
+  "ABSTRACT": "Visual navigation using only a single camera and a topological map has recently become an appealing alternative to methods that require additional sensors and 3D maps. This is typically achieved through an \"image-relative\" approach to estimating control from a given pair of current observation and subgoal image. However, image-level representations of the world have limitations because images are strictly tied to the agent's pose and embodiment. In contrast, objects, being a property of the map, offer an embodiment- and trajectory-invariant world representation. In this work, we present a new paradigm of learning \"object-relative\" control that exhibits several desirable characteristics: a) new routes can be traversed without strictly requiring to imitate prior experience, b) the control prediction problem can be decoupled from solving the image matching problem, and c) high invariance can be achieved in cross-embodiment deployment for variations across both training-testing and mapping-execution settings. We propose a topometric map representation in the form of a \"relative\" 3D scene graph, which is used to obtain more informative object-level global path planning costs. We train a local controller, dubbed \"ObjectReact\", conditioned directly on a high-level \"WayObject Costmap\" representation that eliminates the need for an explicit RGB input. We demonstrate the advantages of learning object-relative control over its image-relative counterpart across sensor height variations and multiple navigation tasks that challenge the underlying spatial understanding capability, e.g., navigating a map trajectory in the reverse direction. We further show that our sim-only policy is able to generalize well to real-world indoor environments.",
+  "ARXIV": "https://arxiv.org/abs/2509.09594",
+  "FIRSTINSTITUTE": "UniAdelaide",
+  "KEYWORD": "Application, Navigation, Policy, RGB-D, Incremental, Indoor, Open-Vocabulary",
+  "SITE": "https://object-react.github.io/",
+  "CODE": "https://github.com/oravus/object-rel-nav",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{garg2025objectreact,\n  title = {ObjectReact: Learning Object-Relative Control for Visual Navigation},\n  author = {Garg, Sourav and Craggs, Dustin and Bhat, Vineeth and Mares, Lachlan and Podgorski, Stefan and Krishna, Madhava and Dayoub, Feras and Reid, Ian},\n  booktitle = {Conf. on Robot Learning (CoRL)},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "SayCoNav: Utilizing Large Language Models for Adaptive Collaboration in Decentralized Multi-Robot Navigation",
+  "VENUE": "arXiv25",
+  "DATE": "2025/05/19",
+  "AUTHOR": "Abhinav Rajvanshi, Pritish Sahu, Tixiao Shan, Karan Sikka, Han-Pang Chiu",
+  "ABSTRACT": "Adaptive collaboration is critical to a team of autonomous robots to perform complicated navigation tasks in large-scale unknown environments. An effective collaboration strategy should be determined and adapted according to each robot's skills and current status to successfully achieve the shared goal. We present SayCoNav, a new approach that leverages large language models (LLMs) for automatically generating this collaboration strategy among a team of robots. Building on the collaboration strategy, each robot uses the LLM to generate its plans and actions in a decentralized way. By sharing information to each other during navigation, each robot also continuously updates its step-by-step plans accordingly. We evaluate SayCoNav on Multi-Object Navigation (MultiON) tasks, that require the team of the robots to utilize their complementary strengths to efficiently search multiple different objects in unknown environments. By validating SayCoNav with varied team compositions and conditions against baseline methods, our experimental results show that SayCoNav can improve search efficiency by at most 44.28% through effective collaboration among heterogeneous robots. It can also dynamically adapt to the changing conditions during task execution.",
+  "ARXIV": "https://arxiv.org/abs/2505.13729",
+  "FIRSTINSTITUTE": "SRI",
+  "KEYWORD": "Application, LLM, Navigation, Multi-Robot, RGB-D, Indoor, Planning",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{rajvanshi2025sayconav,\n  title = {SayCoNav: Utilizing Large Language Models for Adaptive Collaboration in Decentralized Multi-Robot Navigation},\n  author = {Rajvanshi, Abhinav and Sahu, Pritish and Shan, Tixiao and Sikka, Karan and Chiu, Han-Pang},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "GraphMapper: Efficient Visual Navigation by Scene Graph Generation",
+  "VENUE": "ICPR22",
+  "DATE": "2022/05/17",
+  "AUTHOR": "Zachary Seymour, Niluthpol Chowdhury Mithun, Han-Pang Chiu, Supun Samarasekera, Rakesh Kumar",
+  "ABSTRACT": "Understanding the geometric relationships between objects in a scene is a core capability in enabling both humans and autonomous agents to navigate in new environments. A sparse, unified representation of the scene topology will allow agents to act efficiently to move through their environment, communicate the environment state with others, and utilize the representation for diverse downstream tasks. To this end, we propose a method to train an autonomous agent to learn to accumulate a 3D scene graph representation of its environment by simultaneously learning to navigate through said environment. We demonstrate that our approach, GraphMapper, enables the learning of effective navigation policies through fewer interactions with the environment than vision-based systems alone. Further, we show that GraphMapper can act as a modular scene encoder to operate alongside existing Learning-based solutions to not only increase navigational efficiency but also generate intermediate scene representations that are useful for other future tasks.",
+  "ARXIV": "https://arxiv.org/abs/2205.08325",
+  "FIRSTINSTITUTE": "SRI",
+  "KEYWORD": "Application, Navigation, Indoor",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{seymour2022graphmapper,\n  title = {GraphMapper: Efficient Visual Navigation by Scene Graph Generation},\n  author = {Seymour, Zachary and Mithun, Niluthpol Chowdhury and Chiu, Han-Pang and Samarasekera, Supun and Kumar, Rakesh},\n  booktitle = {Intl. Conf. on Pattern Recognition (ICPR)},\n  year = {2022}\n}"
+}

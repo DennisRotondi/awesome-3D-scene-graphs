@@ -1,0 +1,14 @@
+{
+  "TITLE": "3D Scene Graphs in Robotics: A Unified Representation Bridging Geometry, Semantics, and Action",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/19",
+  "AUTHOR": "Iacopo Catalano, Carlos Cueto Zumaya, Julio A Placed, Javier Civera, Wallace Moreira Bessa, Jorge Peña-Queralta",
+  "ABSTRACT": "3D Scene Graphs (3DSGs) have emerged as a powerful representation for robotic perception and reasoning, capturing not only the geometric layout of the environment but also its semantic and relational structure. By organizing objects, places, and agents within structured graphs, 3DSGs provide a rich abstraction layer that enables a wide range of robotic tasks, from navigation and manipulation to interaction and planning. In this survey, we present a comprehensive overview of current approaches for constructing, maintaining and querying 3DSGs, along with a historical perspective and an in-depth review of the literature. We propose a unified formulation of the 3DSG construction problem and analyze the dominant architectural and algorithmic choices, including modular pipelines, end-toend learning strategies, and open-vocabulary methods. The paper concludes with a discussion of emerging trends, open challenges, and opportunities for future work in 3DSG representations and multi-agent collaboration, and beyond.",
+  "ARXIV": "https://www.techrxiv.org/users/953209/articles/1322462-3d-scene-graphs-in-robotics-a-unified-representation-bridging-geometry-semantics-and-action",
+  "FIRSTINSTITUTE": "UTU",
+  "KEYWORD": "",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{catalano20253dsginrobotics,\n  title = {3D Scene Graphs in Robotics: A Unified Representation Bridging Geometry, Semantics, and Action},\n  author = {Catalano, Iacopo and Zumaya, Carlos Cueto and Placed, Julio A and Civera, Javier and Bessa, Wallace Moreira and Peña-Queralta, Jorge},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

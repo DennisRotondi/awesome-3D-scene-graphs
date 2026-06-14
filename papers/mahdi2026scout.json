@@ -1,0 +1,14 @@
+{
+  "TITLE": "Relational Semantic Reasoning on 3D Scene Graphs for Open World Interactive Object Search",
+  "VENUE": "arXiv26",
+  "DATE": "2026/03/05",
+  "AUTHOR": "Imen Mahdi, Matteo Cassinelli, Fabien Despinoy, Tim Welschehold, Abhinav Valada",
+  "ABSTRACT": "Open-world interactive object search in household environments requires understanding semantic relationships between objects and their surrounding context to guide exploration efficiently. Prior methods either rely on vision-language embeddings similarity, which does not reliably capture task-relevant relational semantics, or large language models (LLMs), which are too slow and costly for real-time deployment. We introduce SCOUT: Scene Graph-Based Exploration with Learned Utility for Open-World Interactive Object Search, a novel method that searches directly over 3D scene graphs by assigning utility scores to rooms, frontiers, and objects using relational exploration heuristics such as room-object containment and object-object co-occurrence. To make this practical without sacrificing open-vocabulary generalization, we propose an offline procedural distillation framework that extracts structured relational knowledge from LLMs into lightweight models for on-robot inference. Furthermore, we present SymSearch, a scalable symbolic benchmark for evaluating semantic reasoning in interactive object search tasks. Extensive evaluations across symbolic and simulation environments show that SCOUT outperforms embedding similarity-based methods and matches LLM-level performance while remaining computationally efficient. Finally, real-world experiments demonstrate effective transfer to physical environments, enabling open-world interactive object search under realistic sensing and navigation constraints.",
+  "ARXIV": "https://arxiv.org/abs/2603.05642",
+  "FIRSTINSTITUTE": "UniFreiburg",
+  "KEYWORD": "Application, Navigation, LLM, Hierarchical, Indoor, RGB-D, Planning, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{mahdi2026scout,\n  title = {Relational Semantic Reasoning on 3D Scene Graphs for Open World Interactive Object Search},\n  author = {Mahdi, Imen and Cassinelli, Matteo and Despinoy, Fabien and Welschehold, Tim and Valada, Abhinav},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+}

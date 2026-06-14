@@ -1,0 +1,14 @@
+{
+  "TITLE": "OpenGraph: Open-Vocabulary Hierarchical 3D Graph Representation in Large-Scale Outdoor Environments",
+  "VENUE": "RAL24",
+  "DATE": "2024/03/14",
+  "AUTHOR": "Yinan Deng, Jiahui Wang, Jingyu Zhao, Xinyu Tian, Guangyan Chen, Yi Yang, Yufeng Yue",
+  "ABSTRACT": "Environment representations endowed with sophisticated semantics are pivotal for facilitating seamless interaction between robots and humans, enabling them to effectively carry out various tasks. Open-vocabulary maps, powered by Visual-Language models (VLMs), possess inherent advantages, including zero-shot learning and support for open-set classes. However, existing open-vocabulary maps are primarily designed for small-scale environments, such as desktops or rooms, and are typically geared towards limited-area tasks involving robotic indoor navigation or in-place manipulation. They face challenges in direct generalization to outdoor environments characterized by numerous objects and complex tasks, owing to limitations in both understanding level and map structure. In this work, we propose OpenGraph, the first open-vocabulary hierarchical graph representation designed for large-scale outdoor environments. OpenGraph initially extracts instances and their captions from visual images, enhancing textual reasoning by encoding them. Subsequently, it achieves 3D incremental object-centric mapping with feature embedding by projecting images onto LiDAR point clouds. Finally, the environment is segmented based on lane graph connectivity to construct a hierarchical graph. Validation results from public dataset SemanticKITTI demonstrate that OpenGraph achieves the highest segmentation and query accuracy.",
+  "ARXIV": "https://arxiv.org/abs/2403.09412",
+  "FIRSTINSTITUTE": "BIT",
+  "KEYWORD": "Application, Open-Vocabulary, Hierarchical, Outdoor, LiDAR, RGB-D, SUN",
+  "SITE": "",
+  "CODE": "https://github.com/BIT-DYN/OpenGraph",
+  "VIDEO": "",
+  "BIBTEX": "@article{deng2024opengraph,\n  title = {OpenGraph: Open-Vocabulary Hierarchical 3D Graph Representation in Large-Scale Outdoor Environments},\n  author = {Deng, Yinan and Wang, Jiahui and Zhao, Jingyu and Tian, Xinyu and Chen, Guangyan and Yang, Yi and Yue, Yufeng},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2024}\n}"
+}

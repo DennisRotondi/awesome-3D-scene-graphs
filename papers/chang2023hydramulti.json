@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hydra-Multi: Collaborative Online Construction of 3D Scene Graphs with Multi-Robot Teams",
+  "VENUE": "IROS23",
+  "DATE": "2023/04/26",
+  "AUTHOR": "Yun Chang, Nathan Hughes, Aaron Ray, Luca Carlone",
+  "ABSTRACT": "3D scene graphs have recently emerged as an expressive high-level map representation that describes a 3D environment as a layered graph where nodes represent spatial concepts at multiple levels of abstraction (e.g., objects, rooms, buildings) and edges represent relations between concepts (e.g., inclusion, adjacency). This paper describes Hydra-Multi, the first multi-robot spatial perception system capable of constructing a multi-robot 3D scene graph online from sensor data collected by robots in a team. In particular, we develop a centralized system capable of constructing a joint 3D scene graph by taking incremental inputs from multiple robots, effectively finding the relative transforms between the robots' frames, and incorporating loop closure detections to correctly reconcile the scene graph nodes from different robots. We evaluate Hydra-Multi on simulated and real scenarios and show it is able to reconstruct accurate 3D scene graphs online. We also demonstrate Hydra-Multi's capability of supporting heterogeneous teams by fusing different map representations built by robots with different sensor suites.",
+  "ARXIV": "https://arxiv.org/abs/2304.13487",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Multi-Robot, Hierarchical, RGB-D, Real-Time, SLAM, Indoor, Incremental",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{chang2023hydramulti,\n  title = {Hydra-Multi: Collaborative Online Construction of 3D Scene Graphs with Multi-Robot Teams},\n  author = {Chang, Yun and Hughes, Nathan and Ray, Aaron and Carlone, Luca},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2023}\n}"
+}

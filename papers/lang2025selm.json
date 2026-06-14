@@ -1,0 +1,14 @@
+{
+  "TITLE": "SELM: From Efficient Autonomous Exploration to Long-term Monitoring in Semantic Level",
+  "VENUE": "TCDS25",
+  "DATE": "2025/08/04",
+  "AUTHOR": "Fang Lang, Yongsen Qin, Yinchuan Wang, Jin Liu, Chaoqun Wang, Wei Song",
+  "ABSTRACT": "Maintaining up-to-date environmental models from initial deployment through long-term autonomy in service is critical for applications such as navigation and task planning. To address the challenges of persistent monitoring in unknown environments, we introduce a two-stage monitoring strategy, termed the semantic-level autonomous exploration and long-term environment monitoring (SELM) framework. In the first stage, we introduce a novel semantic exploration method to adapt to new environments quickly. Leveraging the semantic information within the incrementally constructed 3-D scene graph (3-DSG), we combine the next-best-view (NBV) selection with room semantics, introducing a more efficient and comprehensive approach for multiroom indoor environment exploration. In addition, the exploration provides patrol routes, the room distance–connectivity graph, and complete environment initial states for subsequential monitoring. The monitoring stage aims to persistently patrol to update the world model in the presence of dynamic changes, including changes in objects’ positions. We formulate the long-term monitoring problem as the partially observable Markov decision process (POMDP) to cope with the environmental uncertainty. To solve the POMDP, we propose the graph attention bidirectional long short-term memory proximal policy optimization (GABPPO) algorithm for the optimal patrol strategy. The feasibility and effectiveness of the proposed SELM framework are verified through extensive experiments.",
+  "ARXIV": "https://ieeexplore.ieee.org/abstract/document/10855357",
+  "FIRSTINSTITUTE": "ZJU",
+  "KEYWORD": "Application, RGB-D, Hierarchical, Incremental, Indoor, Navigation",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{lang2025selm,\n  title = {SELM: From Efficient Autonomous Exploration to Long-term Monitoring in Semantic Level},\n  author = {Lang, Fang and Qin, Yongsen and Wang, Yinchuan and Liu, Jin and Wang, Chaoqun and Song, Wei},\n  journal = {IEEE Trans. on Cognitive and Developmental Systems },\n  year = {2025}\n}"
+}

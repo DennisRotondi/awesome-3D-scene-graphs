@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
+    "strict": false,
+    /* Linting (relaxed) */
+    "noUnusedLocals": false,           // ← relax: don’t fail on unused locals
+    "noUnusedParameters": false,       // ← relax: don’t fail on unused params
+    "noFallthroughCasesInSwitch": true,
+
+    /* Turn off newer, noisy checks for now */
+    "erasableSyntaxOnly": false,       // ← relax
+    "noUncheckedSideEffectImports": false, // ← relax
+
+    /* Convenience */
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["src/*"] }
+  },
+  "include": ["src", "postcss.config.js", "tailwind.config.js"],
+  "exclude": ["node_modules", "dist", "build"]
+}

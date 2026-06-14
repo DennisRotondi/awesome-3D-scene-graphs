@@ -1,0 +1,14 @@
+{
+  "TITLE": "Imaginative World Modeling with Scene Graphs for Embodied Agent Navigation",
+  "VENUE": "ICRA25",
+  "DATE": "2025/08/09",
+  "AUTHOR": "Yue Hu, Junzhe Wu, Ruihan Xu, Hang Liu, Avery Xi, Henry X. Liu, Ram Vasudevan, Maani Ghaffari",
+  "ABSTRACT": "Semantic navigation requires an agent to navigate toward a specified target in an unseen environment. Employing an imaginative navigation strategy that predicts future scenes before taking action, can empower the agent to find target faster. Inspired by this idea, we propose SGImagineNav, a novel imaginative navigation framework that leverages symbolic world modeling to proactively build a global environmental representation. SGImagineNav maintains an evolving hierarchical scene graphs and uses large language models to predict and explore unseen parts of the environment. While existing methods solely relying on past observations, this imaginative scene graph provides richer semantic context, enabling the agent to proactively estimate target locations. Building upon this, SGImagineNav adopts an adaptive navigation strategy that exploits semantic shortcuts when promising and explores unknown areas otherwise to gather additional context. This strategy continuously expands the known environment and accumulates valuable semantic contexts, ultimately guiding the agent toward the target. SGImagineNav is evaluated in both real-world scenarios and simulation benchmarks. SGImagineNav consistently outperforms previous methods, improving success rate to 65.4 and 66.8 on HM3D and HSSD, and demonstrating cross-floor and cross-room navigation in real-world environments, underscoring its effectiveness and generalizability.",
+  "ARXIV": "https://arxiv.org/abs/2508.06990",
+  "FIRSTINSTITUTE": "UMich",
+  "KEYWORD": "Application, Navigation, Hierarchical, RGB-D, LLM, Incremental",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{hu2025imaginativeworld,\n  title = {Imaginative World Modeling with Scene Graphs for Embodied Agent Navigation},\n  author = {Hu, Yue and Wu, Junzhe and Xu, Ruihan and Liu, Hang and Xi, Avery and Liu, Henry X. and Vasudevan, Ram and Ghaffari, Maani},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2025}\n}"
+}

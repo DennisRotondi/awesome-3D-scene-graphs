@@ -1,0 +1,14 @@
+{
+  "TITLE": "Queryable 3D Scene Representation: A Multi-Modal Framework for Semantic Reasoning and Robotic Task Planning",
+  "VENUE": "arXiv25",
+  "DATE": "2025/09/24",
+  "AUTHOR": "Xun Li, Rodrigo Santa Cruz, Mingze Xi, Hu Zhang, Madhawa Perera, Ziwei Wang, Ahalya Ravendran, Brandon J. Matthews, Feng Xu, Matt Adcock, Dadong Wang, Jiajun Liu",
+  "ABSTRACT": "To enable robots to comprehend high-level human instructions and perform complex tasks, a key challenge lies in achieving comprehensive scene understanding: interpreting and interacting with the 3D environment in a meaningful way. This requires a smart map that fuses accurate geometric structure with rich, human-understandable semantics. To address this, we introduce the 3D Queryable Scene Representation (3D QSR), a novel framework built on multimedia data that unifies three complementary 3D representations: (1) 3D-consistent novel view rendering and segmentation from panoptic reconstruction, (2) precise geometry from 3D point clouds, and (3) structured, scalable organization via 3D scene graphs. Built on an object-centric design, the framework integrates with large vision-language models to enable semantic queryability by linking multimodal object embeddings, and supporting object-level retrieval of geometric, visual, and semantic information. The retrieved data are then loaded into a robotic task planner for downstream execution. We evaluate our approach through simulated robotic task planning scenarios in Unity, guided by abstract language instructions and using the indoor public dataset Replica. Furthermore, we apply it in a digital duplicate of a real wet lab environment to test QSR-supported robotic task planning for emergency response. The results demonstrate the framework's ability to facilitate scene understanding and integrate spatial and semantic reasoning, effectively translating high-level human instructions into precise robotic task planning in complex 3D environments.",
+  "ARXIV": "https://arxiv.org/abs/2509.20077",
+  "FIRSTINSTITUTE": "CSIRO",
+  "KEYWORD": "Application, Planning, Indoor, SUN, LLM, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{li2025queriable3d,\n  title = {Queryable 3D Scene Representation: A Multi-Modal Framework for Semantic Reasoning and Robotic Task Planning},\n  author = {Li, Xun and Cruz, Rodrigo Santa and Xi, Mingze and Zhang, Hu and Perera, Madhawa and Wang, Ziwei and Ravendran, Ahalya and Matthews, Brandon J. and Xu, Feng and Adcock, Matt and Wang, Dadong and Liu, Jiajun},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+}

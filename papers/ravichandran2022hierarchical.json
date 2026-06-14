@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hierarchical Representations and Explicit Memory: Learning Effective Navigation Policies on 3D Scene Graphs using Graph Neural Networks",
+  "VENUE": "ICRA22",
+  "DATE": "2021/08/02",
+  "AUTHOR": "Zachary Ravichandran, Lisa Peng, Nathan Hughes, J. Daniel Griffith, Luca Carlone",
+  "ABSTRACT": "Representations are crucial for a robot to learn effective navigation policies. Recent work has shown that mid-level perceptual abstractions, such as depth estimates or 2D semantic segmentation, lead to more effective policies when provided as observations in place of raw sensor data (e.g., RGB images). However, such policies must still learn latent three-dimensional scene properties from mid-level abstractions. In contrast, high-level, hierarchical representations such as 3D scene graphs explicitly provide a scene's geometry, topology, and semantics, making them compelling representations for navigation. In this work, we present a reinforcement learning framework that leverages high-level hierarchical representations to learn navigation policies. Towards this goal, we propose a graph neural network architecture and show how to embed a 3D scene graph into an agent-centric feature space, which enables the robot to learn policies for low-level action in an end-to-end manner. For each node in the scene graph, our method uses features that capture occupancy and semantic content, while explicitly retaining memory of the robot trajectory. We demonstrate the effectiveness of our method against commonly used visuomotor policies in a challenging object search task. These experiments and supporting ablation studies show that our method leads to more effective object search behaviors, exhibits improved long-term memory, and successfully leverages hierarchical information to guide its navigation objectives.",
+  "ARXIV": "http://arxiv.org/abs/2108.01176v2",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, Hierarchical, Indoor, RGB-D, Navigation, Short-Term Dynamics",
+  "SITE": "",
+  "CODE": "https://github.com/MIT-TESSE/dsg-rl",
+  "VIDEO": "https://www.youtube.com/watch?v=x4LM-g3-uaY&feature=youtu.be",
+  "BIBTEX": "@inproceedings{ravichandran2022hierarchical,\n  title = {Hierarchical Representations and Explicit Memory: Learning Effective Navigation Policies on 3D Scene Graphs using Graph Neural Networks},\n  author = {Ravichandran, Zachary and Peng, Lisa and Hughes, Nathan and Griffith, J. Daniel and Carlone, Luca},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2022}\n}"
+}

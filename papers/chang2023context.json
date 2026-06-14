@@ -1,0 +1,14 @@
+{
+  "TITLE": "Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs",
+  "VENUE": "CoRL23",
+  "DATE": "2023/09/27",
+  "AUTHOR": "Haonan Chang, Kowndinya Boyalakuntla, Shiyang Lu, Siwei Cai, Eric Jing, Shreesh Keskar, Shijie Geng, Adeeb Abbas, Lifeng Zhou, Kostas Bekris, Abdeslam Boularias",
+  "ABSTRACT": "We present an Open-Vocabulary 3D Scene Graph (OVSG), a formal framework for grounding a variety of entities, such as object instances, agents, and regions, with free-form text-based queries. Unlike conventional semantic-based object localization approaches, our system facilitates context-aware entity localization, allowing for queries such as ``pick up a cup on a kitchen table\" or ``navigate to a sofa on which someone is sitting\". In contrast to existing research on 3D scene graphs, OVSG supports free-form text input and open-vocabulary querying. Through a series of comparative experiments using the ScanNet dataset and a self-collected dataset, we demonstrate that our proposed approach significantly surpasses the performance of previous semantic-based localization techniques. Moreover, we highlight the practical application of OVSG in real-world robot navigation and manipulation experiments.",
+  "ARXIV": "http://arxiv.org/abs/2309.15940v1",
+  "FIRSTINSTITUTE": "Rutgers",
+  "KEYWORD": "Application, RGB-D, Pre-Built PCD, Open-Vocabulary, Manipulation, SUN, Indoor",
+  "SITE": "https://ovsg-l.github.io/",
+  "CODE": "https://github.com/changhaonan/OVSG",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{chang2023context,\n  title = {Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs},\n  author = {Chang, Haonan and Boyalakuntla, Kowndinya and Lu, Shiyang and Cai, Siwei and Jing, Eric and Keskar, Shreesh and Geng, Shijie and Abbas, Adeeb and Zhou, Lifeng and Bekris, Kostas and Boularias, Abdeslam},\n  booktitle = {Conf. on Robot Learning (CoRL)},\n  year = {2023}\n}"
+}
