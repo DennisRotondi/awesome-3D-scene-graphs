@@ -1,0 +1,14 @@
+{
+  "TITLE": "DYNEMO-SLAM: Dynamic Entity and Motion-Aware 3D Scene Graph SLAM",
+  "VENUE": "arXiv25",
+  "DATE": "2025/03/03",
+  "AUTHOR": "Marco Giberna, Muhammad Shaheer, Miguel Fernandez-Cortizas, Jose Andres Millan-Romera, Jose Luis Sanchez-Lopez, Holger Voos",
+  "ABSTRACT": "Robots operating in dynamic environments face significant challenges due to the presence of moving agents and displaced objects. Traditional SLAM systems typically assume a static world or treat dynamic as outliers, discarding their information to preserve map consistency. As a result, they cannot exploit dynamic entities as persistent landmarks, do not model and exploit their motion over time, and therefore quickly degrade in highly cluttered environments with few reliable static features. This paper presents a novel 3D scene graph-based SLAM framework that addresses the challenge of modeling and estimating the pose of dynamic entities into the SLAM backend. Our framework incorporates semantic motion priors and dynamic entity-aware constraints to jointly optimize the robot trajectory, dynamic entity poses, and the surrounding environment structure within a unified graph formulation. In parallel, a dynamic keyframe selection policy and a semantic loop-closure prefiltering step enable the system to remain robust and effective in highly dynamic environments by continuously adapting to scene changes and filtering inconsistent observations. The simulation and real-world experimental results show a 49.97% reduction in ATE compared to the baseline method employed, demonstrating the effectiveness of incorporating dynamic entities and estimating their poses for improved robustness and richer scene representation in complex scenarios while maintaining real-time performance.",
+  "ARXIV": "https://arxiv.org/abs/2503.02050",
+  "FIRSTINSTITUTE": "UniLu",
+  "KEYWORD": "Indoor, Short-Term Dynamics, Hierarchical, Incremental, Real-Time, SLAM",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{giberna2025dynemoslam,\n  title = {DYNEMO-SLAM: Dynamic Entity and Motion-Aware 3D Scene Graph SLAM},\n  author = {Giberna, Marco and Shaheer, Muhammad and Fernandez-Cortizas, Miguel and Millan-Romera, Jose Andres and Sanchez-Lopez, Jose Luis and Voos, Holger},\n  year = {2025},\n  eprint = {2503.02050},\n  archivePrefix = {arXiv}\n}"
+}

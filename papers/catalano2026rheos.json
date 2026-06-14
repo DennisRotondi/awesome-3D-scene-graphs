@@ -1,0 +1,14 @@
+{
+  "TITLE": "Rheos: Modelling Continuous Motion Dynamics in Hierarchical 3D Scene Graphs",
+  "VENUE": "arXiv26",
+  "DATE": "2026/03/09",
+  "AUTHOR": "Iacopo Catalano, Francesco Verdoja, Javier Civera, Jorge Peña-Queralta, Julio A. Placed",
+  "ABSTRACT": "3D Scene Graphs (3DSGs) provide hierarchical, multi-resolution abstractions that encode the geometric and semantic structure of an environment, yet their treatment of dynamics remains limited to tracking individual agents. Maps of Dynamics (MoDs) complement this by modeling aggregate motion patterns, but rely on uniform grid discretizations that lack semantic grounding and scale poorly. We present Rheos, a framework that explicitly embeds continuous directional motion models into an additional dynamics layer of a hierarchical 3DSG that enhances the navigational properties of the graph. Each dynamics node maintains a semi-wrapped Gaussian mixture model that captures multimodal directional flow as a principled probability distribution with explicit uncertainty, replacing the discrete histograms used in prior work. To enable online operation, Rheos employs reservoir sampling for bounded-memory observation buffers, parallel per-cell model updates and a principled Bayesian Information Criterion (BIC) sweep that selects the optimal number of mixture components, reducing per-update initialization cost from quadratic to linear in the number of samples. Evaluated across four spatial resolutions in a simulated pedestrian environment, Rheos consistently outperforms the discrete baseline under continuous as well as unfavorable discrete metrics.",
+  "ARXIV": "https://arxiv.org/abs/2603.20239",
+  "FIRSTINSTITUTE": "UTU",
+  "KEYWORD": "Application, Navigation, Indoor, Long-Term Dynamics, Hierarchical, Incremental, Real-Time, Humans",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{catalano2026rheos,\n  title = {Rheos: Modelling Continuous Motion Dynamics in Hierarchical 3D Scene Graphs},\n  author = {Catalano, Iacopo and Verdoja, Francesco and Civera, Javier and Pe{\\~n}a-Queralta, Jorge and Placed, Julio A.},\n  year = {2026},\n  eprint = {2603.20239},\n  archivePrefix = {arXiv}\n}"
+}

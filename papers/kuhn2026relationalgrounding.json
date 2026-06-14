@@ -1,0 +1,14 @@
+{
+  "TITLE": "Relational Scene Graphs for Object Grounding of Natural Language Commands",
+  "VENUE": "arXiv26",
+  "DATE": "2026/02/04",
+  "AUTHOR": "Julia Kuhn, Francesco Verdoja, Tsvetomila Mihaylova, Ville Kyrki",
+  "ABSTRACT": "Robots are finding wider adoption in human environments, increasing the need for natural human-robot interaction. However, understanding a natural language command requires the robot to infer the intended task and how to decompose it into executable actions, and to ground those actions in the robot's knowledge of the environment, including relevant objects, agents, and locations. This challenge can be addressed by combining the capabilities of large language models to understand natural language with 3D scene graphs for grounding inferred actions in a semantic representation of the environment. However, many 3D scene graphs lack explicit spatial relations between objects, even though humans often rely on these relations to describe an environment. This paper investigates whether incorporating open- or closed-vocabulary spatial relations into 3D scene graphs can improve the ability of large language models to interpret natural language commands. To address this, we propose an LLM-based pipeline for target object grounding from open vocabulary language commands and a VLM-based pipeline to add open-vocabulary spatial edges to 3D scene graphs from images captured while mapping. Finally, two LLMs are evaluated in a study assessing their performance on the downstream task of target object grounding. Our study demonstrates that explicit spatial relations improve the ability of LLMs to ground objects. Moreover, open-vocabulary relation generation with VLMs proves feasible from robot-captured images, but their advantage over closed-vocabulary relations is found to be limited.",
+  "ARXIV": "https://arxiv.org/abs/2602.04635",
+  "FIRSTINSTITUTE": "AALTO",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Open-Vocabulary, RGB-D",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{kuhn2026relationalgrounding,\n  title = {Relational Scene Graphs for Object Grounding of Natural Language Commands},\n  author = {Kuhn, Julia and Verdoja, Francesco and Mihaylova, Tsvetomila and Kyrki, Ville},\n  year = {2026},\n  eprint = {2602.04635},\n  archivePrefix = {arXiv}\n}"
+}

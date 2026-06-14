@@ -1,0 +1,14 @@
+{
+  "TITLE": "Mono-Hydra++: Real-Time Monocular Scene Graph Construction with Multi-Task Learning for 3D Indoor Mapping",
+  "VENUE": "arXiv26",
+  "DATE": "2026/05/17",
+  "AUTHOR": "U. V. B. L. Udugama, George Vosselman, Francesco Nex",
+  "ABSTRACT": "Autonomous agile robots need more than metric geometry: they must understand objects, rooms, places, and spatial relations to support intelligent behavior in tasks such as search, inspection, exploration, and human-robot interaction. Conventional metric maps enable localization and collision-free navigation, but they do not provide this semantic and relational structure. 3D scene graphs fill this gap by connecting geometry with object-level and room-level understanding. Building such representations on agile platforms remains challenging because aerial and other lightweight robots operate under strict payload, power, and compute constraints, making RGB-D cameras or LiDAR sensors impractical in many onboard settings. We address this challenge with Mono-Hydra++, a real-time monocular RGB+IMU pipeline for indoor metric-semantic mapping and hierarchical 3D scene graph construction. The system combines M2H-MX, a DINOv3-based multi-task model for depth and semantics, with a deep-feature-based visual-inertial odometry (VIO) front-end, sparse predicted-depth constraints in the VIO-derived pose graph, semantic masking for dynamic regions, and pose-aware temporal alignment before volumetric fusion in the Mono-Hydra backend. On the Go-SLAM ScanNet evaluation subset, Mono-Hydra++ achieves 1.6% lower average trajectory error (ATE) than the strongest RGB-D baseline in our comparison, while using only monocular RGB+IMU input. On calibrated 7-Scenes, it improves average ATE by 29.8% over the strongest competing calibrated baseline. We further evaluate Mono-Hydra++ in a real ITC building deployment using RealSense RGB+IMU and demonstrate embedded feasibility by deploying the ONNX/TensorRT FP16 M2H-MX-L perception model at 25.53 FPS on a Jetson Orin NX 16GB. This indicates that the proposed monocular perception component is suitable for onboard spatial understanding on resource-constrained robotic platforms.",
+  "ARXIV": "https://arxiv.org/abs/2605.17661",
+  "FIRSTINSTITUTE": "UT",
+  "KEYWORD": "Indoor, Hierarchical, Incremental, Real-Time, SLAM, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "https://github.com/BavanthaU/mono-hydra-pp",
+  "VIDEO": "",
+  "BIBTEX": "@misc{udugama2026monohydra,\n  title = {Mono-Hydra++: Real-Time Monocular Scene Graph Construction with Multi-Task Learning for 3D Indoor Mapping},\n  author = {Udugama, U. V. B. L. and Vosselman, George and Nex, Francesco},\n  year = {2026},\n  eprint = {2605.17661},\n  archivePrefix = {arXiv}\n}"
+}

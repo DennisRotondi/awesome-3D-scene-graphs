@@ -1,0 +1,14 @@
+{
+  "TITLE": "DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding",
+  "VENUE": "arXiv26",
+  "DATE": "2026/05/28",
+  "AUTHOR": "Luzhou Ge, Xiangyu Zhu, Jinyan Liu, Xuesong Li",
+  "ABSTRACT": "Integrating open-vocabulary semantic information into dynamic 3D scene representations is essential for long-term embodied scene understanding. However, existing methods often suffer from fragile instance association due to incomplete cross-view cues, while their limited ability to handle object-level topological changes restricts long-term robotic task execution. Moreover, current 3D scene understanding methods either rely on simple feature matching without explicit spatial reasoning or assume offline ground-truth 3D geometry. To address these challenges, we present DGSG-Mind, a hybrid instance-aware 3D Gaussian dynamic scene graph system with an embodied reasoning agent. Our system couples a probabilistic voxel grid with explicit 3D Gaussians to enable robust cross-modal instance fusion and incremental semantic mapping. It handles dynamic changes through Gaussian-based visual relocalization and localized masked refinement guided by geometric-semantic consistency. Built on the instance Gaussian map, DGSG-Mind further constructs a hierarchical scene graph and develops the 3D Gaussian Mind, which integrates structural relations, spatial-semantic information, and visually annotated RoI Gaussian renderings for multimodal reasoning. Extensive experiments show that DGSG-Mind achieves the best zero-shot 3DVG performance among methods operating on self-reconstructed maps, while also delivering strong performance in 3D open-vocabulary semantic segmentation and scene reconstruction. We further deploy DGSG-Mind on real-world robots to demonstrate its target-oriented reasoning and dynamic update capabilities.",
+  "ARXIV": "https://arxiv.org/abs/2605.29879",
+  "FIRSTINSTITUTE": "BIT",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Long-Term Dynamics, Hierarchical, Incremental, RGB-D, Open-Vocabulary",
+  "SITE": "https://icr-lab.github.io/DGSG-Mind",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{ge2026dgsgmind,\n  title = {DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding},\n  author = {Ge, Luzhou and Zhu, Xiangyu and Liu, Jinyan and Li, Xuesong},\n  year = {2026},\n  eprint = {2605.29879},\n  archivePrefix = {arXiv}\n}"
+}

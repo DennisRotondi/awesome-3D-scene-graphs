@@ -1,0 +1,14 @@
+{
+  "TITLE": "FOUND-IT: Foundation-model-first Task-driven 3D Scene Graphs with Granularity on Demand",
+  "VENUE": "arXiv26",
+  "DATE": "2026/05/25",
+  "AUTHOR": "Dominic Maggio, Nicolas Gorlo, Kris Hauser, Luca Carlone",
+  "ABSTRACT": "We present the first approach to build hierarchical task-driven 3D scene graphs of arbitrary indoor or outdoor environments using an uncalibrated monocular camera in real-time. We leverage geometric foundation models to estimate geometric attributes of the scene graph (e.g. object bounding boxes), but we also observe that traversability information (the \"places\" layer of a scene graph) can be directly reconstructed by adding an extra head to existing geometric foundation models, like VGGT. Our approach is task-driven in the sense that we adjust the granularity of the objects and regions in the map depending on the task; for instance, during a manipulation task, our approach is able to resolve small knobs on a stove, while during a navigation task it can focus on large objects (e.g. the entire stove). However, in a major departure from related work, we consider the realistic case where the list of tasks is not predefined and fixed, but evolves as the robot operates. This naturally allows dealing with complex loco-manipulation tasks, where the robot can dynamically adjust its representation as the task unfolds. We dub the resulting approach FOUND-IT. FOUND-IT also includes an agentic approach to query information in the scene graph. In addition to achieving 79% higher accuracy on the ASHiTA SG3D task grounding benchmark, we demonstrate FOUND-IT runs in real-time on a ground robot using a Jetson Thor.",
+  "ARXIV": "https://arxiv.org/abs/2605.25371",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, LLM, SUN, Outdoor, Indoor, Hierarchical, Incremental, Real-Time, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{maggio2026foundit,\n  title = {FOUND-IT: Foundation-model-first Task-driven 3D Scene Graphs with Granularity on Demand},\n  author = {Maggio, Dominic and Gorlo, Nicolas and Hauser, Kris and Carlone, Luca},\n  year = {2026},\n  eprint = {2605.25371},\n  archivePrefix = {arXiv}\n}"
+}

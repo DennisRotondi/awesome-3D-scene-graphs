@@ -1,0 +1,14 @@
+{
+  "TITLE": "OGScene3D: Incremental Open-Vocabulary 3D Gaussian Scene Graph Mapping for Scene Understanding",
+  "VENUE": "arXiv26",
+  "DATE": "2026/03/17",
+  "AUTHOR": "Siting Zhu, Ziyun Lu, Guangming Wang, Chenguang Huang, Yongbo Chen, I-Ming Chen, Wolfram Burgard, Hesheng Wang",
+  "ABSTRACT": "Open-vocabulary scene understanding is crucial for robotic applications, enabling robots to comprehend complex 3D environmental contexts and supporting various downstream tasks such as navigation and manipulation. However, existing methods require pre-built complete 3D semantic maps to construct scene graphs for scene understanding, which limits their applicability in robotic scenarios where environments are explored incrementally. To address this challenge, we propose OGScene3D, an open-vocabulary scene understanding system that achieves accurate 3D semantic mapping and scene graph construction incrementally. Our system employs a confidence-based Gaussian semantic representation that jointly models semantic predictions and their reliability, enabling robust scene modeling. Building on this representation, we introduce a hierarchical 3D semantic optimization strategy that achieves semantic consistency through local correspondence establishment and global refinement, thereby constructing globally consistent semantic maps. Moreover, we design a long-term global optimization method that leverages temporal memory of historical observations to enhance semantic predictions. By integrating 2D-3D semantic consistency with Gaussian rendering contribution, this method continuously refines the semantic understanding of the entire scene. Furthermore, we develop a progressive graph construction approach that dynamically creates and updates both nodes and semantic relationships, allowing continuous updating of the 3D scene graphs. Extensive experiments on widely used datasets and real-world scenes demonstrate the effectiveness of our OGScene3D on open-vocabulary scene understanding.",
+  "ARXIV": "https://arxiv.org/abs/2603.16301",
+  "FIRSTINSTITUTE": "Shanghai Jiao Tong University",
+  "KEYWORD": "Application, SUN, Indoor, Hierarchical, Incremental, RGB-D, SLAM, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "https://github.com/IRMVLab/OGScene3D",
+  "VIDEO": "",
+  "BIBTEX": "@misc{zhu2026ogscene3d,\n  title = {OGScene3D: Incremental Open-Vocabulary 3D Gaussian Scene Graph Mapping for Scene Understanding},\n  author = {Zhu, Siting and Lu, Ziyun and Wang, Guangming and Huang, Chenguang and Chen, Yongbo and Chen, I-Ming and Burgard, Wolfram and Wang, Hesheng},\n  year = {2026},\n  eprint = {2603.16301},\n  archivePrefix = {arXiv}\n}"
+}

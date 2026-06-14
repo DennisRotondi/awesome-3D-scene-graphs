@@ -1,0 +1,14 @@
+{
+  "TITLE": "Remember with Confidence: Uncertainty Quantification for Spatio-temporal Memory with Probabilistic Guarantees",
+  "VENUE": "arXiv26",
+  "DATE": "2026/06/06",
+  "AUTHOR": "Harry Zhang, Nicolas Gorlo, Luca Carlone",
+  "ABSTRACT": "Long-horizon robot operation requires spatio-temporal memory to record the environment state and recall it for downstream reasoning. Scene graphs and retrieval-augmented systems ground VLM descriptions to persistent 3D entities with rich semantic descriptions. However, VLM captions are noisy and viewpoint-inconsistent, and existing systems treat them as an oracle with no mechanism to detect unreliable stored descriptions. We introduce object-level semantic uncertainty for multi-view VLM memory: a score that measures object-centric cross-view semantic scatter of captions and identifies semantically unresolved objects. Then, we include our uncertainty scores in an advanced spatial-semantic memory system, that we dub UQ-DAAAM. UQ-DAAAM uses this score to actively refine uncertain objects under a fixed query budget by selecting high-quality views and fusing the resulting multi-view captions into a single object description. We also derive probabilistic guarantees showing that higher-quality candidate views (as selected by our approach) are more likely to reduce uncertainty. Our experiments show that uncertainty quantification can make embodied 4D memory systems more reliable and more effective. In particular, on the OC-NaVQA benchmark, UQ-DAAAM achieves substantially larger uncertainty reduction and better spatio-temporal question answering performance than baselines.",
+  "ARXIV": "https://arxiv.org/abs/2606.08277",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Active, Long-Term Dynamics, Incremental, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{zhang2026remember,\n  title = {Remember with Confidence: Uncertainty Quantification for Spatio-temporal Memory with Probabilistic Guarantees},\n  author = {Zhang, Harry and Gorlo, Nicolas and Carlone, Luca},\n  year = {2026},\n  eprint = {2606.08277},\n  archivePrefix = {arXiv}\n}"
+}

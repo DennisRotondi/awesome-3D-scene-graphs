@@ -1,0 +1,14 @@
+{
+  "TITLE": "LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction",
+  "VENUE": "arXiv26",
+  "DATE": "2026/05/13",
+  "AUTHOR": "Christina Kassab, Hyeonjae Gil, Matías Mattamala, Ayoung Kim, Maurice Fallon",
+  "ABSTRACT": "Scene graphs are becoming a standard representation for robot navigation, providing hierarchical geometric and semantic scene understanding. However, most scene graph mapping methods rely on depth cameras or LiDAR sensors. In this work, we present LEXI-SG, the first dense monocular visual mapping system for open-vocabulary 3D scene graphs using only RGB camera input. Our approach exploits the semantic priors of open-vocabulary foundation models to partition the scene into rooms, deferring feed-forward reconstruction to when each room is fully observed, enabling scalable dense mapping without sliding-window scale inconsistencies. We propose a room-based factor graph formulation to globally align room reconstructions while preserving local map consistency and naturally imposing the semantic scene graph hierarchy. Within each room, we further support open-vocabulary object segmentation and tracking. We validate LEXI-SG on indoor scenes from the Habitat-Matterport 3D and self-collected egocentric office sequences. We evaluate its performance against existing feed-forward SLAM methods, as well as established scene graphs baselines. We demonstrate improved trajectory estimation and dense reconstruction, as well as competitive performance in open-vocabulary segmentation. LEXI-SG shows that accurate, scalable, open-vocabulary 3D scene graphs can be achieved from monocular RGB alone.",
+  "ARXIV": "https://arxiv.org/abs/2605.13741",
+  "FIRSTINSTITUTE": "Oxford",
+  "KEYWORD": "Indoor, Hierarchical, Incremental, RGB-D, SLAM, Open-Vocabulary",
+  "SITE": "https://ori-drs.github.io/lexisg-web/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{kassab2026lexisg,\n  title = {LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction},\n  author = {Kassab, Christina and Gil, Hyeonjae and Mattamala, Mat{\\'i}as and Kim, Ayoung and Fallon, Maurice},\n  year = {2026},\n  eprint = {2605.13741},\n  archivePrefix = {arXiv}\n}"
+}

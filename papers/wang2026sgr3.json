@@ -1,0 +1,14 @@
+{
+  "TITLE": "SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D",
+  "VENUE": "arXiv26",
+  "DATE": "2026/03/04",
+  "AUTHOR": "Zirui Wang, Ruiping Liu, Yufan Chen, Junwei Zheng, Weijia Fan, Kunyu Peng, Di Wen, Jiale Wei, Jiaming Zhang, Rainer Stiefelhagen",
+  "ABSTRACT": "3D scene graphs provide a structured representation of object entities and their relationships, enabling high-level interpretation and reasoning for robots while remaining intuitively understandable to humans. Existing approaches for 3D scene graph generation typically combine scene reconstruction with graph neural networks (GNNs). However, such pipelines require multi-modal data that may not always be available, and their reliance on heuristic graph construction can constrain the prediction of relationship triplets. In this work, we introduce a Scene Graph Retrieval-Reasoning Model in 3D (SGR3 Model), a training-free framework that leverages multi-modal large language models (MLLMs) with retrieval-augmented generation (RAG) for semantic scene graph generation. SGR3 Model bypasses the need for explicit 3D reconstruction. Instead, it enhances relational reasoning by incorporating semantically aligned scene graphs retrieved via a ColPali-style cross-modal framework. To improve retrieval robustness, we further introduce a weighted patch-level similarity selection mechanism that mitigates the negative impact of blurry or semantically uninformative regions. Experiments demonstrate that SGR3 Model achieves competitive performance compared to training-free baselines and on par with GNN-based expert models. Moreover, an ablation study on the retrieval module and knowledge base scale reveals that retrieved external information is explicitly integrated into the token generation process, rather than being implicitly internalized through abstraction.",
+  "ARXIV": "https://arxiv.org/abs/2603.04614",
+  "FIRSTINSTITUTE": "KIT",
+  "KEYWORD": "Application, LLM, SUN, Indoor, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{wang2026sgr3,\n  title = {SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D},\n  author = {Wang, Zirui and Liu, Ruiping and Chen, Yufan and Zheng, Junwei and Fan, Weijia and Peng, Kunyu and Wen, Di and Wei, Jiale and Zhang, Jiaming and Stiefelhagen, Rainer},\n  year = {2026},\n  eprint = {2603.04614},\n  archivePrefix = {arXiv}\n}"
+}
