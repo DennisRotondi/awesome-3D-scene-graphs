@@ -36,6 +36,25 @@ Each entry follows this structure:
 
 Once your PR is merged, the README and the website update automatically.
 
+## Automated checks
+
+When you open a PR, a GitHub Action validates every paper file you changed. It checks that each file:
+
+- is valid UTF-8 JSON with **exactly** the fields above (a missing or misspelled key fails);
+- has a non-empty `TITLE`, `VENUE`, `DATE`, `AUTHOR`, `ABSTRACT`, `ARXIV`, and `FIRSTINSTITUTE`;
+- uses `DATE` as `YYYY/MM/DD` (a real, non-future date), `VENUE` ending in a 2-digit year, and `KEYWORD`s drawn exactly (casing included) from [`scripts/constants.py`](scripts/constants.py);
+- has well-formed `http(s)` links, and a `BIBTEX` entry starting with `@`;
+- does not reuse an arXiv id already in the list.
+
+A PR may only add or edit files under `papers/`. You can run the exact same checks locally before pushing (no dependencies needed):
+
+```bash
+python scripts/validate_papers.py papers/yourpaper.json   # just your file
+python scripts/validate_papers.py                          # the whole folder
+```
+
+> Maintainers: to land a PR that also touches scripts, workflows, or the README, add the `allow-infra` label to that PR.
+
 ## Updating your PR
 
 If the maintainers request changes, edit your existing PR rather than opening a new one. [Here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on how to amend a PR.

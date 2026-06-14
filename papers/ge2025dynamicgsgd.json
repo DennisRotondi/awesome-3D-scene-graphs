@@ -9,6 +9,6 @@
   "KEYWORD": "Application, RGB-D, Indoor, Hierarchical, Open-Vocabulary, Incremental, Long-Term Dynamics, SUN",
   "SITE": "",
   "CODE": "https://github.com/GeLuzhou/Dynamic-GSG",
-  "VIDEO": "youtube.com/watch?v=9QftApGbcSA&feature=youtu.be",
+  "VIDEO": "https://youtube.com/watch?v=9QftApGbcSA&feature=youtu.be",
   "BIBTEX": "@inproceedings{ge2025dynamicgsgd,\n  title = {DynamicGSG: Dynamic 3D Gaussian Scene Graphs for Environment Adaptation},\n  author = {Ge, Luzhou and Zhu, Xiangyu and Yang, Zhuo and Li, Xuesong},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2025}\n}"
 }

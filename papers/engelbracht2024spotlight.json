@@ -9,6 +9,6 @@
   "KEYWORD": "Application, Indoor, SUN, Open-Vocabulary, Active, LLM, Pre-Built PCD, Manipulation",
   "SITE": "https://timengelbracht.github.io/SpotLight/",
   "CODE": "https://github.com/timengelbracht/Spot-Light",
-  "VIDEO": "youtube.com/watch?v=Vw7gLxTEJkE",
+  "VIDEO": "https://youtube.com/watch?v=Vw7gLxTEJkE",
   "BIBTEX": "@inproceedings{engelbracht2024spotlight,\n  title = {SpotLight: Robotic Scene Understanding through Interaction and Affordance Detection},\n  author = {Engelbracht, Tim and Zurbrügg, René and Pollefeys, Marc and Blum, Hermann and Bauer, Zuria},\n  booktitle = {IEEE Intl. Conf. on Humanoid Robots},\n  year = {2025}\n}"
 }
