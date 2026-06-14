@@ -47,6 +47,7 @@ DATE_RE = re.compile(r"^[0-9]{4}/[0-9]{2}/[0-9]{2}$")
 FNAME_RE = re.compile(r"^[A-Za-z0-9_]+\.json$")
 ARXIV_ID_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/([0-9]{4}\.[0-9]{4,6})")
 BIBKEY_RE = re.compile(r"@\w+\{([^,]+),")
+TITLE_NORM_RE = re.compile(r"[^a-z0-9]+")
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -60,6 +61,12 @@ def warn(name: str, msg: str) -> None:
     warnings.append(f"⚠️  {name}: {msg}")
 
 
+def norm_title(t: str) -> str:
+    """Normalize a title for duplicate detection: lowercase, then drop everything
+    that is not a letter or digit, so case/spacing/punctuation variants collapse."""
+    return TITLE_NORM_RE.sub("", t.lower())
+
+
 def is_http_url(value: str) -> bool:
     try:
         p = urlparse(value)
@@ -68,7 +75,8 @@ def is_http_url(value: str) -> bool:
     return p.scheme in ("http", "https") and bool(p.netloc)
 
 
-def validate_file(path: Path, arxiv_to_files: dict[str, list[str]]) -> None:
+def validate_file(path: Path, arxiv_to_files: dict[str, list[str]],
+                  title_to_files: dict[str, list[str]]) -> None:
     name = path.name
 
     # --- extension / location ---
@@ -201,11 +209,22 @@ def validate_file(path: Path, arxiv_to_files: dict[str, list[str]]) -> None:
         if others:
             err(name, f"duplicate arXiv id {m.group(1)} (also in {', '.join(sorted(others))})")
 
+    # --- duplicate title across the whole folder (the fallback for papers whose
+    #     ARXIV is a proceedings/journal link with no arXiv id to compare) ---
+    nt = norm_title(sval("TITLE"))
+    if nt:
+        others = [f for f in title_to_files.get(nt, []) if f != name]
+        if others:
+            err(name, f"duplicate title (also in {', '.join(sorted(others))}) -- "
+                      "is this paper already in the list?")
 
-def build_arxiv_index(files: list[Path]) -> dict[str, list[str]]:
-    """Map arXiv id -> [filenames] across every (parseable) file, so duplicates
-    are detected regardless of which subset is being validated."""
-    index: dict[str, list[str]] = collections.defaultdict(list)
+
+def build_indexes(files: list[Path]) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
+    """Map arXiv id -> [filenames] and normalized-title -> [filenames] across every
+    (parseable) file, so duplicates are detected regardless of which subset is
+    being validated."""
+    arxiv_idx: dict[str, list[str]] = collections.defaultdict(list)
+    title_idx: dict[str, list[str]] = collections.defaultdict(list)
     for p in files:
         try:
             d = json.loads(p.read_text(encoding="utf-8"))
@@ -213,8 +232,11 @@ def build_arxiv_index(files: list[Path]) -> dict[str, list[str]]:
             continue  # malformed files are reported by validate_file
         m = ARXIV_ID_RE.search(str(d.get("ARXIV", "")))
         if m:
-            index[m.group(1)].append(p.name)
-    return index
+            arxiv_idx[m.group(1)].append(p.name)
+        nt = norm_title(str(d.get("TITLE", "")))
+        if nt:
+            title_idx[nt].append(p.name)
+    return arxiv_idx, title_idx
 
 
 def main(argv: list[str]) -> int:
@@ -223,7 +245,7 @@ def main(argv: list[str]) -> int:
         return 2
 
     all_files = sorted(p for p in PAPERS_DIR.glob("*.json") if not p.name.startswith("_"))
-    arxiv_to_files = build_arxiv_index(all_files)
+    arxiv_to_files, title_to_files = build_indexes(all_files)
 
     if argv:
         targets = [Path(a) for a in argv]
@@ -238,7 +260,7 @@ def main(argv: list[str]) -> int:
         if not path.exists():
             err(path.name, "file does not exist")
             continue
-        validate_file(path, arxiv_to_files)
+        validate_file(path, arxiv_to_files, title_to_files)
 
     for w in warnings:
         print(w)

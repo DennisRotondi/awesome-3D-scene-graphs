@@ -44,7 +44,7 @@ When you open a PR, a GitHub Action validates every paper file you changed. It c
 - has a non-empty `TITLE`, `VENUE`, `DATE`, `AUTHOR`, `ABSTRACT`, `ARXIV`, and `FIRSTINSTITUTE`;
 - uses `DATE` as `YYYY/MM/DD` (a real, non-future date), `VENUE` ending in a 2-digit year, and `KEYWORD`s drawn exactly (casing included) from [`scripts/constants.py`](scripts/constants.py);
 - has well-formed `http(s)` links, and a `BIBTEX` entry starting with `@`;
-- does not reuse an arXiv id already in the list.
+- is not a duplicate of an existing entry — by arXiv id, or by title when the link is a proceedings/journal page with no arXiv id.
 
 A PR may only add or edit files under `papers/`. You can run the exact same checks locally before pushing (no dependencies needed):
 
