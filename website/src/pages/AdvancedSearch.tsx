@@ -28,7 +28,7 @@ export default function AdvancedSearch() {
   const [detailLevel, setDetailLevel] = useState<'mini' | 'small' | 'detail'>('detail');
   const [onlyWithCode, setOnlyWithCode] = useState(false);
   const [onlyReviewed, setOnlyReviewed] = useState(false);
-  const [sortBy, setSortBy] = useState('');
+  const [sortBy, setSortBy] = useState('DATEO');
 
   const [viewMode, setViewMode] = useState<'browse' | 'statistics' | 'timeline'>('browse');
   const [statsMode, setStatsMode] = useState<'year' | 'venue' | 'keyword'>('year');

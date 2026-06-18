@@ -324,7 +324,7 @@ const Contribute: React.FC = () => {
                   isInvalid={!!errors.KEYWORD}
                 />
                 <Form.Control.Feedback type="invalid">{errors.KEYWORD}</Form.Control.Feedback>
-                <Form.Text className="text-muted d-block">
+                <Form.Text className="text-muted d-block" style={{ userSelect: 'none' }}>
                   Choose only from the FAQ list.{' '}
                   <button
                     type="button"
@@ -354,6 +354,7 @@ const Contribute: React.FC = () => {
                               fontWeight: 400,
                               backgroundColor: active ? '#9CAFAA' : '#fff',
                               color: active ? '#fff' : '#3b4248',
+                              userSelect: 'none',
                             }}
                           >
                             {k.term}
