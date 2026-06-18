@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Card, Form, Row, Col, Button, Alert, Badge, Collapse } from 'react-bootstrap';
+import { Container, Card, Form, Row, Col, Button, Alert, Badge } from 'react-bootstrap';
 import { GITHUB_REPO } from '../surveyPaper';
 import { KEYWORDS } from '../keywords';
 
@@ -38,7 +38,7 @@ const Contribute: React.FC = () => {
   const [paper, setPaper] = useState<Paper>(emptyPaper());
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [alert, setAlert] = useState<{ type: 'success' | 'danger'; msg: string } | null>(null);
-  const [showKeywords, setShowKeywords] = useState(false);
+  const [showKeywords, setShowKeywords] = useState(true);
 
   // Currently selected keywords, parsed from the comma-separated KEYWORD field.
   const selectedKeywords = paper.KEYWORD.split(',')
@@ -325,19 +325,18 @@ const Contribute: React.FC = () => {
                 />
                 <Form.Control.Feedback type="invalid">{errors.KEYWORD}</Form.Control.Feedback>
                 <Form.Text className="text-muted d-block">
-                  Choose keywords only from the FAQ list.{' '}
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setShowKeywords((s) => !s);
-                    }}
+                  Choose only from the FAQ list.{' '}
+                  <button
+                    type="button"
+                    className="btn btn-link p-0 align-baseline"
+                    onClick={() => setShowKeywords((s) => !s)}
                     aria-expanded={showKeywords}
+                    style={{ color: '#3b4248', fontWeight: 600, textDecoration: 'underline' }}
                   >
-                    {showKeywords ? 'Hide keywords ▴' : 'Pick from FAQ keywords ▾'}
-                  </a>
+                    {showKeywords ? 'Hide keywords ▴' : 'Show keywords ▾'}
+                  </button>
                 </Form.Text>
-                <Collapse in={showKeywords}>
+                {showKeywords && (
                   <div>
                     <div className="d-flex flex-wrap gap-1 mt-2">
                       {KEYWORDS.map((k) => {
@@ -345,24 +344,25 @@ const Contribute: React.FC = () => {
                         return (
                           <Badge
                             key={k.term}
-                            bg={active ? 'primary' : 'light'}
-                            text={active ? 'light' : 'dark'}
+                            bg=""
                             title={k.desc}
                             role="button"
                             onClick={() => toggleKeyword(k.term)}
                             style={{
                               cursor: 'pointer',
-                              border: '1px solid #ced4da',
+                              border: '1px solid #3b4248',
                               fontWeight: 400,
+                              backgroundColor: active ? '#9CAFAA' : '#fff',
+                              color: active ? '#fff' : '#3b4248',
                             }}
                           >
-                            {active ? `✓ ${k.term}` : k.term}
+                            {k.term}
                           </Badge>
                         );
                       })}
                     </div>
                   </div>
-                </Collapse>
+                )}
               </Form.Group>
             </Col>
           </Row>
