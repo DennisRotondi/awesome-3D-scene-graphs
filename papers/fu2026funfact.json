@@ -1,0 +1,14 @@
+{
+  "TITLE": "FunFact: Building Probabilistic Functional 3D Scene Graphs via Factor-Graph Reasoning",
+  "VENUE": "CVPR26",
+  "DATE": "2026/04/04",
+  "AUTHOR": "Zhengyu Fu, René Zurbrügg, Kaixian Qu, Marc Pollefeys, Marco Hutter, Hermann Blum, Zuria Bauer",
+  "ABSTRACT": "Recent work in 3D scene understanding is moving beyond purely spatial analysis toward functional scene understanding. However, existing methods often consider functional relationships between object pairs in isolation, failing to capture the scene-wide interdependence that humans use to resolve ambiguity. We introduce FunFact, a framework for constructing probabilistic open-vocabulary functional 3D scene graphs from posed RGB-D images. FunFact first builds an object- and part-centric 3D map and uses foundation models to propose semantically plausible functional relations. These candidates are converted into factor graph variables and constrained by both LLM-derived common-sense priors and geometric priors. This formulation enables joint probabilistic inference over all functional edges and their marginals, yielding substantially better calibrated confidence scores. To benchmark this setting, we introduce FunThor, a synthetic dataset based on AI2-THOR with part-level geometry and rule-based functional annotations. Experiments on SceneFun3D, FunGraph3D, and FunThor show that FunFact improves node and relation discovery recall and significantly reduces calibration error for ambiguous relations, highlighting the benefits of holistic probabilistic modeling for functional scene understanding.",
+  "ARXIV": "https://arxiv.org/abs/2604.03696",
+  "FIRSTINSTITUTE": "ETH",
+  "KEYWORD": "Application, Manipulation, LLM, SUN, Indoor, Dataset, RGB-D, Open-Vocabulary",
+  "SITE": "https://funfact-scenegraph.github.io/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{fu2026funfact,\n  title = {FunFact: Building Probabilistic Functional 3D Scene Graphs via Factor-Graph Reasoning},\n  author = {Fu, Zhengyu and Zurbrügg, René and Qu, Kaixian and Pollefeys, Marc and Hutter, Marco and Blum, Hermann and Bauer, Zuria},\n  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n  month = {June},\n  year = {2026}\n}"
+}

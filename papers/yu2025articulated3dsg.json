@@ -10,5 +10,5 @@
   "SITE": "https://alany1.github.io/#",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{yu2025articulated3Dsg,\n  title = {Pandora: Articulated 3D Scene Graphs from Egocentric Vision},\n  author = {Yu, Alan and Chang, Yun and Xie, Christopher and Carlone, Luca},\n  booktitle = {British Machine Vision Conf. (BMVC)},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{yu2025articulated3dsg,\n  title = {Pandora: Articulated 3D Scene Graphs from Egocentric Vision},\n  author = {Yu, Alan and Chang, Yun and Xie, Christopher and Carlone, Luca},\n  booktitle = {British Machine Vision Conf. (BMVC)},\n  year = {2025}\n}"
 }

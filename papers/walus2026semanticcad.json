@@ -4,7 +4,7 @@
   "DATE": "2026/01/10",
   "AUTHOR": "Nathan Pascal Walus, Ranulfo Bezerra, Shotaro Kojima, Tsige Tadesse Alemayoh, Satoshi Tadokoro, Kazunori Ohno",
   "ABSTRACT": "Utilizing functional elements in an industrial environment, such as displays and interactive valves, provide effective possibilities for robot training. When preparing simulations for robots or applications that involve high-level scene understanding, the simulation environment must be equally detailed. Although CAD files for such environments deliver an exact description of the geometry and visuals, they usually lack semantic, relational and functional information, thus limiting the simulation and training possibilities. A 3D scene graph can organize semantic, spatial and functional information by enriching the environment through a Large Vision-Language Model (LVLM). In this paper we present an offline approach to creating detailed 3D scene graphs from CAD environments. This will serve as a foundation to include the relations of functional and actionable elements, which then can be used for dynamic simulation and reasoning. Key results of this research include both quantitative results of the generated semantic labels as well as qualitative results of the scene graph, especially in hindsight of pipe structures and identified functional relations.",
-  "ARXIV": "https://arxiv.org/pdf/2601.06415",
+  "ARXIV": "https://arxiv.org/abs/2601.06415",
   "FIRSTINSTITUTE": "Tohoku",
   "KEYWORD": "Application, Hierarchical, LLM, Indoor",
   "SITE": "",

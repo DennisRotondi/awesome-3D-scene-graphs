@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "https://github.com/Jonnyffeler/OutdoorSceneGraph",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{Nyffeler_2025_ICCV,\n  title = {Hierarchical 3D Scene Graphs Construction Outdoors},\n  author = {Nyffeler, Jon and Tombari, Federico and Barath, Daniel},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{nyffeler2025iccv,\n  title = {Hierarchical 3D Scene Graphs Construction Outdoors},\n  author = {Nyffeler, Jon and Tombari, Federico and Barath, Daniel},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
 }

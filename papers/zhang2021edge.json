@@ -4,7 +4,7 @@
   "DATE": "2021/03/09",
   "AUTHOR": "Chaoyi Zhang, Jianhui Yu, Yang Song, Weidong Cai",
   "ABSTRACT": "Scene understanding is a critical problem in computer vision. In this paper, we propose a 3D point-based scene graph generation framework to effectively bridge perception and reasoning to achieve scene understanding via three sequential stages, namely scene graph construction, reasoning, and inference. Within the reasoning stage, an EDGE-oriented Graph Convolutional Network is created to exploit multi-dimensional edge features for explicit relationship modeling, together with the exploration of two associated twinning interaction mechanisms between nodes and edges for the independent evolution of scene graph representations. Overall, our integrated framework is established to seek and infer scene structures of interest from both real-world and synthetic 3D point-based scenes. Our experimental results show promising edge-oriented reasoning effects on scene graph generation studies. We also demonstrate our method advantage on several traditional graph representation learning benchmark datasets, including the node-wise classification on citation networks and whole-graph recognition problems for molecular analysis.",
-  "ARXIV": "http://arxiv.org/abs/2103.05558v2",
+  "ARXIV": "https://arxiv.org/abs/2103.05558",
   "FIRSTINSTITUTE": "USYD",
   "KEYWORD": "Pre-Built PCD, Indoor",
   "SITE": "https://sggpoint.github.io/",

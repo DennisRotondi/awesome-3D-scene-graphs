@@ -4,7 +4,7 @@
   "DATE": "2023/12/18",
   "AUTHOR": "Jared Strader, Nathan Hughes, William Chen, Alberto Speranzon, Luca Carlone",
   "ABSTRACT": "This paper proposes an approach to build 3D scene graphs in arbitrary indoor and outdoor environments. Such extension is challenging; the hierarchy of concepts that describe an outdoor environment is more complex than for indoors, and manually defining such hierarchy is time-consuming and does not scale. Furthermore, the lack of training data prevents the straightforward application of learning-based tools used in indoor settings. To address these challenges, we propose two novel extensions. First, we develop methods to build a spatial ontology defining concepts and relations relevant for indoor and outdoor robot operation. In particular, we use a Large Language Model (LLM) to build such an ontology, thus largely reducing the amount of manual effort required. Second, we leverage the spatial ontology for 3D scene graph construction using Logic Tensor Networks (LTN) to add logical rules, or axioms (e.g., \"a beach contains sand\"), which provide additional supervisory signals at training time thus reducing the need for labelled data, providing better predictions, and even allowing predicting concepts unseen at training time. We test our approach in a variety of datasets, including indoor, rural, and coastal environments, and show that it leads to a significant increase in the quality of the 3D scene graph generation with sparsely annotated data.",
-  "ARXIV": "http://arxiv.org/abs/2312.11713v2",
+  "ARXIV": "https://arxiv.org/abs/2312.11713",
   "FIRSTINSTITUTE": "MIT",
   "KEYWORD": "Application, Indoor, Outdoor, Hierarchical, LLM, RGB-D, SUN, Incremental, Real-Time",
   "SITE": "",

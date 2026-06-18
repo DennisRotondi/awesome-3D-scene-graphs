@@ -4,7 +4,7 @@
   "DATE": "2022/10/12",
   "AUTHOR": "Yuanyuan Liu, Chengjiang Long, Zhaoxuan Zhang, Bokai Liu, Qiang Zhang, Baocai Yin, Xin Yang",
   "ABSTRACT": "3D scene graph generation (SGG) has been of high interest in computer vision. Although the accuracy of 3D SGG on coarse classification and single relation label has been gradually improved, the performance of existing works is still far from being perfect for fine-grained and multi-label situations. In this paper, we propose a framework fully exploring contextual information for the 3D SGG task, which attempts to satisfy the requirements of fine-grained entity class, multiple relation labels, and high accuracy simultaneously. Our proposed approach is composed of a Graph Feature Extraction module and a Graph Contextual Reasoning module, achieving appropriate information-redundancy feature extraction, structured organization, and hierarchical inferring. Our approach achieves superior or competitive performance over previous methods on the 3DSSG dataset, especially on the relationship prediction sub-task.",
-  "ARXIV": "http://arxiv.org/abs/2210.06240v2",
+  "ARXIV": "https://arxiv.org/abs/2210.06240",
   "FIRSTINSTITUTE": "DUT",
   "KEYWORD": "Pre-Built PCD, Indoor",
   "SITE": "",

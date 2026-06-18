@@ -10,5 +10,5 @@
   "SITE": "https://qixun1.github.io/projects/SCRSSG/",
   "CODE": "https://github.com/qixun1/scrssg",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{Yeo_2025_ICCV,\n  title = {Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images},\n  author = {Yeo, Qi Xun and Li, Yanyan and Lee, Gim Hee},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{yeo2025iccv,\n  title = {Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images},\n  author = {Yeo, Qi Xun and Li, Yanyan and Lee, Gim Hee},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
 }

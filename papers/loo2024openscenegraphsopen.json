@@ -4,7 +4,7 @@
   "DATE": "2024/07/02",
   "AUTHOR": "Joel Loo, Zhanxin Wu, David Hsu",
   "ABSTRACT": "How can we build general-purpose robot systems for open-world semantic navigation, e.g., searching a novel environment for a target object specified in natural language? To tackle this challenge, we introduce OSG Navigator, a modular system composed of foundation models, for open-world Object-Goal Navigation (ObjectNav). Foundation models provide enormous semantic knowledge about the world, but struggle to organise and maintain spatial information effectively at scale. Key to OSG Navigator is the Open Scene Graph representation, which acts as spatial memory for OSG Navigator. It organises spatial information hierarchically using OSG schemas, which are templates, each describing the common structure of a class of environments. OSG schemas can be automatically generated from simple semantic labels of a given environment, e.g., \"home\" or \"supermarket\". They enable OSG Navigator to adapt zero-shot to new environment types. We conducted experiments using both Fetch and Spot robots in simulation and in the real world, showing that OSG Navigator achieves state-of-the-art performance on ObjectNav benchmarks and generalises zero-shot over diverse goals, environments, and robot embodiments.",
-  "ARXIV": "http://arxiv.org/abs/2407.02473v1",
+  "ARXIV": "https://arxiv.org/abs/2407.02473",
   "FIRSTINSTITUTE": "NUS",
   "KEYWORD": "Application, Open-Vocabulary, Navigation, LLM, Hierarchical, RGB-D, Indoor",
   "SITE": "https://open-scene-graphs.github.io/",
