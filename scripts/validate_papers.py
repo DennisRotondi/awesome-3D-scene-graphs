@@ -179,10 +179,10 @@ def validate_file(path: Path, arxiv_to_files: dict[str, list[str]],
         if val and not is_http_url(val):
             err(name, f"{k} is not a valid http(s) URL: {val!r}")
 
-    # --- ARXIV: present+URL already enforced above (REQUIRED_NONEMPTY + URL_FIELDS);
-    #     warn (don't fail) if it isn't actually an arxiv.org link, so non-arXiv
-    #     papers still pass CI while the oddity stays visible. The guard means we
-    #     never double-report: empty already errored, non-URL already errored. ---
+    # --- ARXIV: present + valid URL already enforced above (REQUIRED_NONEMPTY +
+    #     URL_FIELDS), so an empty or non-URL value already errored. Here we only
+    #     warn if it's a valid URL that just isn't an arxiv.org link, so non-arXiv
+    #     papers still pass CI while the oddity stays visible. ---
     ax = sval("ARXIV")
     if ax and is_http_url(ax):
         host = urlparse(ax).netloc.lower()
@@ -251,7 +251,7 @@ def main(argv: list[str]) -> int:
         targets = [Path(a) for a in argv]
         real = [t for t in targets if not t.name.startswith("_")]
         if len(real) > 1:
-            warn("(PR)", f"{len(real)} paper files changed in one PR; one paper per PR is preferred")
+            err("(PR)", f"{len(real)} paper files changed in one PR; please open one PR per paper")
     else:
         targets = all_files
         real = all_files
