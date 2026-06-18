@@ -9,6 +9,6 @@
   "KEYWORD": "Application, Indoor, Pre-Built PCD, SUN",
   "SITE": "https://sayands.github.io/sgaligner/",
   "CODE": "https://github.com/sayands/sgaligner",
-  "VIDEO": "youtube.com/watch?v=WvJMpjNJCcc&feature=youtu.be",
+  "VIDEO": "https://youtube.com/watch?v=WvJMpjNJCcc&feature=youtu.be",
   "BIBTEX": "@inproceedings{sarkar2023sgaligner,\n  title = {SGAligner: 3D Scene Alignment with Scene Graphs},\n  author = {Sarkar, Sayan Deb and Miksik, Ondrej and Pollefeys, Marc and Barath, Daniel and Armeni, Iro},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2023}\n}"
 }

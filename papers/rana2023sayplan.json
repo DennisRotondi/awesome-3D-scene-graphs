@@ -9,6 +9,6 @@
   "KEYWORD": "Application, Indoor, Planning, Compression, Hierarchical",
   "SITE": "https://sayplan.github.io/",
   "CODE": "",
-  "VIDEO": "youtube.com/watch?si=0re6L_st-x-yH_Me&v=3aMgpqnD2RY&feature=youtu.be",
+  "VIDEO": "https://youtube.com/watch?si=0re6L_st-x-yH_Me&v=3aMgpqnD2RY&feature=youtu.be",
   "BIBTEX": "@inproceedings{rana2023sayplan,\n  title = {SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning},\n  author = {Rana, Krishan and Haviland, Jesse and Garg, Sourav and Abou-Chakra, Jad and Reid, Ian and Suenderhauf, Niko},\n  booktitle = {Conf. on Robot Learning (CoRL)},\n  year = {2023}\n}"
 }

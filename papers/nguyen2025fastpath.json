@@ -1,0 +1,14 @@
+{
+  "TITLE": "Fast Path Planning with Hierarchical Approach Based on 3D Scene Graphs",
+  "VENUE": "ICR25",
+  "DATE": "2025/09/23",
+  "AUTHOR": "Van Hung Nguyen, Pham Tran Quyen Anh, Xuan-Tung Truong",
+  "ABSTRACT": "In the literature on autonomous systems in general, and mobile robots in particular, the primary goal of path planning methods is to meet both completeness and real-time criteria, ensuring they can be effectively deployed in real-world systems. For Unmanned Aerial Vehicles (UAVs), the requirement for real-time performance becomes even more critical due to constraints of resources. The most of existed methods use the volumetric map combined with a single-level planning approach. This is computationally expensive even in small scenes. There were many efforts in reducing this burden of computing. The ESDF map encodes the shortest distance from every point in the environment to the nearest obstacle enabling collision-checking faster. Oleynikova et al. has tried to skeletonizing the environment and then creating sparse graph. This work suggests the use of hierarchical planning based on the novel presentation of environment, namely 3D Scene Graph (3DSG), to save computational resources more. Hierarchical path planning is an approach that divides the pathfinding process into different levels of abstraction, allowing for more efficient and scalable solutions. The 3DSG is inherently suitable to hierarchical planning because it is organized as multi-layers at different levels of abstraction and includes the relationship between nodes at the same layer as well as across different layers. Moreover, we also did the experiments for illustrating the performance of planning on 3DSG versus sparse graph. We do A-star and D* Lite with the same configuration on 3DSG and sparse graph on some kind of environment. From the result, we figured out that the efficiency of hierarchical planning on 3DSG is superior compared to sparse graph. A summary video of the proposed system is available at https://youtu.be/6leSRoO16KQ.",
+  "ARXIV": "https://link.springer.com/chapter/10.1007/978-3-032-11900-1_26",
+  "FIRSTINSTITUTE": "CAPITI",
+  "KEYWORD": "Application, Planning, Hierarchical, Real-Time",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "https://youtu.be/6leSRoO16KQ",
+  "BIBTEX": "@inproceedings{nguyen2025fastpath,\n  title = {Fast Path Planning with Hierarchical Approach Based on 3D Scene Graphs},\n  author = {Nguyen, Van-Hung and Anh, Phuong-Thi-Quynh and Truong, Xuan-Tung},\n  booktitle = {Intl. Conf. on Interactive Collaborative Robotics (ICR)},\n  year = {2025}\n}"
+}

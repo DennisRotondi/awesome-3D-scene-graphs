@@ -1,0 +1,14 @@
+{
+  "TITLE": "ZING-3D: Zero-shot Incremental 3D Scene Graphs via Vision-Language Models",
+  "VENUE": "arXiv25",
+  "DATE": "2025/10/24",
+  "AUTHOR": "Pranav Saxena, Jimmy Chiun",
+  "ABSTRACT": "Understanding and reasoning about complex 3D environments requires structured scene representations that capture not only objects but also their semantic and spatial relationships. While recent works on 3D scene graph generation have leveraged pretrained VLMs without task-specific fine-tuning, they are largely confined to single-view settings, fail to support incremental updates as new observations arrive and lack explicit geometric grounding in 3D space, all of which are essential for embodied scenarios. In this paper, we propose ZING-3D, a framework that leverages the vast knowledge of pretrained foundation models to enable open-vocabulary recognition and generate a rich semantic representation of the scene in a zero-shot manner while also enabling incremental updates and geometric grounding in 3D space, making it suitable for downstream robotics applications. Our approach leverages VLM reasoning to generate a rich 2D scene graph, which is grounded in 3D using depth information. Nodes represent open-vocabulary objects with features, 3D locations, and semantic context, while edges capture spatial and semantic relations with inter-object distances. Our experiments on scenes from the Replica and HM3D dataset show that ZING-3D is effective at capturing spatial and relational knowledge without the need of task-specific training.",
+  "ARXIV": "https://arxiv.org/abs/2510.21069",
+  "FIRSTINSTITUTE": "BITS Pilani",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Incremental, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{saxena2025zing3d,\n  title = {ZING-3D: Zero-shot Incremental 3D Scene Graphs via Vision-Language Models},\n  author = {Saxena, Pranav and Chiun, Jimmy},\n  year = {2025},\n  eprint = {2510.21069},\n  archivePrefix = {arXiv}\n}"
+}

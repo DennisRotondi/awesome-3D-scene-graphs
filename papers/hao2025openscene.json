@@ -1,0 +1,14 @@
+{
+  "TITLE": "Open-Scene Understanding-oriented 3D Scene Graph Generation",
+  "VENUE": "ICME25",
+  "DATE": "2025/06/30",
+  "AUTHOR": "Yuansu Hao, Fei Yu, Yanhao Wang, Yuehua Li, Quan Deng, Yuan Yu, Chen Huang, Nan Che",
+  "ABSTRACT": "Understanding complex 3D environments is essential for many computer vision and robotic applications, especially in highly dynamic open-scene scenarios. The 3D scene graph plays an important role in the comprehension of 3D environments. However, most existing methods for 3D scene graph generation depend on pre-specified object and relationship classes (i.e., closed vocabulary) and labeled data for training, which restricts their effectiveness in the open-scene setting. To address this issue, we propose a novel Open-Scene Understanding-oriented 3D Scene Graph (OSU-3DSG) framework that can operate without labeled training data. The OSU-3DSG framework effectively extracts visual features from RGB-D image sequences and fuses them with camera pose estimates to create accurate 3D object maps, and by leveraging a pre-trained Vision Language Model (VLM), it generates relational triplets and constructs 3D scene graphs in a zero-shot manner.",
+  "ARXIV": "https://ieeexplore.ieee.org/document/11209525",
+  "FIRSTINSTITUTE": "HIT",
+  "KEYWORD": "Application, LLM, Indoor, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "https://github.com/YuansuHao/OSU-3DSG",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{hao2025openscene,\n  title = {Open-Scene Understanding-oriented 3D Scene Graph Generation},\n  author = {Hao, Yuansu and Yu, Fei and Wang, Yanhao and Li, Yuehua and Deng, Quan and Yu, Yuan and Huang, Chen and Che, Nan},\n  booktitle = {IEEE Intl. Conf. on Multimedia and Expo (ICME)},\n  year = {2025}\n}"
+}

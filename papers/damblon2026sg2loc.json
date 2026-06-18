@@ -1,0 +1,14 @@
+{
+  "TITLE": "SG2Loc: Sequential Visual Localization on 3D Scene Graphs",
+  "VENUE": "arXiv26",
+  "DATE": "2026/06/10",
+  "AUTHOR": "Nicole Damblon, Olga Vysotska, Federico Tombari, Marc Pollefeys",
+  "ABSTRACT": "Visual localization in complex indoor environments remains a critical challenge for robotics and AR applications. Sequential localization, where pose estimates are refined over time, is important for autonomous agents. However, traditional methods often require storing extensive image databases or point clouds, leading to significant storage overhead. This paper introduces a novel, lightweight approach to sequential visual localization using 3D scene graphs. Our method represents the environment with a compact scene graph, where nodes represent objects (with coarse meshes) and edges encode spatial relationships. For each image in the localization phase, we extract per-patch semantic features, predicting object identities. Localization is performed within a particle filter framework. Each particle, representing a camera pose, projects the coarse object meshes from the scene graph into the image, assigning object identities to patches based on visibility. The similarity of the per-patch features, in the input image, and object features from the scene graph determines the weight of a particle. Subsequent images are incorporated sequentially, refining the pose estimate. By leveraging a compact scene graph and efficient semantic matching, our method significantly reduces storage while maintaining performance on real-world datasets.",
+  "ARXIV": "https://arxiv.org/abs/2606.11880",
+  "FIRSTINSTITUTE": "ETH",
+  "KEYWORD": "Application, Indoor, Compression",
+  "SITE": "",
+  "CODE": "https://github.com/DmblnNicole/sg2loc",
+  "VIDEO": "",
+  "BIBTEX": "@misc{damblon2026sg2loc,\n  title = {SG2Loc: Sequential Visual Localization on 3D Scene Graphs},\n  author = {Damblon, Nicole and Vysotska, Olga and Tombari, Federico and Pollefeys, Marc},\n  year = {2026},\n  eprint = {2606.11880},\n  archivePrefix = {arXiv}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval",
+  "VENUE": "arXiv26",
+  "DATE": "2026/02/13",
+  "AUTHOR": "YukTungSamuel Fang, Zhikang Shi, Jiabin Qiu, Zixuan Chen, Jieqi Shi, Hao Xu, Jing Huo, Yang Gao",
+  "ABSTRACT": "Driven by recent advancements in foundation models, semantic scene graphs have emerged as a promising paradigm for high-level 3D environmental abstraction in robot navigation. However, existing frameworks struggle to successfully handle complex embodied queries while ensuring continuous semantic graph construction. To address these limitations, we present INHerit-SG, an asynchronous dual-stream architecture that systematically structures the 3D environment into a RAG-ready knowledge base. Specifically, our framework integrates comprehensive node representations, an event-triggered asynchronous update scheme, and a structured retrieval mechanism. While geometric segmentation is decoupled from semantic reasoning to maintain mapping efficiency, the semantic nodes also store natural language summaries to support text-based retrieval. Furthermore, we propose an interpretable retrieval pipeline that couples the reasoning capabilities of multi-role LLMs with the topological structure of the scene graph, followed by a visual verification process to mitigate false positives. We evaluate INHerit-SG on a newly constructed benchmark for complex embodied semantic query retrieval, HM3DSem-SQR, and in real-world environments. Experiments demonstrate that our system achieves state-of-the-art performance on complex queries, especially for those involving negations and chained spatial constraints.",
+  "ARXIV": "https://arxiv.org/abs/2602.12971",
+  "FIRSTINSTITUTE": "NJU",
+  "KEYWORD": "Application, Navigation, LLM, SUN, Indoor, Hierarchical, Incremental, Dataset, RGB-D, Open-Vocabulary",
+  "SITE": "https://fangyuktung.github.io/INHeritSG.github.io/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{fang2026inheritsg,\n  title = {INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval},\n  author = {Fang, YukTungSamuel and Shi, Zhikang and Qiu, Jiabin and Chen, Zixuan and Shi, Jieqi and Xu, Hao and Huo, Jing and Gao, Yang},\n  year = {2026},\n  eprint = {2602.12971},\n  archivePrefix = {arXiv}\n}"
+}

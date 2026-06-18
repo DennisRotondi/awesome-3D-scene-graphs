@@ -9,6 +9,6 @@
   "KEYWORD": "Application, Hierarchical, Indoor, Dataset, SUN",
   "SITE": "",
   "CODE": "",
-  "VIDEO": "youtube.com/watch?v=hsGlSCa12iY&feature=youtu.be",
+  "VIDEO": "https://youtube.com/watch?v=hsGlSCa12iY&feature=youtu.be",
   "BIBTEX": "@inproceedings{saucedo2024beliefsg,\n  title = {Belief Scene Graphs: Expanding Partial Scenes with Objects through Computation of Expectation},\n  author = {Saucedo, Mario A.V. and Patel, Akash and Saradagi, Akshit and Kanellakis, Christoforos and Nikolakopoulos, George},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2024}\n}"
 }

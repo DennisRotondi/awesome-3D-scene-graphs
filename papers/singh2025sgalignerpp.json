@@ -9,6 +9,6 @@
   "KEYWORD": "Application, Indoor, Pre-Built PCD, SUN",
   "SITE": "https://singhbino3d.github.io/sgpp/",
   "CODE": "",
-  "VIDEO": "youtube.com/watch?v=IIw3UrR-JXs",
+  "VIDEO": "https://youtube.com/watch?v=IIw3UrR-JXs",
   "BIBTEX": "@misc{singh2025sgalignerpp,\n  title = {SGAligner++: Cross-Modal Language-Aided 3D Scene Graph Alignment},\n  author = {Singh, Binod and Sarkar, Sayan Deb and Armeni, Iro},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
 }

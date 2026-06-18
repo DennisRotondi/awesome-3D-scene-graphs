@@ -1,0 +1,14 @@
+{
+  "TITLE": "SceneGraphGrounder: Zero-Shot 3D Visual Grounding via Structured Scene Graph Matching",
+  "VENUE": "arXiv26",
+  "DATE": "2026/05/20",
+  "AUTHOR": "Xuefei Sun, Xujia Zhang, Brendan Crowe, Doncey Albin, Christoffer Heckman",
+  "ABSTRACT": "Zero-shot 3D visual grounding requires localizing objects in unstructured environments from free-form natural language. Recent vision-language model (VLM) approaches achieve promising results but rely on view-dependent reasoning or implicit representations, limiting spatial consistency and interpretability for compositional queries. We propose SceneGraphGrounder, a framework that reformulates 3D grounding as structured graph matching over a reconstructed 3D scene graph. To enable this formulation, we introduce a visual marker prompting strategy that enables a VLM to infer object-object relationships from 2D views, which are subsequently lifted into a persistent 3D scene graph encoding both spatial and semantic relations. Given a query, we construct a query graph and perform constrained alignment with the scene graph, ensuring multi-view consistency and interpretable reasoning. Experiments on the ScanRefer benchmark demonstrate that our method achieves competitive performance among zero-shot approaches, using only RGB-D inputs. We further validate our framework through real-world deployment on a mobile robot, demonstrating robust spatial reasoning in long-horizon physical environments.",
+  "ARXIV": "https://arxiv.org/abs/2605.21788",
+  "FIRSTINSTITUTE": "CU Boulder",
+  "KEYWORD": "Application, LLM, SUN, Indoor, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{sun2026scenegraphgrounder,\n  title = {SceneGraphGrounder: Zero-Shot 3D Visual Grounding via Structured Scene Graph Matching},\n  author = {Sun, Xuefei and Zhang, Xujia and Crowe, Brendan and Albin, Doncey and Heckman, Christoffer},\n  year = {2026},\n  eprint = {2605.21788},\n  archivePrefix = {arXiv}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation",
+  "VENUE": "CVPR26",
+  "DATE": "2025/11/13",
+  "AUTHOR": "Xun Huang, Shijia Zhao, Yunxiang Wang, Xin Lu, Wanfa Zhang, Rongsheng Qu, Weixin Li, Yunhong Wang, Chenglu Wen",
+  "ABSTRACT": "Embodied navigation is a fundamental capability for robotic agents operating. Real-world deployment requires open vocabulary generalization and low training overhead, motivating zero-shot methods rather than task-specific RL training. However, existing zero-shot methods that build explicit 3D scene graphs often compress rich visual observations into text-only relations, leading to high construction cost, irreversible loss of visual evidence, and constrained vocabularies. To address these limitations, we introduce the Multi-modal 3D Scene Graph (M3DSG), which preserves visual cues by replacing textual relational edges with dynamically assigned images. Built on M3DSG, we propose MSGNav, a zero-shot navigation system that includes a Key Subgraph Selection module for efficient reasoning, an Adaptive Vocabulary Update module for open vocabulary support, and a Closed-Loop Reasoning module for accurate exploration reasoning. Additionally, we further identify the \"last mile\" problem in zero-shot navigation -- determining the feasible target location with a suitable final viewpoint, and propose a Visibility-based Viewpoint Decision module to explicitly resolve it. Comprehensive experimental results demonstrate that MSGNav achieves state-of-the-art performance on the challenging GOAT-Bench and HM3D-ObjNav benchmark.",
+  "ARXIV": "https://arxiv.org/abs/2511.10376",
+  "FIRSTINSTITUTE": "XMU",
+  "KEYWORD": "Application, Navigation, LLM, SUN, Indoor, Active, Incremental, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "https://github.com/ylwhxht/MSGNav",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{huang2026msgnav,\n  title = {MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation},\n  author = {Huang, Xun and Zhao, Shijia and Wang, Yunxiang and Lu, Xin and Zhang, Wanfa and Qu, Rongsheng and Li, Weixin and Wang, Yunhong and Wen, Chenglu},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2026}\n}"
+}

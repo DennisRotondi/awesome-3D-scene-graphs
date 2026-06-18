@@ -1,0 +1,14 @@
+{
+  "TITLE": "A Scene Graph Backed Approach to Open Set Semantic Mapping",
+  "VENUE": "arXiv26",
+  "DATE": "2026/02/03",
+  "AUTHOR": "Martin Günther, Felix Igelbrink, Oscar Lima, Lennart Niecksch, Marian Renz, Martin Atzmueller",
+  "ABSTRACT": "While Open Set Semantic Mapping and 3D Semantic Scene Graphs (3DSSGs) are established paradigms in robotic perception, deploying them effectively to support high-level reasoning in large-scale, real-world environments remains a significant challenge. Most existing approaches decouple perception from representation, treating the scene graph as a derivative layer generated post hoc. This limits both consistency and scalability. In contrast, we propose a mapping architecture where the 3DSSG serves as the foundational backend, acting as the primary knowledge representation for the entire mapping process. Our approach leverages prior work on incremental scene graph prediction to infer and update the graph structure in real-time as the environment is explored. This ensures that the map remains topologically consistent and computationally efficient, even during extended operations in large-scale settings. By maintaining an explicit, spatially grounded representation that supports both flat and hierarchical topologies, we bridge the gap between sub-symbolic raw sensor data and high-level symbolic reasoning. Consequently, this provides a stable, verifiable structure that knowledge-driven frameworks, ranging from knowledge graphs and ontologies to Large Language Models (LLMs), can directly exploit, enabling agents to operate with enhanced interpretability, trustworthiness, and alignment to human concepts.",
+  "ARXIV": "https://arxiv.org/abs/2602.03781",
+  "FIRSTINSTITUTE": "DFKI",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Hierarchical, Incremental, Real-Time, RGB-D, LiDAR, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{gunther2026openset,\n  title = {A Scene Graph Backed Approach to Open Set Semantic Mapping},\n  author = {G{\\\"u}nther, Martin and Igelbrink, Felix and Lima, Oscar and Niecksch, Lennart and Renz, Marian and Atzmueller, Martin},\n  year = {2026},\n  eprint = {2602.03781},\n  archivePrefix = {arXiv}\n}"
+}

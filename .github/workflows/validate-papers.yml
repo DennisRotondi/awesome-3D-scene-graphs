@@ -1,0 +1,68 @@
+name: Validate paper contributions
+
+# Runs on every PR to main. Uses `pull_request` (not pull_request_target) with a
+# read-only token, so PRs from forks can never get write access or read secrets.
+on:
+  pull_request:
+    branches: [main]
+    # `labeled` is needed so adding the 'allow-infra' override re-triggers the run.
+    types: [opened, synchronize, reopened, labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # need full history for the merge-base diff below
+
+      - name: Compute changed files
+        run: |
+          BASE='${{ github.event.pull_request.base.sha }}'
+          HEAD='${{ github.event.pull_request.head.sha }}'
+          # Three-dot diff = changes the PR introduced relative to the merge-base
+          # (so commits landed on main after the branch diverged are not counted).
+          # All changes incl. deletions -> used by the "only papers/" guard.
+          git diff --name-only "$BASE...$HEAD" > changed_all.txt
+          # Added/Copied/Modified/Renamed only -> the files we can actually validate.
+          git diff --name-only --diff-filter=ACMR "$BASE...$HEAD" > changed_acmr.txt
+          echo "----- changed (all, incl. deletions) -----"; cat changed_all.txt
+          echo "----- changed (validatable) -----"; cat changed_acmr.txt
+
+      - name: Rule — PRs may only touch papers/
+        if: ${{ !contains(github.event.pull_request.labels.*.name, 'allow-infra') }}
+        run: |
+          OFFENDING=$(grep -vE '^papers/' changed_all.txt | grep -vE '^[[:space:]]*$' || true)
+          if [ -n "$OFFENDING" ]; then
+            echo "::error::Contribution PRs may only add or edit files under papers/."
+            echo "::error::To change anything else (scripts, workflows, README, etc.) a maintainer must add the 'allow-infra' label to this PR."
+            echo "Offending files:"; echo "$OFFENDING"
+            exit 1
+          fi
+
+      - name: Rule — files under papers/ must be .json
+        run: |
+          BAD=$(grep -E '^papers/' changed_acmr.txt | grep -vE '\.json$' || true)
+          if [ -n "$BAD" ]; then
+            echo "::error::Only .json files belong under papers/. Offending:"; echo "$BAD"
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate changed paper files
+        run: |
+          FILES=$(grep -E '^papers/.*\.json$' changed_acmr.txt || true)
+          if [ -z "$FILES" ]; then
+            echo "No paper JSON added or modified — nothing to validate."
+            exit 0
+          fi
+          echo "Validating:"; echo "$FILES"
+          python scripts/validate_papers.py $FILES

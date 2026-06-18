@@ -1,0 +1,14 @@
+{
+  "TITLE": "Worth Remembering: Surprise-Gated Robot Episodic Memory",
+  "VENUE": "arXiv26",
+  "DATE": "2026/06/02",
+  "AUTHOR": "Nicolas Gorlo, Derek K. Wise, Alberto Speranzon, Luca Carlone",
+  "ABSTRACT": "Robots solving generalist tasks need to be able to ground instructions in their past experience, since humans may refer to notable past events when giving a task (e.g., \"Take me to where the chemical spill happened yesterday\"). Since memory limits make storing all past events infeasible, long-term robot memory must be selective, ideally retaining only those episodes with high utility for future tasks. However, future tasks are not typically given a priori for generalist robots. To select generically useful memories, we propose Bayesian surprise as a gating mechanism for memory formation. We present an approach to compute surprise in a semantically rich deployment-agnostic latent space provided by V-JEPA-2. Using our gated episodic memory to augment 4D scene graph-based spatial memory, we show a consistent improvement over state-of-the-art benchmarks in robot question answering, outperforming prior robot memory methods by at least 12% for temporal, spatial, and binary questions, and surpassing the performance of supervised and non-causal methods with an unsupervised causal method in event segmentation tasks.",
+  "ARXIV": "https://arxiv.org/abs/2606.03787",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Short-Term Dynamics, Compression, Hierarchical, Incremental",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{gorlo2026worthremembering,\n  title = {Worth Remembering: Surprise-Gated Robot Episodic Memory},\n  author = {Gorlo, Nicolas and Wise, Derek K. and Speranzon, Alberto and Carlone, Luca},\n  year = {2026},\n  eprint = {2606.03787},\n  archivePrefix = {arXiv}\n}"
+}

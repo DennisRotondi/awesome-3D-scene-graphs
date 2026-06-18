@@ -1,0 +1,14 @@
+{
+  "TITLE": "M2H-MX: Multi-Task Semantic and Geometric Perception for Real-Time Monocular 3D Scene Graph Construction",
+  "VENUE": "arXiv26",
+  "DATE": "2026/03/31",
+  "AUTHOR": "U. V. B. L. Udugama, George Vosselman, Francesco Nex",
+  "ABSTRACT": "Monocular cameras are attractive for robotic perception due to their low cost and ease of deployment, yet achieving reliable real-time spatial understanding from a single image stream remains challenging. While recent multi-task dense prediction models have improved per-pixel depth and semantic estimation, translating these advances into stable monocular mapping systems is still non-trivial. This paper presents M2H-MX, a real-time multi-task perception model for monocular spatial understanding. The model preserves multi-scale feature representations while introducing register-gated global context and controlled cross-task interaction in a lightweight decoder, enabling depth and semantic predictions to reinforce each other under strict latency constraints. Its outputs integrate directly into an unmodified monocular SLAM pipeline through a compact perception-to-mapping interface. We evaluate both dense prediction accuracy and in-the-loop system performance. On NYUDv2, M2H-MX-L achieves state-of-the-art results, improving semantic mIoU by 6.6% and reducing depth RMSE by 9.4% over representative multi-task baselines. When deployed in a real-time monocular mapping system on ScanNet, M2H-MX reduces average trajectory error by 60.7% compared to a strong monocular SLAM baseline while producing cleaner metric-semantic maps. These results demonstrate that modern multi-task dense prediction can be reliably deployed for real-time monocular spatial perception in robotic systems.",
+  "ARXIV": "https://arxiv.org/abs/2603.29236",
+  "FIRSTINSTITUTE": "UT",
+  "KEYWORD": "Indoor, Real-Time, SLAM",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{udugama2026m2hmx,\n  title = {M2H-MX: Multi-Task Semantic and Geometric Perception for Real-Time Monocular 3D Scene Graph Construction},\n  author = {Udugama, U. V. B. L. and Vosselman, George and Nex, Francesco},\n  year = {2026},\n  eprint = {2603.29236},\n  archivePrefix = {arXiv}\n}"
+}

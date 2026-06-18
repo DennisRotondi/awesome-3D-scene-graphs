@@ -1,0 +1,14 @@
+{
+  "TITLE": "Predictive Spatio-Temporal Scene Graphs for Semi-Static Scenes",
+  "VENUE": "arXiv26",
+  "DATE": "2026/04/30",
+  "AUTHOR": "Miguel Saavedra-Ruiz, Charlie Gauthier, Kumaraditya Gupta, Shima Nikfal, Liam Paull",
+  "ABSTRACT": "We have seen tremendous recent progress in our ability to build \"spatio-semantic\" representations that enable robots to perform complex reasoning across geometry and semantics. However, the vast majority of these methods lack any ability to perform reasoning across time. This is a desirable property in situations where a robot repeatedly observes an environment where instances may change in between observations, but in a structured way. Consider as an example a home environment where the location of a mug typically moves from the cupboard to a countertop to the sink and then back to the cupboard on a daily basis. We should be able to learn this cyclic behavior and use it to predict the state of the mug in the future. In this work, we propose a method that is able to perform this type of tempo-spatio-semantic reasoning. Underpinning the method is a filter, Perpetua, that performs Bayesian reasoning on the states of the environment that are observed over time. This filter is integrated within a 3D scene graph structure where nodes represent objects and edges function as Perpetua filters encoding spatio-semantic relationships. We validate the method in both simulation and real-world dynamic navigation tasks, where our real world experiments consist of an environment that is undergoing semi-static changes at a bi-hourly frequency over a period of three weeks. In both settings, we demonstrate that our method outperforms baselines in predicting future environment states, even in the presence of distributional shifts.",
+  "ARXIV": "https://arxiv.org/abs/2605.00121",
+  "FIRSTINSTITUTE": "Mila",
+  "KEYWORD": "Application, Navigation, Indoor, Long-Term Dynamics, Incremental, RGB-D",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{saavedraruiz2026predictive,\n  title = {Predictive Spatio-Temporal Scene Graphs for Semi-Static Scenes},\n  author = {Saavedra-Ruiz, Miguel and Gauthier, Charlie and Gupta, Kumaraditya and Nikfal, Shima and Paull, Liam},\n  year = {2026},\n  eprint = {2605.00121},\n  archivePrefix = {arXiv}\n}"
+}

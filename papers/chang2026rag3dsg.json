@@ -1,0 +1,14 @@
+{
+  "TITLE": "RAG-3DSG: Enhancing 3D Scene Graphs with Re-Shot Guided Retrieval-Augmented Generation",
+  "VENUE": "arXiv26",
+  "DATE": "2026/01/15",
+  "AUTHOR": "Yue Chang, Rufeng Chen, Zhaofan Zhang, Yi Chen, Yifan Tian, Sihong Liu",
+  "ABSTRACT": "Open-vocabulary 3D Scene Graph (3DSG) can enhance various downstream tasks in robotics by leveraging structured semantic representations, yet current 3DSG construction methods suffer from semantic inconsistencies caused by noisy cross-image aggregation under occlusions and constrained viewpoints. To mitigate the impact of such inconsistency, we propose RAG-3DSG, which introduces re-shot guided uncertainty estimation. By measuring the semantic consistency between original limited viewpoints and re-shot optimal viewpoints, this method quantifies the underlying semantic ambiguity of each graph object. Based on this quantification, we devise an Object-level Retrieval-Augmented Generation (RAG) that leverages low-uncertainty objects as semantic anchors to retrieve more reliable contextual knowledge, enabling a Vision-Language Model to rectify the predictions of uncertain objects and optimize the final 3DSG. Extensive evaluations across three challenging benchmarks and real-world robot trials demonstrate that RAG-3DSG achieves superior recall and precision, effectively mitigating semantic noise to provide highly reliable scene representations for robotics tasks.",
+  "ARXIV": "https://arxiv.org/abs/2601.10168",
+  "FIRSTINSTITUTE": "HKUST",
+  "KEYWORD": "Application, LLM, Indoor, Active, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{chang2026rag3dsg,\n  title = {RAG-3DSG: Enhancing 3D Scene Graphs with Re-Shot Guided Retrieval-Augmented Generation},\n  author = {Chang, Yue and Chen, Rufeng and Zhang, Zhaofan and Chen, Yi and Tian, Yifan and Liu, Sihong},\n  year = {2026},\n  eprint = {2601.10168},\n  archivePrefix = {arXiv}\n}"
+}

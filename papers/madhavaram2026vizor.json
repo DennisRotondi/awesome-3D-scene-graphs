@@ -1,0 +1,14 @@
+{
+  "TITLE": "VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning",
+  "VENUE": "WACV26",
+  "DATE": "2026/01/31",
+  "AUTHOR": "Vivek Madhavaram, Vartika Sengar, Arkadipta De, Charu Sharma",
+  "ABSTRACT": "Scene understanding and reasoning has been a fundamental problem in 3D computer vision. It provides a comprehensive knowledge of a scene and consists of identifying various objects, their properties, and their spatial and comparative relationships with other objects. Current approaches enable scene understanding by creating 3D scene graphs but heavily rely on multiple factors such as 2D images, depth information, labels corresponding to objects in the scene, and even annotated relationships in some cases. Consequently, it becomes difficult for a neural model to be comprehensive and robust, and this hinders its generalization capabilities. To simplify the process of 3D scene graph generation, to get rid of the additional requirements and challenges, we propose Viewpoint-Invariant Zero-shot Scene Graph (VIZOR), a training-free, end-to-end solution that only needs a 3D scene as an input and outputs a 3D scene graph. The 3D scene graph contains the predicted open-vocabulary object classes in the scene and different properties of each of the recognized objects. Furthermore, VIZOR infers open-vocabulary relationships describing spatial, semantic, and comparative relationships. Another unique feature of VIZOR is that it produces unambiguous and viewpoint-invariant spatial relationships of objects with respect to the origin of the scene and does not change with the viewpoint of the user. We perform multiple downstream tasks with this queryable 3D scene graph, i.e., object grounding, visual question answering, etc.",
+  "ARXIV": "https://arxiv.org/abs/2602.00637",
+  "FIRSTINSTITUTE": "IIIT-H",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Pre-Built PCD, Open-Vocabulary",
+  "SITE": "https://vivekmadhavaram.github.io/vizor/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{madhavaram2026vizor,\n  title = {VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning},\n  author = {Madhavaram, Vivek and Sengar, Vartika and De, Arkadipta and Sharma, Charu},\n  booktitle = {IEEE/CVF Winter Conf. on Applications of Computer Vision (WACV)},\n  year = {2026}\n}"
+}

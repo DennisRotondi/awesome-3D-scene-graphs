@@ -145,6 +145,7 @@ VENUES = {
     "iccvw": "{Proceedings of the International Conference on Computer Vision Workshops ({ICCVW})}",
     "iccvws": "Intl. Conf. on Computer Vision Workshops",
     "icfp": "Intl. Conf. on Functional Programming (ICFP)",
+    "icr": "Intl. Conf. on Interactive Collaborative Robotics (ICR)",
     "iciap": "Intl. Conf. on Image Analysis and Processing (ICIAP)",
     "icif": "Intl. Conf. on Information Fusion",
     "icip": "Intl. Conf. on Image Processing (ICIP)",

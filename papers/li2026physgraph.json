@@ -1,0 +1,14 @@
+{
+  "TITLE": "PhysGraph: A Physics-aware 3D Scene Graph for Perception and Reasoning",
+  "VENUE": "arXiv26",
+  "DATE": "2026/06/07",
+  "AUTHOR": "Haoyu Li, Aaron Thomas, Shuyan Zhou, Xianyi Cheng",
+  "ABSTRACT": "To perform a wide range of daily tasks, robots need to construct a 3D representation that is semantically rich, physically grounded, and structured enough to support task planning and affordance prediction. However, existing approaches primarily focus on semantic retrieval that often overlooks the physical and kinematic factors. Methods that attempt to model physical properties typically rely on narrow training sets or single-object modeling, limiting scalability and generalization across diverse object types. To address these challenges, we present PhysGraph, a framework that unifies symbolic reasoning with structured 3D geometry to model kinematic and physical properties in cluttered scenes. Given RGB-D observations, PhysGraph reconstructs object-centric 3D geometry and associates object instances across views. It then decomposes objects into functional parts and infers materials and articulations through visual reasoning. Evaluated on both synthetic and real-world datasets, PhysGraph achieves state-of-the-art results in semantic segmentation, multi-object mass estimation, and articulation prediction. With its simple yet effective design, PhysGraph produces physically consistent and semantically structured scene graphs, serving as a structured 3D representation for downstream tasks such as constraint-aware 3D affordance prediction and real-to-sim transfer, both of which are demonstrated in our experiments.",
+  "ARXIV": "https://arxiv.org/abs/2606.08655",
+  "FIRSTINSTITUTE": "DUKE",
+  "KEYWORD": "Application, Manipulation, LLM, SUN, Indoor, RGB-D, Open-Vocabulary",
+  "SITE": "https://phys-graph.github.io/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{li2026physgraph,\n  title = {PhysGraph: A Physics-aware 3D Scene Graph for Perception and Reasoning},\n  author = {Li, Haoyu and Thomas, Aaron and Zhou, Shuyan and Cheng, Xianyi},\n  year = {2026},\n  eprint = {2606.08655},\n  archivePrefix = {arXiv}\n}"
+}

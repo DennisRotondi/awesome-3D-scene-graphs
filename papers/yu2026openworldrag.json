@@ -1,0 +1,14 @@
+{
+  "TITLE": "Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning",
+  "VENUE": "AAAI26",
+  "DATE": "2025/11/08",
+  "AUTHOR": "Fei Yu, Quan Deng, Shengeng Tang, Yuehua Li, Lechao Cheng",
+  "ABSTRACT": "Understanding 3D scenes in open-world settings poses fundamental challenges for vision and robotics, particularly due to the limitations of closed-vocabulary supervision and static annotations. To address this, we propose a unified framework for Open-World 3D Scene Graph Generation with Retrieval-Augmented Reasoning, which enables generalizable and interactive 3D scene understanding. Our method integrates Vision-Language Models (VLMs) with retrieval-based reasoning to support multimodal exploration and language-guided interaction. The framework comprises two key components: (1) a dynamic scene graph generation module that detects objects and infers semantic relationships without fixed label sets, and (2) a retrieval-augmented reasoning pipeline that encodes scene graphs into a vector database to support text/image-conditioned queries. We evaluate our method on 3DSSG and Replica benchmarks across four tasks - scene question answering, visual grounding, instance retrieval, and task planning - demonstrating robust generalization and superior performance in diverse environments. Our results highlight the effectiveness of combining open-vocabulary perception with retrieval-based reasoning for scalable 3D scene understanding.",
+  "ARXIV": "https://arxiv.org/abs/2511.05894",
+  "FIRSTINSTITUTE": "LNUT",
+  "KEYWORD": "Application, Incremental, Planning, LLM, SUN, Indoor, Open-Vocabulary, RGB-D, Pre-Built PCD",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{yu2026openworldrag,\n  title = {Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning},\n  author = {Yu, Fei and Deng, Quan and Tang, Shengeng and Li, Yuehua and Cheng, Lechao},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
+}
