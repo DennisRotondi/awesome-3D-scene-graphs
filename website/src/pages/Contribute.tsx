@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Card, Form, Row, Col, Button, Alert } from 'react-bootstrap';
+import { Container, Card, Form, Row, Col, Button, Alert, Badge, Collapse } from 'react-bootstrap';
 import { GITHUB_REPO } from '../surveyPaper';
+import { KEYWORDS } from '../keywords';
 
 type Paper = {
   TITLE: string;
@@ -37,6 +38,30 @@ const Contribute: React.FC = () => {
   const [paper, setPaper] = useState<Paper>(emptyPaper());
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [alert, setAlert] = useState<{ type: 'success' | 'danger'; msg: string } | null>(null);
+  const [showKeywords, setShowKeywords] = useState(false);
+
+  // Currently selected keywords, parsed from the comma-separated KEYWORD field.
+  const selectedKeywords = paper.KEYWORD.split(',')
+    .map((k) => k.trim())
+    .filter(Boolean);
+
+  // Toggle a keyword in/out of the comma-separated KEYWORD field.
+  const toggleKeyword = (term: string) => {
+    const set = new Set(selectedKeywords);
+    if (set.has(term)) {
+      set.delete(term);
+    } else {
+      set.add(term);
+    }
+    // Preserve the canonical FAQ order so the value stays tidy.
+    const next = KEYWORDS.filter((k) => set.has(k.term)).map((k) => k.term);
+    setPaper((prev) => ({ ...prev, KEYWORD: next.join(', ') }));
+    setErrors((prev) => {
+      const copy = { ...prev };
+      delete copy.KEYWORD;
+      return copy;
+    });
+  };
 
   // Helper to update fields
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -299,9 +324,45 @@ const Contribute: React.FC = () => {
                   isInvalid={!!errors.KEYWORD}
                 />
                 <Form.Control.Feedback type="invalid">{errors.KEYWORD}</Form.Control.Feedback>
-                <Form.Text className="text-muted">
-                  Choose keywords only from the FAQ page.
+                <Form.Text className="text-muted d-block">
+                  Choose keywords only from the FAQ list.{' '}
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setShowKeywords((s) => !s);
+                    }}
+                    aria-expanded={showKeywords}
+                  >
+                    {showKeywords ? 'Hide keywords ▴' : 'Pick from FAQ keywords ▾'}
+                  </a>
                 </Form.Text>
+                <Collapse in={showKeywords}>
+                  <div>
+                    <div className="d-flex flex-wrap gap-1 mt-2">
+                      {KEYWORDS.map((k) => {
+                        const active = selectedKeywords.includes(k.term);
+                        return (
+                          <Badge
+                            key={k.term}
+                            bg={active ? 'primary' : 'light'}
+                            text={active ? 'light' : 'dark'}
+                            title={k.desc}
+                            role="button"
+                            onClick={() => toggleKeyword(k.term)}
+                            style={{
+                              cursor: 'pointer',
+                              border: '1px solid #ced4da',
+                              fontWeight: 400,
+                            }}
+                          >
+                            {active ? `✓ ${k.term}` : k.term}
+                          </Badge>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </Collapse>
               </Form.Group>
             </Col>
           </Row>
