@@ -1,0 +1,14 @@
+{
+  "TITLE": "Relationship-Aware Hierarchical 3D Scene Graph for Task Reasoning",
+  "VENUE": "ICRA26",
+  "DATE": "2026/02/02",
+  "AUTHOR": "Albert Gassol Puigjaner, Angelos Zacharia, Kostas Alexis",
+  "ABSTRACT": "Representing and understanding 3D environments in a structured manner is crucial for autonomous agents to navigate and reason about their surroundings. While traditional SLAM methods generate metric reconstructions and can be extended to metric-semantic mapping, they lack a higher level of abstraction and relational reasoning. To address this gap, 3D scene graphs have emerged as a powerful representation for capturing hierarchical structures and object relationships. In this work, we propose an enhanced hierarchical 3D scene graph that integrates open-vocabulary features across multiple abstraction levels and supports object-relational reasoning. Our approach leverages a VLM to infer semantic relationships. Notably, we introduce a task reasoning module that combines an LLM and a VLM to interpret the scene graph's semantic and relational information, enabling agents to reason about tasks and interact with their environment more intelligently. We validate our method by deploying it on a quadruped robot in multiple environments and tasks, highlighting its ability to reason about them.",
+  "ARXIV": "https://arxiv.org/abs/2602.02456",
+  "FIRSTINSTITUTE": "NTNU",
+  "KEYWORD": "Application, LLM, SUN, Hierarchical, Open-Vocabulary, Navigation, Planning, Indoor, Incremental, RGB-D, SLAM",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{gassol2026relationaware,\n  title = {Relationship-Aware Hierarchical 3D Scene Graph for Task Reasoning},\n  author = {Gassol Puigjaner, Albert and Zacharia, Angelos and Alexis, Kostas},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2026}\n}"
+}

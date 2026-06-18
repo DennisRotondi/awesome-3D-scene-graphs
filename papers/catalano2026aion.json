@@ -1,0 +1,14 @@
+{
+  "TITLE": "Aion: Towards Hierarchical 4D Scene Graphs with Temporal Flow Dynamics",
+  "VENUE": "ICRA26",
+  "DATE": "2025/12/10",
+  "AUTHOR": "Iacopo Catalano, Eduardo Montijano, Javier Civera, Julio A. Placed, Jorge Peña-Queralta",
+  "ABSTRACT": "Autonomous navigation in dynamic environments requires spatial representations that capture both semantic structure and temporal evolution. 3D Scene Graphs (3DSGs) provide hierarchical multi-resolution abstractions that encode geometry and semantics, but existing extensions toward dynamics largely focus on individual objects or agents. In parallel, Maps of Dynamics (MoDs) model typical motion patterns and temporal regularities, yet are usually tied to grid-based discretizations that lack semantic awareness and do not scale well to large environments. In this paper we introduce Aion, a framework that embeds temporal flow dynamics directly within a hierarchical 3DSG, effectively incorporating the temporal dimension. Aion employs a graph-based sparse MoD representation to capture motion flows over arbitrary time intervals and attaches them to navigational nodes in the scene graph, yielding more interpretable and scalable predictions that improve planning and interaction in complex dynamic environments.",
+  "ARXIV": "https://arxiv.org/abs/2512.11903",
+  "FIRSTINSTITUTE": "UTU",
+  "KEYWORD": "Application, Navigation, Planning, Indoor, Short-Term Dynamics, Long-Term Dynamics, Hierarchical, Humans",
+  "SITE": "",
+  "CODE": "https://github.com/IacopomC/aion",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{catalano2026aion,\n  title = {Aion: Towards Hierarchical 4D Scene Graphs with Temporal Flow Dynamics},\n  author = {Catalano, Iacopo and Montijano, Eduardo and Civera, Javier and Placed, Julio A. and Pe{\\~n}a-Queralta, Jorge},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2026}\n}"
+}

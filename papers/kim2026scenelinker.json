@@ -1,0 +1,14 @@
+{
+  "TITLE": "SceneLinker: Compositional 3D Scene Generation via Semantic Scene Graph from RGB Sequences",
+  "VENUE": "TVCG26",
+  "DATE": "2026/02/03",
+  "AUTHOR": "Seok-Young Kim, Dooyoung Kim, Woojin Cho, Hail Song, Suji Kim, Woontack Woo",
+  "ABSTRACT": "We introduce SceneLinker, a novel framework that generates compositional 3D scenes via semantic scene graph from RGB sequences. To adaptively experience Mixed Reality (MR) content based on each user's space, it is essential to generate a 3D scene that reflects the real-world layout by compactly capturing the semantic cues of the surroundings. Prior works struggled to fully capture the contextual relationship between objects or mainly focused on synthesizing diverse shapes, making it challenging to generate 3D scenes aligned with object arrangements. We address these challenges by designing a graph network with cross-check feature attention for scene graph prediction and constructing a graph-variational autoencoder (graph-VAE), which consists of a joint shape and layout block for 3D scene generation. Experiments on the 3RScan/3DSSG and SG-FRONT datasets demonstrate that our approach outperforms state-of-the-art methods in both quantitative and qualitative evaluations, even in complex indoor environments and under challenging scene graph constraints. Our work enables users to generate consistent 3D spaces from their physical environments via scene graphs, allowing them to create spatial MR content.",
+  "ARXIV": "https://arxiv.org/abs/2602.02974",
+  "FIRSTINSTITUTE": "KAIST",
+  "KEYWORD": "Application, XR, Indoor",
+  "SITE": "https://scenelinker2026.github.io",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@article{kim2026scenelinker,\n  title = {SceneLinker: Compositional 3D Scene Generation via Semantic Scene Graph from RGB Sequences},\n  author = {Kim, Seok-Young and Kim, Dooyoung and Cho, Woojin and Song, Hail and Kim, Suji and Woo, Woontack},\n  journal = {IEEE Trans. Vis. Comput. Graph. (IEEE VR)},\n  year = {2026}\n}"
+}

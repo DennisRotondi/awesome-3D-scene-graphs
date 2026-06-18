@@ -1,0 +1,14 @@
+{
+  "TITLE": "ToLL: Topological Layout Learning with Asymmetric Cross-View Structural Distillation for 3D Scene Graph Generation Pretraining",
+  "VENUE": "arXiv26",
+  "DATE": "2026/03/30",
+  "AUTHOR": "Yucheng Huang, Luping Ji, Xiangwei Jiang, Wen Li, Mao Ye",
+  "ABSTRACT": "3D Scene Graph (3DSG) generation plays a pivotal role in spatial understanding and affordance perception. To mitigate generalization issues from data scarcity, joint-embedding and generative proxy tasks are proposed to pre-train 3DSG representations on predicate label-free datasets. Currently, generative pre-training usually bypasses the semantic corruption caused by the geometric augmentations in joint-embedding, but cannot avoid a negative problem \"Geometric Shortcut.\" In this problem, exposing dense object spatial and scale priors will induce models to trivially reconstruct scenes by interpolating object positions, rather than learning the underlying topological constraints provided by edges. To address this issue, we propose a Topological Layout Learning (ToLL) for 3DSG generation pretraining framework. In detail, we design an Anchor-Conditioned Topological Geometry Reasoning. It adopts a recurrent GNN to recover the global layout of zero-centered subgraphs (the non-visible spatial features) by one anchor with sparse spatial prior. Considering the absence of spatial layout information within the objects, it creates an information bottleneck, compelling our model to recover the full scene layout by leveraging predicate representation learning. Moreover, we construct a Structural Multi-view Augmentation to avoid semantic corruption, enhancing 3DSG representations via self-distillation. The extensive experiments on special dataset demonstrate that our ToLL could often improve 3DSG pretraining quality, outperforming state-of-the-art baselines.",
+  "ARXIV": "https://arxiv.org/abs/2603.28178",
+  "FIRSTINSTITUTE": "UESTC",
+  "KEYWORD": "Application, SUN, Indoor, Pre-Built PCD",
+  "SITE": "",
+  "CODE": "https://github.com/UESTC-nnLab/ToLL-SGG",
+  "VIDEO": "",
+  "BIBTEX": "@misc{huang2026toll,\n  title = {ToLL: Topological Layout Learning with Asymmetric Cross-View Structural Distillation for 3D Scene Graph Generation Pretraining},\n  author = {Huang, Yucheng and Ji, Luping and Jiang, Xiangwei and Li, Wen and Ye, Mao},\n  year = {2026},\n  eprint = {2603.28178},\n  archivePrefix = {arXiv}\n}"
+}

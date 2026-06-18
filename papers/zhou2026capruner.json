@@ -1,0 +1,14 @@
+{
+  "TITLE": "CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models",
+  "VENUE": "ACL26",
+  "DATE": "2026/04/21",
+  "AUTHOR": "Shengli Zhou, Xiangchen Wang, Guanhua Chen, Feng Zheng",
+  "ABSTRACT": "Large language models (LLMs) have recently been applied to 3D vision-language (3D-VL) tasks, which require spatial reasoning to identify target objects relative to anchors. Scene graphs are commonly employed to represent such relations, but reasoning over complete graphs incurs high token costs and computational inefficiencies, motivating the need for pruning. Existing pruning methods primarily rely on spatial proximity and often remove task-relevant relations, thereby undermining reliable spatial reasoning. To address these limitations, we derive a key requirement for scene graph pruning: preserving spatial relations that are most pertinent to the specific 3D-VL task. Guided by this insight, we propose the Conceptual-Adjacent Scene Graph Pruner (CAPruner). CAPruner integrates fuzzy semantic relevance with spatial proximity to estimate the importance of relations, enabling the selection of critical relations in a task-specific context. Moreover, to avoid costly relation-level annotations, CAPruner is trained by supervising the aggregated scores of each node's incident edges. Extensive experiments demonstrate that CAPruner effectively preserves relations essential for spatial reasoning, leading to substantial performance improvements of LLMs on 3D-VL tasks.",
+  "ARXIV": "https://arxiv.org/abs/2606.07529",
+  "FIRSTINSTITUTE": "SUSTech",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Compression",
+  "SITE": "",
+  "CODE": "https://github.com/fz-zsl/CAPruner",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{zhou2026capruner,\n  title = {CAPruner: Conceptual-Adjacent Scene Graph Pruner for Enhancing 3D Spatial Reasoning of Large Language Models},\n  author = {Zhou, Shengli and Wang, Xiangchen and Chen, Guanhua and Zheng, Feng},\n  booktitle = {Association for Computational Linguistics (ACL)},\n  year = {2026}\n}"
+}

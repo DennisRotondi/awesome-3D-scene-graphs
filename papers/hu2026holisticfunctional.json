@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hierarchical and Holistic Open-Vocabulary Functional 3D Scene Graphs for Indoor Spaces",
+  "VENUE": "arXiv26",
+  "DATE": "2026/05/15",
+  "AUTHOR": "Xinggang Hu, Chenyangguang Zhang, Alexandros Delitzas, Xiangkui Zhang, Marc Pollefeys, Francis Engelmann, Xiangyang Ji",
+  "ABSTRACT": "Functional 3D scene graphs offer a versatile and flexible representation for 3D scene understanding and robotic manipulation, defined by object nodes, interactive elements, and functional relationship edges. However, their potential remains underexplored due to the limited coverage of existing benchmarks and the overly straightforward design of previous pipelines, which primarily focus on large-scale furniture but lack hierarchical structures. Therefore, in this work, we extend the benchmark coverage by introducing dense tabletop objects and explicit multi-level functional relationships. This expansion introduces critical challenges involving small-scale, dense, and similar instances, with lack of visual anchoring in relational reasoning, instance confusion during cross-frame fusion, and attribution uncertainty under dynamic viewpoints. To address these issues, we propose an open-vocabulary pipeline based on 2D visual grounding and 3D graph optimization. Specifically, we anchor fine-grained functional edges from 2D visual evidence, and associate nodes across frames in 3D using multiple cues. Furthermore, edge association is formulated as temporal graph optimization, integrating evidence accumulation, entropy regularization, and temporal smoothing to robustly determine the functional connections of each node. Finally, global hierarchy shaping is performed to recover the hierarchical graph structure. Extensive experiments demonstrate that the proposed method can reliably infer functional 3D scene graphs in challenging real-world scenes, thereby further unlocking their potential for practical applications.",
+  "ARXIV": "https://arxiv.org/abs/2605.15753",
+  "FIRSTINSTITUTE": "THU",
+  "KEYWORD": "Application, Manipulation, SUN, Indoor, Hierarchical, Dataset, RGB-D, Open-Vocabulary",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{hu2026holisticfunctional,\n  title = {Hierarchical and Holistic Open-Vocabulary Functional 3D Scene Graphs for Indoor Spaces},\n  author = {Hu, Xinggang and Zhang, Chenyangguang and Delitzas, Alexandros and Zhang, Xiangkui and Pollefeys, Marc and Engelmann, Francis and Ji, Xiangyang},\n  year = {2026},\n  eprint = {2605.15753},\n  archivePrefix = {arXiv}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "TITLE": "PSG-Nav: Probabilistic Scene Graph Navigation via Multiverse Decision Making",
+  "VENUE": "ICML26",
+  "DATE": "2026/05/31",
+  "AUTHOR": "Rufeng Chen, Yue Chang, Xiaqiang Tang, Hechang Chen, Sihong Xie",
+  "ABSTRACT": "Open-vocabulary navigation requires embodied agents to manage significant perception uncertainty stemming from semantic ambiguity and model errors. However, most existing works settle for local optimal deterministic approaches, depriving complex navigation decision-making over multiple composite possibilities that are critical for globally better solutions. In this paper, we propose Probabilistic Scene Graph Navigation (PSG-Nav), which constructs a 3D Probabilistic Scene Graph that uses full semantic categorical distributions to account for perception uncertainty. To efficiently use the local distributions to compose and reason about the optimal navigation landmarks, we propose Multiverse Decision to sample multiple most likely world settings from the joint distribution, and evaluate navigation landmarks based on the compatibility between landmarks and multiverses. To mitigate false positives due to epistemic uncertainty in open-vocabulary navigation, we introduce the Evidential Experience Calibrator, which enables online lifelong adaptation by cross-validating detections against memories of past successes and failures. Extensive experiments on widely-used benchmarks MP3D, HM3D, and HSSD demonstrate that PSG-Nav establishes new state-of-the-art results, achieving Success Rates of 66.1%, 44.8%, and 67.9%, respectively.",
+  "ARXIV": "https://arxiv.org/abs/2606.01313",
+  "FIRSTINSTITUTE": "HKUST",
+  "KEYWORD": "Active, Application, Navigation, LLM, SUN, Indoor, Incremental, Open-Vocabulary, RGB-D",
+  "SITE": "https://psg-nav.github.io/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{chen2026psgnav,\n  title = {PSG-Nav: Probabilistic Scene Graph Navigation via Multiverse Decision Making},\n  author = {Chen, Rufeng and Chang, Yue and Tang, Xiaqiang and Chen, Hechang and Xie, Sihong},\n  booktitle = {Intl. Conf. on Machine Learning (ICML)},\n  year = {2026}\n}"
+}
