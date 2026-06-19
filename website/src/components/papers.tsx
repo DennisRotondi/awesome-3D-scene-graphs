@@ -24,11 +24,15 @@ function extractBibKey(bibtex: string): string {
 export const papers: Paper[] = (() => {
   const raw = Object.values(modules).map((m) => m.default);
   const seen = new Map<string, number>();
-  return raw.map((paper, index) => {
+  const withIds = raw.map((paper, index) => {
     const base = extractBibKey(paper.BIBTEX) || String(index + 1);
     const count = (seen.get(base) ?? 0) + 1;
     seen.set(base, count);
     const id = count === 1 ? base : `${base}_${count}`;
     return { ...paper, ID: id };
   });
+  // Load papers already oldest-first so the list renders in date order on the
+  // first paint, with no post-mount re-sort (avoids the unsorted→sorted flash
+  // on Advanced Search, where the sort default is now "Select...").
+  return withIds.sort((a, b) => new Date(a.DATE).getTime() - new Date(b.DATE).getTime());
 })();

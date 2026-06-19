@@ -28,7 +28,9 @@ export default function AdvancedSearch() {
   const [detailLevel, setDetailLevel] = useState<'mini' | 'small' | 'detail'>('detail');
   const [onlyWithCode, setOnlyWithCode] = useState(false);
   const [onlyReviewed, setOnlyReviewed] = useState(false);
-  const [sortBy, setSortBy] = useState('DATEO');
+  // Default to no explicit sort: papers already load oldest-first (see papers.tsx),
+  // so the initial order is correct without a re-sort flash on load.
+  const [sortBy, setSortBy] = useState('');
 
   const [viewMode, setViewMode] = useState<'browse' | 'statistics' | 'timeline'>('browse');
   const [statsMode, setStatsMode] = useState<'year' | 'venue' | 'keyword'>('year');
