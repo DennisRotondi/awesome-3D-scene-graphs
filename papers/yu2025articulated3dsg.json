@@ -7,7 +7,7 @@
   "ARXIV": "https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_548/paper.pdf",
   "FIRSTINSTITUTE": "MIT",
   "KEYWORD": "Application, RGB-D, Manipulation, LLM",
-  "SITE": "https://alany1.github.io/#",
+  "SITE": "",
   "CODE": "",
   "VIDEO": "",
   "BIBTEX": "@inproceedings{yu2025articulated3dsg,\n  title = {Pandora: Articulated 3D Scene Graphs from Egocentric Vision},\n  author = {Yu, Alan and Chang, Yun and Xie, Christopher and Carlone, Luca},\n  booktitle = {British Machine Vision Conf. (BMVC)},\n  year = {2025}\n}"

@@ -7,7 +7,7 @@
   "ARXIV": "https://arxiv.org/abs/2510.01049",
   "FIRSTINSTITUTE": "UniStuttgart",
   "KEYWORD": "Application, Hierarchical, Indoor, Compression, LLM, SUN, RGB-D",
-  "SITE": "",
+  "SITE": "https://keysg-lab.github.io/",
   "CODE": "",
   "VIDEO": "",
   "BIBTEX": "@misc{werby2025keysg,\n  title = {KeySG: Hierarchical Keyframe-Based 3D Scene Graphs},\n  author = {Werby, Abdelrhman and Rotondi, Dennis and Scaparro, Fabio and Arras, Kai O.},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"

@@ -7,7 +7,7 @@
   "ARXIV": "https://arxiv.org/abs/2309.09182",
   "FIRSTINSTITUTE": "UCSD",
   "KEYWORD": "Application, Indoor, Planning, Hierarchical, LLM",
-  "SITE": "https://existentialrobotics.org/pages/llm-planning",
+  "SITE": "https://existentialrobotics.org/LLM-Scene-Graph-LTL-Planning/",
   "CODE": "https://github.com/ExistentialRobotics/LLM-Scene-Graph-LTL-Planning",
   "VIDEO": "",
   "BIBTEX": "@inproceedings{dai2024planning,\n  title = {Optimal Scene Graph Planning with Large Language Model Guidance},\n  author = {Dai, Zhirui and Asgharivaskasi, Arash and Duong, Thai and Lin, Shusen and Tzes, Maria-Elizabeth and Pappas, George and Atanasov, Nikolay},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2024}\n}"
