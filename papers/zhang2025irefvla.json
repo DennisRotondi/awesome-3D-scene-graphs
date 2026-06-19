@@ -8,7 +8,7 @@
   "FIRSTINSTITUTE": "CMU",
   "KEYWORD": "Application, Dataset, SUN, Indoor, Pre-Built PCD, LLM, Hierarchical, Open-Vocabulary",
   "SITE": "",
-  "CODE": "",
+  "CODE": "https://github.com/HaochenZ11/IRef-VLA",
   "VIDEO": "",
   "BIBTEX": "@inproceedings{zhang2025irefvla,\n  title = {IRef-VLA: A Benchmark for Interactive Referential Grounding with Imperfect Language in 3D Scenes},\n  author = {Zhang, Haochen and Zantout, Nader and Kachana, Pujith and Zhang, Ji and Wang, Wenshan},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2025}\n}"
 }

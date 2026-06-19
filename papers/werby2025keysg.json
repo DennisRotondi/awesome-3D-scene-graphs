@@ -1,13 +1,13 @@
 {
   "TITLE": "KeySG: Hierarchical Keyframe-Based 3D Scene Graphs",
-  "VENUE": "arXiv25",
+  "VENUE": "ICRA26",
   "DATE": "2025/10/01",
   "AUTHOR": "Abdelrhman Werby, Dennis Rotondi, Fabio Scaparro, Kai O. Arras",
   "ABSTRACT": "In recent years, 3D scene graphs have emerged as a powerful world representation, offering both geometric accuracy and semantic richness. Combining 3D scene graphs with large language models enables robots to reason, plan, and navigate in complex human-centered environments. However, current approaches for constructing 3D scene graphs are semantically limited to a predefined set of relationships, and their serialization in large environments can easily exceed an LLM's context window. We introduce KeySG, a framework that represents 3D scenes as a hierarchical graph consisting of floors, rooms, objects, and functional elements, where nodes are augmented with multi-modal information extracted from keyframes selected to optimize geometric and visual coverage. The keyframes allow us to efficiently leverage VLM to extract scene information, alleviating the need to explicitly model relationship edges between objects, enabling more general, task-agnostic reasoning and planning. Our approach can process complex and ambiguous queries while mitigating the scalability issues associated with large scene graphs by utilizing a hierarchical retrieval-augmented generation (RAG) pipeline to extract relevant context from the graph. Evaluated across four distinct benchmarks --including 3D object segmentation and complex query retrieval-- KeySG outperforms prior approaches on most metrics, demonstrating its superior semantic richness and efficiency.",
   "ARXIV": "https://arxiv.org/abs/2510.01049",
   "FIRSTINSTITUTE": "UniStuttgart",
   "KEYWORD": "Application, Hierarchical, Indoor, Compression, LLM, SUN, RGB-D",
-  "SITE": "",
+  "SITE": "https://keysg-lab.github.io/",
   "CODE": "",
   "VIDEO": "",
   "BIBTEX": "@misc{werby2025keysg,\n  title = {KeySG: Hierarchical Keyframe-Based 3D Scene Graphs},\n  author = {Werby, Abdelrhman and Rotondi, Dennis and Scaparro, Fabio and Arras, Kai O.},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"

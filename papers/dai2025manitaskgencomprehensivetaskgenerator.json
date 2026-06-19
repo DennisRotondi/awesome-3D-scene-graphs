@@ -7,7 +7,7 @@
   "ARXIV": "https://arxiv.org/abs/2505.20726",
   "FIRSTINSTITUTE": "UC",
   "KEYWORD": "Application, Hierarchical, LLM, Indoor, Manipulation",
-  "SITE": "",
+  "SITE": "https://manitaskgen.github.io/",
   "CODE": "",
   "VIDEO": "",
   "BIBTEX": "@misc{dai2025manitaskgencomprehensivetaskgenerator,\n  title = {ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making},\n  author = {Dai, Liu and Wang, Haina and Wan, Weikang and Su, Hao},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"

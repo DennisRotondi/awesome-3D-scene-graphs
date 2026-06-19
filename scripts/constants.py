@@ -155,6 +155,7 @@ VENUES = {
     "icmcr": "Intl. Conf. on Mechatronics, Control and Robotics (ICMCR)",
     "icme": "IEEE Intl. Conf. on Multimedia and Expo (ICME)",
     "icml": "Intl. Conf. on Machine Learning (ICML)",
+    "icmla": "IEEE Intl. Conf. on Machine Learning and Applications (ICMLA)",
     "icpr": "Intl. Conf. on Pattern Recognition (ICPR)",
     "icra": "IEEE Intl. Conf. on Robotics and Automation (ICRA)",
     "ictai": "Intl. Conf. on Tools with Artificial Intelligence (ICTAI)",

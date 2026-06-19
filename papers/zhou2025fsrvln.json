@@ -7,7 +7,7 @@
   "ARXIV": "https://arxiv.org/abs/2509.13733",
   "FIRSTINSTITUTE": "HorizonRobotics",
   "KEYWORD": "Application, Navigation, Hierarchical, LLM, RGB-D, Open-Vocabulary, Indoor",
-  "SITE": "",
+  "SITE": "https://horizonrobotics.github.io/robot_lab/fsr-vln/",
   "CODE": "",
   "VIDEO": "",
   "BIBTEX": "@misc{zhou2025fsrvln,\n  title = {FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph},\n  author = {Zhou, Xiaolin and Xiao, Tingyang and Liu, Liu and Wang, Yucheng and Chen, Maiyue and Meng, Xinrui and Wang, Xinjie and Feng, Wei and Sui, Wei and Su, Zhizhong},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
