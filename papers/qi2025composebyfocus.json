@@ -1,6 +1,6 @@
 {
   "TITLE": "Compose by Focus: Scene Graph-based Atomic Skills",
-  "VENUE": "arXiv25",
+  "VENUE": "ICRA26",
   "DATE": "2025/09/19",
   "AUTHOR": "Han Qi, Changhe Chen, Heng Yang",
   "ABSTRACT": "A key requirement for generalist robots is compositional generalization - the ability to combine atomic skills to solve complex, long-horizon tasks. While prior work has primarily focused on synthesizing a planner that sequences pre-learned skills, robust execution of the individual skills themselves remains challenging, as visuomotor policies often fail under distribution shifts induced by scene composition. To address this, we introduce a scene graph-based representation that focuses on task-relevant objects and relations, thereby mitigating sensitivity to irrelevant variation. Building on this idea, we develop a scene-graph skill learning framework that integrates graph neural networks with diffusion-based imitation learning, and further combine \"focused\" scene-graph skills with a vision-language model (VLM) based task planner. Experiments in both simulation and real-world manipulation tasks demonstrate substantially higher success rates than state-of-the-art baselines, highlighting improved robustness and compositional generalization in long-horizon tasks.",
