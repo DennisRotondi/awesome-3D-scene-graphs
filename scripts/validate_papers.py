@@ -5,6 +5,13 @@ The controlled vocabularies (KEYWORDS, VENUES) live in scripts/constants.py and
 are imported here so the validation rules never drift from what json_to_md.py and
 the website expect. Standard library only -- no pip/uv install needed to run it.
 
+Besides the per-field schema checks, validate_bibtex() keeps the BIBTEX entry
+coherent with the structured fields: it errors when VENUE and the BibTeX disagree
+on whether the paper is an arXiv preprint or a published work (the classic "paper
+got accepted, VENUE was bumped, but the BibTeX still says arXiv" drift), when the
+BibTeX year doesn't match the VENUE year, or when a conference acronym is wrong;
+cosmetic venue-string differences are only warnings.
+
 Usage:
     python scripts/validate_papers.py                  # validate every papers/*.json
     python scripts/validate_papers.py papers/foo.json  # validate just these files
@@ -46,7 +53,7 @@ URL_FIELDS = ("ARXIV", "SITE", "CODE", "VIDEO")
 DATE_RE = re.compile(r"^[0-9]{4}/[0-9]{2}/[0-9]{2}$")
 FNAME_RE = re.compile(r"^[A-Za-z0-9_]+\.json$")
 ARXIV_ID_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/([0-9]{4}\.[0-9]{4,6})")
-BIBKEY_RE = re.compile(r"@\w+\{([^,]+),")
+BIB_HEADER_RE = re.compile(r"@(\w+)\s*\{\s*([^,]+),")
 TITLE_NORM_RE = re.compile(r"[^a-z0-9]+")
 
 errors: list[str] = []
@@ -73,6 +80,126 @@ def is_http_url(value: str) -> bool:
     except ValueError:
         return False
     return p.scheme in ("http", "https") and bool(p.netloc)
+
+
+def norm_venue(s: str) -> str:
+    """Normalize a venue string for comparison: drop braces, collapse whitespace,
+    lowercase. Absorbs the cosmetic differences between hand-written BibTeX and the
+    canonical VENUES expansion (e.g. '{IEEE} Access' vs 'IEEE Access')."""
+    return re.sub(r"\s+", " ", re.sub(r"[{}]", "", s)).strip().lower()
+
+
+def extract_bib_field(bib: str, field: str) -> str | None:
+    """Return the value of a top-level `field = {...}` (or `field = value`) in a
+    BibTeX entry, or None if the field is absent.
+
+    Brace-aware: nested braces inside the value are preserved and the matching outer
+    brace ends the value, so a trailing stray '}' after a balanced value is ignored
+    (the entry-wide brace-balance check flags that separately). An unbalanced opening
+    brace returns the rest of the string. `\\b` keeps 'title' from matching inside
+    'booktitle'."""
+    m = re.search(rf"\b{field}\s*=\s*", bib, re.I)
+    if not m:
+        return None
+    i = m.end()
+    if i < len(bib) and bib[i] == "{":
+        depth = 0
+        for j in range(i, len(bib)):
+            if bib[j] == "{":
+                depth += 1
+            elif bib[j] == "}":
+                depth -= 1
+                if depth == 0:
+                    return bib[i + 1:j].strip()
+        return bib[i + 1:].strip()  # unbalanced opening brace
+    m2 = re.match(r'"?([^,\n}"]+)', bib[i:])
+    return m2.group(1).strip() if m2 else None
+
+
+def bib_venue(bib: str) -> tuple[str | None, str | None]:
+    """Return (field-name, value) of the BibTeX venue -- booktitle or journal --
+    or (None, None) if neither is present (i.e. an arXiv-style @misc entry)."""
+    for f in ("booktitle", "journal"):
+        v = extract_bib_field(bib, f)
+        if v is not None:
+            return f, v
+    return None, None
+
+
+def validate_bibtex(name: str, bib: str, venue: str) -> None:
+    """Validate that BIBTEX is well-formed and stays coherent with the structured
+    fields -- above all with VENUE. The classic bug this guards against: a paper
+    gets accepted, VENUE is bumped from 'arXivNN' to the conference, but the BibTeX
+    is left as the old arXiv @misc entry. That is a hard error; cosmetic venue-string
+    differences are only warnings."""
+    bs = bib.lstrip()
+    if not bs.startswith("@"):
+        err(name, "BIBTEX should start with '@'")
+    if bib.count("{") != bib.count("}"):
+        warn(name, "BIBTEX has unbalanced { } braces (a stray or missing brace?)")
+
+    m = BIB_HEADER_RE.match(bs)
+    if not m:
+        err(name, "BIBTEX is not a parseable entry (expected '@type{key, ...}')")
+        return
+    key = m.group(2).strip()
+    if key != name[:-5]:
+        warn(name, f"filename stem {name[:-5]!r} != BibTeX key {key!r} "
+                   "(convention: name the file after the BibTeX key)")
+    for f in ("title", "author", "year"):
+        if extract_bib_field(bib, f) is None:
+            warn(name, f"BIBTEX is missing a {f} field")
+
+    # --- coherence with VENUE ------------------------------------------------
+    # VENUE is '<abbrev><2-digit-year>'; if it is malformed it already errored in
+    # the VENUE block, so there is nothing reliable to compare against here.
+    if not venue or not re.search(r"[0-9]{2}$", venue):
+        return
+    abbr = venue[:-2].lower()
+    acro = venue[:-2]
+    expected_year = f"20{venue[-2:]}"
+    canon = VENUES.get(abbr, "")
+
+    is_arxiv_field = abbr == "arxiv"
+    vfield, vval = bib_venue(bib)
+    # "arXiv-class" BibTeX = no real booktitle/journal (an @misc), or one literally
+    # valued 'arXiv...'. We key off the *absence of a published venue* rather than the
+    # presence of eprint/archivePrefix, because published entries may legitimately
+    # keep an eprint line next to their booktitle.
+    is_arxiv_bib = (vval is None) or ("arxiv" in vval.lower())
+
+    if is_arxiv_field and not is_arxiv_bib:
+        err(name, f"VENUE {venue!r} is an arXiv preprint, but the BIBTEX gives a "
+                  f"published venue ({vfield} = {vval!r}). Make VENUE and BibTeX agree.")
+    elif (not is_arxiv_field) and is_arxiv_bib:
+        shown = f"{vfield} = {vval!r}" if vval is not None else "no booktitle/journal"
+        err(name, f"VENUE {venue!r} is a published venue"
+                  + (f" ({canon!r})" if canon else "")
+                  + f", but the BIBTEX still describes an arXiv preprint ({shown}). "
+                  "Regenerate the BibTeX for the accepted venue.")
+
+    # year must track the VENUE year
+    byear = extract_bib_field(bib, "year")
+    if byear:
+        digits = re.search(r"\d{4}", byear)
+        if digits and digits.group(0) != expected_year:
+            err(name, f"BIBTEX year {digits.group(0)} does not match the VENUE year "
+                      f"{expected_year} (from VENUE {venue!r}).")
+
+    # venue-string coherence when both sides are a published venue
+    if (not is_arxiv_field) and (not is_arxiv_bib) and vval is not None and canon:
+        if norm_venue(vval) != norm_venue(canon):
+            # If the canonical VENUES entry carries a parenthetical acronym (e.g.
+            # '(ICRA)'), that acronym is a reliable anchor: its absence from the
+            # BibTeX venue means a genuinely wrong conference -> hard error. Without
+            # such an anchor (most journals) we can only warn on the difference.
+            anchored = f"({acro.lower()})" in norm_venue(canon)
+            if anchored and not re.search(rf"\b{re.escape(acro)}\b", vval, re.I):
+                err(name, f"BIBTEX {vfield} {vval!r} is not the {acro} venue expected "
+                          f"from VENUE {venue!r} ({canon!r}). Update the BibTeX venue.")
+            else:
+                warn(name, f"BIBTEX {vfield} {vval!r} differs from the canonical VENUES "
+                           f"entry {canon!r} (formatting, or a different venue?).")
 
 
 def validate_file(path: Path, arxiv_to_files: dict[str, list[str]],
@@ -189,18 +316,14 @@ def validate_file(path: Path, arxiv_to_files: dict[str, list[str]],
         if not (host == "arxiv.org" or host.endswith(".arxiv.org")):
             warn(name, f"ARXIV is a valid URL but not an arxiv.org link: {ax!r}")
 
-    # --- BIBTEX: optional; if present must look like a bibtex entry ---
+    # --- BIBTEX: optional; if present must be well-formed and stay coherent with
+    #     the structured fields (above all VENUE -- see validate_bibtex). ---
     bib = data.get("BIBTEX", "")
     if isinstance(bib, str):
         if not bib.strip():
             warn(name, "BIBTEX is empty (paste the entry when available)")
         else:
-            if not bib.lstrip().startswith("@"):
-                err(name, "BIBTEX should start with '@'")
-            m = BIBKEY_RE.search(bib)
-            if m and m.group(1).strip() != name[:-5]:
-                warn(name, f"filename stem {name[:-5]!r} != BibTeX key {m.group(1).strip()!r} "
-                           "(convention: name the file after the BibTeX key)")
+            validate_bibtex(name, bib, sval("VENUE"))
 
     # --- duplicate arXiv id across the whole folder (arxiv.org links only) ---
     m = ARXIV_ID_RE.search(sval("ARXIV"))

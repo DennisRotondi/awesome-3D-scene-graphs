@@ -10,5 +10,5 @@
   "SITE": "https://nicolasgorlo.com/DAAAM_25/",
   "CODE": "https://github.com/MIT-SPARK/DAAAM",
   "VIDEO": "https://www.youtube.com/watch?v=Nuom-BJ1AQA",
-  "BIBTEX": "@misc{gorlo2025daam,\n  title = {Describe Anything Anywhere At Any Moment},\n  author = {Gorlo, Nicolas and Schmid, Lukas and Carlone, Luca},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{gorlo2025daam,\n  title = {Describe Anything Anywhere At Any Moment},\n  author = {Gorlo, Nicolas and Schmid, Lukas and Carlone, Luca},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2026}\n}"
 }

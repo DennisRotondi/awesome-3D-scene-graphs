@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{yu2026openworldrag,\n  title = {Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning},\n  author = {Yu, Fei and Deng, Quan and Tang, Shengeng and Li, Yuehua and Cheng, Lechao},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
+  "BIBTEX": "@inproceedings{yu2026openworldrag,\n  title = {Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning},\n  author = {Yu, Fei and Deng, Quan and Tang, Shengeng and Li, Yuehua and Cheng, Lechao},\n  booktitle = {AAAI Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
 }

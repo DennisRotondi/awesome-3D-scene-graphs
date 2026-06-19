@@ -10,5 +10,5 @@
   "SITE": "https://kochsebastian.com/lang3dsg",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{koch2024lang3dsg,\n  title = {Lang3DSG: Language-based contrastive pre-training for 3D Scene Graph prediction},\n  author = {Koch, Sebastian and Hermosilla, Pedro and Vaskevicius, Narunas and Colosi, Mirco and Ropinski, Timo},\n  booktitle = {Intl. Conf. on 3D Vision (3DV)} },\n  year = {2024}\n}"
+  "BIBTEX": "@inproceedings{koch2024lang3dsg,\n  title = {Lang3DSG: Language-based contrastive pre-training for 3D Scene Graph prediction},\n  author = {Koch, Sebastian and Hermosilla, Pedro and Vaskevicius, Narunas and Colosi, Mirco and Ropinski, Timo},\n  booktitle = {Intl. Conf. on 3D Vision (3DV)},\n  year = {2024}\n}"
 }

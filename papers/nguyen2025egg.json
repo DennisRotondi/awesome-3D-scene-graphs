@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "https://github.com/aalto-intelligent-robotics/EGG",
   "VIDEO": "",
-  "BIBTEX": "@misc{nguyen2025egg,\n  title = {Event-Grounding Graph: Unified Spatio-Temporal Scene Graph from Robotic Observations},\n  author = {Nguyen, Phuoc and Verdoja, Francesco and Kyrki, Ville},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+  "BIBTEX": "@article{nguyen2025egg,\n  title = {Event-Grounding Graph: Unified Spatio-Temporal Scene Graph from Robotic Observations},\n  author = {Nguyen, Phuoc and Verdoja, Francesco and Kyrki, Ville},\n  journal = {IEEE Robotics and Automation Letters},\n  year = {2025}\n}"
 }

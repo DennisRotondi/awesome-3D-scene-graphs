@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{walus2026semanticcad,\n  title = {Semantic Enrichment of CAD-Based Industrial Environments via Scene Graphs for Simulation and Reasoning},\n  author = {Walus, Nathan Pascal and Bezerra, Ranulfo and Kojima, Shotaro and Alemayoh, Tsige Tadesse and Tadokoro, Satoshi and Ohno, Kazunori},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+  "BIBTEX": "@inproceedings{walus2026semanticcad,\n  title = {Semantic Enrichment of CAD-Based Industrial Environments via Scene Graphs for Simulation and Reasoning},\n  author = {Walus, Nathan Pascal and Bezerra, Ranulfo and Kojima, Shotaro and Alemayoh, Tsige Tadesse and Tadokoro, Satoshi and Ohno, Kazunori},\n  booktitle = {IEEE Intl. Conf. on Safety, Security and Rescue Robotics (SSRR)},\n  year = {2025}\n}"
 }

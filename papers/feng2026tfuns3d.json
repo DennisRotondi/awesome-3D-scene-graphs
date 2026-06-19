@@ -10,5 +10,5 @@
   "SITE": "https://t-funs3d.github.io",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{feng2026tfuns3d,\n  title = {T-FunS3D: Task-Driven Hierarchical Open-Vocabulary 3D Functionality Segmentation},\n  author = {Feng, Jingkun and Sabzevari, Reza},\n  year = {2026},\n  eprint = {2606.05975},\n  archivePrefix = {arXiv}\n}"
+  "BIBTEX": "@inproceedings{feng2026tfuns3d,\n  title = {T-FunS3D: Task-Driven Hierarchical Open-Vocabulary 3D Functionality Segmentation},\n  author = {Feng, Jingkun and Sabzevari, Reza},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2026}\n}"
 }

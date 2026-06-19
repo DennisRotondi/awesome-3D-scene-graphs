@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "https://github.com/WentingXu3o3/TB-HSU",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{xu2025tb,\n  title = {TB-HSU: Hierarchical 3D Scene Understanding with Contextual Affordances},\n  author = {Xu, Wenting and Ila, Viorela and Zhou, Luping and Jin, Craig T.},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{xu2025tb,\n  title = {TB-HSU: Hierarchical 3D Scene Understanding with Contextual Affordances},\n  author = {Xu, Wenting and Ila, Viorela and Zhou, Luping and Jin, Craig T.},\n  booktitle = {AAAI Conf. on Artificial Intelligence (AAAI)},\n  year = {2025}\n}"
 }

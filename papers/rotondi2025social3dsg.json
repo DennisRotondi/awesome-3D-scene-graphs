@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{rotondi2025social3dsg,\n  title = {Social 3D Scene Graphs: Modeling Human Actions and Relations for Interactive Service Robots},\n  author = {Bartoli, Ermanno and Rotondi, Dennis and He, Buwei and Jensfelt, Patric and Arras, Kai O. and Leite, Iolanda},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{rotondi2025social3dsg,\n  title = {Social 3D Scene Graphs: Modeling Human Actions and Relations for Interactive Service Robots},\n  author = {Bartoli, Ermanno and Rotondi, Dennis and He, Buwei and Jensfelt, Patric and Arras, Kai O. and Leite, Iolanda},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2026}\n}"
 }

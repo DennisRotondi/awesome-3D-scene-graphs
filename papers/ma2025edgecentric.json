@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{ma2025edgecentric,\n  title = {Edge-Centric Relational Reasoning for 3D Scene Graph Prediction},\n  author = {Ma, Yanni and Liu, Hao and Guo, Yulan and Gevers, Theo and Oswald, Martin R.},\n  year = {2025},\n  eprint = {2511.15288},\n  archivePrefix = {arXiv}\n}"
+  "BIBTEX": "@inproceedings{ma2025edgecentric,\n  title = {Edge-Centric Relational Reasoning for 3D Scene Graph Prediction},\n  author = {Ma, Yanni and Liu, Hao and Guo, Yulan and Gevers, Theo and Oswald, Martin R.},\n  booktitle = {AAAI Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
 }

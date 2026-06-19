@@ -10,5 +10,5 @@
   "SITE": "https://dfki-av.github.io/ReLaGS/",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{xiearafa2026relags,\n  title = {ReLaGS: Relational Language Gaussian Splatting},\n  author = {Xie, Yaxu and Arafa, Abdalla and Javanmardi, Alireza and Millerdurai, Christen and Hu, Jia Cheng and Wang, Shaoxiang and Pagani, Alain and Stricker, Didier},\n  archivePrefix = {arXiv preprint},\n  year = {2026}\n}"
+  "BIBTEX": "@inproceedings{xiearafa2026relags,\n  title = {ReLaGS: Relational Language Gaussian Splatting},\n  author = {Xie, Yaxu and Arafa, Abdalla and Javanmardi, Alireza and Millerdurai, Christen and Hu, Jia Cheng and Wang, Shaoxiang and Pagani, Alain and Stricker, Didier},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2026}\n}"
 }

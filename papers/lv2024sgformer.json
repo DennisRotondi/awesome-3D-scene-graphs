@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "https://github.com/Andy20178/SGFormer",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{lv2024sgformer,\n  title = {SGFormer: Semantic Graph Transformer for Point Cloud-based 3D Scene Graph Generation},\n  author = {Lv, Changsheng and Qi, Mengshi and Li, Xia and Yang, Zhengyuan and Ma, Huadong},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2024}\n}"
+  "BIBTEX": "@inproceedings{lv2024sgformer,\n  title = {SGFormer: Semantic Graph Transformer for Point Cloud-based 3D Scene Graph Generation},\n  author = {Lv, Changsheng and Qi, Mengshi and Li, Xia and Yang, Zhengyuan and Ma, Huadong},\n  booktitle = {AAAI Conf. on Artificial Intelligence (AAAI)},\n  year = {2024}\n}"
 }

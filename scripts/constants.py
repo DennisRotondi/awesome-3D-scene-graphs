@@ -43,9 +43,9 @@ FIELDS = [
 
 VENUES = {
     "3dim": "Intl. Conf. on 3D Digital Imaging and Modeling",
-    "3dv": "Intl. Conf. on 3D Vision (3DV)} ",
+    "3dv": "Intl. Conf. on 3D Vision (3DV)",
     "3dpvt": "3D Data Processing Visualization and Transmission (3DPVT)",
-    "aaai": "National Conf. on Artificial Intelligence (AAAI)",
+    "aaai": "AAAI Conf. on Artificial Intelligence (AAAI)",
     "aamas": "Intl. Conf. on Autonomous Agents and Multi-Agent Systems (AAMAS)",
     "ac": "IEEE Aerospace Conference",
     "acc": "American Control Conference",

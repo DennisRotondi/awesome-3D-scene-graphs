@@ -10,5 +10,5 @@
   "SITE": "https://computationalrobotics.seas.harvard.edu/SkillComposition/",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{qi2025composebyfocus,\n  title = {Compose by Focus: Scene Graph-based Atomic Skills},\n  author = {Qi, Han and Chen, Changhe and Yang, Heng},\n  archivePrefix = {arXiv preprint},\n  year = {2025}\n}"
+  "BIBTEX": "@inproceedings{qi2025composebyfocus,\n  title = {Compose by Focus: Scene Graph-based Atomic Skills},\n  author = {Qi, Han and Chen, Changhe and Yang, Heng},\n  booktitle = {IEEE Intl. Conf. on Robotics and Automation (ICRA)},\n  year = {2026}\n}"
 }

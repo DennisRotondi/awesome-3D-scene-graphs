@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@misc{wang2024octreegraph,\n  title = {Open-Vocabulary Octree-Graph for 3D Scene Understanding},\n  author = {Wang, Zhigang and Su, Yifei and Li, Chenhui and Wang, Dong and Huang, Yan and Zhao, Bin and Li, Xuelong},\n  archivePrefix = {arXiv preprint},\n  year = {2024}\n}"
+  "BIBTEX": "@inproceedings{wang2024octreegraph,\n  title = {Open-Vocabulary Octree-Graph for 3D Scene Understanding},\n  author = {Wang, Zhigang and Su, Yifei and Li, Chenhui and Wang, Dong and Huang, Yan and Zhao, Bin and Li, Xuelong},\n  booktitle = {Intl. Conf. on Computer Vision (ICCV)},\n  year = {2025}\n}"
 }

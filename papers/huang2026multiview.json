@@ -10,5 +10,5 @@
   "SITE": "",
   "CODE": "",
   "VIDEO": "",
-  "BIBTEX": "@inproceedings{huang2026multiview,\n  title = {Multi-view Invariance Learning for 3D Scene Graph Pre-training via Collaborative Cross-Modal Regularization},\n  author = {Huang, Yucheng and Ji, Luping and Xiao, Ruijie and Sun, Jiayuan},\n  booktitle = {National Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
+  "BIBTEX": "@inproceedings{huang2026multiview,\n  title = {Multi-view Invariance Learning for 3D Scene Graph Pre-training via Collaborative Cross-Modal Regularization},\n  author = {Huang, Yucheng and Ji, Luping and Xiao, Ruijie and Sun, Jiayuan},\n  booktitle = {AAAI Conf. on Artificial Intelligence (AAAI)},\n  year = {2026}\n}"
 }
