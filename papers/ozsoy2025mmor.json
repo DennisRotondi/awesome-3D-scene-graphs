@@ -1,0 +1,14 @@
+{
+  "TITLE": "MM-OR: A Large Multimodal Operating Room Dataset for Semantic Understanding of High-Intensity Surgical Environments",
+  "VENUE": "CVPR25",
+  "DATE": "2025/03/04",
+  "AUTHOR": "Ege Özsoy, Chantal Pellegrini, Tobias Czempiel, Felix Tristram, Kun Yuan, David Bani-Harouni, Ulrich Eck, Benjamin Busam, Matthias Keicher, Nassir Navab",
+  "ABSTRACT": "Operating rooms (ORs) are complex, high-stakes environments requiring precise understanding of interactions among medical staff, tools, and equipment for enhancing surgical assistance, situational awareness, and patient safety. Current datasets fall short in scale, realism and do not capture the multimodal nature of OR scenes, limiting progress in OR modeling. To this end, we introduce MM-OR, a realistic and large-scale multimodal spatiotemporal OR dataset, and the first dataset to enable multimodal scene graph generation. MM-OR captures comprehensive OR scenes containing RGB-D data, detail views, audio, speech transcripts, robotic logs, and tracking data and is annotated with panoptic segmentations, semantic scene graphs, and downstream task labels. Further, we propose MM2SG, the first multimodal large vision-language model for scene graph generation, and through extensive experiments, demonstrate its ability to effectively leverage multimodal inputs. Together, MM-OR and MM2SG establish a new benchmark for holistic OR understanding, and open the path towards multimodal scene analysis in complex, high-stakes environments.",
+  "ARXIV": "https://arxiv.org/abs/2503.02579",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, Dataset, RGB-D, Indoor, Humans, SUN",
+  "SITE": "https://egeozsoy.github.io/MM-OR/",
+  "CODE": "https://github.com/egeozsoy/MM-OR",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{ozsoy2025mmor,\n  title = {MM-OR: A Large Multimodal Operating Room Dataset for Semantic Understanding of High-Intensity Surgical Environments},\n  author = {{\\\"O}zsoy, Ege and Pellegrini, Chantal and Czempiel, Tobias and Tristram, Felix and Yuan, Kun and Bani-Harouni, David and Eck, Ulrich and Busam, Benjamin and Keicher, Matthias and Navab, Nassir},\n  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},\n  pages = {19378--19389},\n  year = {2025}\n}"
+}
