@@ -1,0 +1,14 @@
+{
+  "TITLE": "EgoExOR: An Ego-Exo-Centric Operating Room Dataset for Surgical Activity Understanding",
+  "VENUE": "NeurIPS25",
+  "DATE": "2025/05/30",
+  "AUTHOR": "Ege Özsoy, Arda Mamur, Felix Tristram, Chantal Pellegrini, Magdalena Wysocki, Benjamin Busam, Nassir Navab",
+  "ABSTRACT": "Operating rooms (ORs) demand precise coordination among surgeons, nurses, and equipment in a fast-paced, occlusion-heavy environment, necessitating advanced perception models to enhance safety and efficiency. Existing datasets either provide partial egocentric views or sparse exocentric multi-view context, but do not explore the comprehensive combination of both. We introduce EgoExOR, the first OR dataset and accompanying benchmark to fuse first-person and third-person perspectives. Spanning 94 minutes (84,553 frames at 15 FPS) of two emulated spine procedures, Ultrasound-Guided Needle Insertion and Minimally Invasive Spine Surgery, EgoExOR integrates egocentric data (RGB, gaze, hand tracking, audio) from wearable glasses, exocentric RGB and depth from RGB-D cameras, and ultrasound imagery. Its detailed scene graph annotations, covering 36 entities and 22 relations (568,235 triplets), enable robust modeling of clinical interactions, supporting tasks like action recognition and human-centric perception. We evaluate the surgical scene graph generation performance of two adapted state-of-the-art models and offer a new baseline that explicitly leverages EgoExOR's multimodal and multi-perspective signals. This new dataset and benchmark set a new foundation for OR perception, offering a rich, multimodal resource for next-generation clinical perception.",
+  "ARXIV": "https://arxiv.org/abs/2505.24287",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, Dataset, RGB-D, Indoor, Humans, SUN",
+  "SITE": "https://huggingface.co/datasets/ardamamur/EgoExOR",
+  "CODE": "https://github.com/ardamamur/EgoExOR",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{ozsoy2025egoexor,\n  title = {EgoExOR: An Ego-Exo-Centric Operating Room Dataset for Surgical Activity Understanding},\n  author = {{\\\"O}zsoy, Ege and Mamur, Arda and Tristram, Felix and Pellegrini, Chantal and Wysocki, Magdalena and Busam, Benjamin and Navab, Nassir},\n  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},\n  volume = {38},\n  publisher = {Curran Associates, Inc.},\n  year = {2025},\n  url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/5e3ffa2c53dce23986ca0f8d1d2bbc7e-Paper-Datasets_and_Benchmarks_Track.pdf}\n}"
+}
