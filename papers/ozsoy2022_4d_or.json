@@ -1,0 +1,14 @@
+{
+  "TITLE": "4D-OR: Semantic Scene Graphs for OR Domain Modeling",
+  "VENUE": "MICCAI22",
+  "DATE": "2022/03/22",
+  "AUTHOR": "Ege Özsoy, Evin Pınar Örnek, Ulrich Eck, Tobias Czempiel, Federico Tombari, Nassir Navab",
+  "ABSTRACT": "Surgical procedures are conducted in highly complex operating rooms (OR), comprising different actors, devices, and interactions. To date, only medically trained human experts are capable of understanding all the links and interactions in such a demanding environment. This paper aims to bring the community one step closer to automated, holistic and semantic understanding and modeling of OR domain. Towards this goal, for the first time, we propose using semantic scene graphs (SSG) to describe and summarize the surgical scene. The nodes of the scene graphs represent different actors and objects in the room, such as medical staff, patients, and medical equipment, whereas edges are the relationships between them. To validate the possibilities of the proposed representation, we create the first publicly available 4D surgical SSG dataset, 4D-OR, containing ten simulated total knee replacement surgeries recorded with six RGB-D sensors in a realistic OR simulation center. 4D-OR includes 6734 frames and is richly annotated with SSGs, human and object poses, and clinical roles. We propose an end-to-end neural network-based SSG generation pipeline, with a rate of success of 0.75 macro F1, indeed being able to infer semantic reasoning in the OR. We further demonstrate the representation power of our scene graphs by using it for the problem of clinical role prediction, where we achieve 0.85 macro F1.",
+  "ARXIV": "https://arxiv.org/abs/2203.11937",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, Dataset, RGB-D, Indoor, Humans, SUN",
+  "SITE": "https://conferences.miccai.org/2022/papers/003-Paper1512.html",
+  "CODE": "https://github.com/egeozsoy/4D-OR",
+  "VIDEO": "https://youtu.be/U_VUr-IPIPE",
+  "BIBTEX": "@inproceedings{ozsoy2022_4d_or,\n  title = {4D-OR: Semantic Scene Graphs for OR Domain Modeling},\n  author = {{\\\"O}zsoy, Ege and {\\\"O}rnek, Evin P{\\i}nar and Eck, Ulrich and Czempiel, Tobias and Tombari, Federico and Navab, Nassir},\n  booktitle = {Intl. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI)},\n  pages = {475--485},\n  year = {2022},\n  organization = {Springer},\n  doi = {10.1007/978-3-031-16449-1_45}\n}"
+}
