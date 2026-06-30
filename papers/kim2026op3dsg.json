@@ -1,0 +1,14 @@
+{
+  "TITLE": "OP3DSG: Open-Vocabulary Part-Aware 3D Scene Graph Generation for Real-World Environments",
+  "VENUE": "ECCV26",
+  "DATE": "2026/06/29",
+  "AUTHOR": "Yirum Kim, Ue-Hwan Kim",
+  "ABSTRACT": "3D scene graphs (3DSGs) provide a compact and structured abstraction of 3D environments. Although advances in foundation models have enabled open-vocabulary 3DSG generation, existing approaches remain object-centric and encode limited relational information—restricting their applicability in real-world scenarios that require fine-grained understanding. We propose OP3DSG, an open-vocabulary part-aware 3DSG generation framework that constructs unified graphs that jointly model objects, interactive parts, spatial relations, functional relations, and affordances. OP3DSG integrates object-part knowledge-guided detection with part-aware 3D fusion to preserve small and interaction-relevant components, and employs a geometry-initialized prior graph with LLM-based refinement to reduce spurious relational predictions while enabling efficient graph construction. To systematically evaluate unified 3D scene graph construction, we introduce UniGraph3D, a benchmark designed for part-aware perception and multi-level relational reasoning. Experimental results show that OP3DSG achieves state-of-the-art performance and demonstrates its effectiveness as a perception backbone in diverse real-world robotics tasks.",
+  "ARXIV": "https://arxiv.org/abs/2606.29786",
+  "FIRSTINSTITUTE": "GIST",
+  "KEYWORD": "Application, Open-Vocabulary, SUN, LLM, Manipulation, Indoor, Dataset",
+  "SITE": "https://k2room.github.io/OP3DSG/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{kim2026op3dsg,\n  title = {OP3DSG: Open-Vocabulary Part-Aware 3D Scene Graph Generation for Real-World Environments},\n  author = {Kim, Yirum and Kim, Ue-Hwan},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2026}\n}"
+}
