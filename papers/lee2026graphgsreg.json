@@ -1,0 +1,14 @@
+{
+  "TITLE": "Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration",
+  "VENUE": "ECCV26",
+  "DATE": "2026/06/29",
+  "AUTHOR": "Jaewon Lee, Mangyu Kong, Euntai Kim",
+  "ABSTRACT": "Merging multiple 3D Gaussian Splatting (3DGS) scenes into a single unified Gaussian representation is essential for large-scale 3D mapping and long-term map management. Despite its importance, this area remains underexplored, and existing solutions exhibit several limitations. Learning-based methods attempt direct correspondence between Gaussian primitives and require training on large 3DGS datasets. Image-based optimization methods depend heavily on coarse initialization from generic foundation models and often incur expensive refinement. We present Graph-GSReg. Our method constructs a 3D scene graph from a 3DGS and its rendered images, reformulating 3DGS registration as a graph registration problem. The proposed 3D scene graph represents each 3DGS at a higher-level representation, enabling a globally consistent understanding of semantic information and structural context for accurate registration. To further construct a seamless unified scene, we introduce a Self-Supervised Test-Time Optimization. Naively merging two 3D Gaussian scenes often suffers from occlusion artifacts such as hollows and floaters. To alleviate this issue, we refine the merged Gaussians to preserve visual consistency between the original scenes and the merged scene. We evaluate our method on real and synthetic benchmarks, demonstrating competitive registration accuracy and merged scene rendering quality.",
+  "ARXIV": "https://arxiv.org/abs/2606.29782",
+  "FIRSTINSTITUTE": "Yonsei",
+  "KEYWORD": "Application, SUN, Indoor",
+  "SITE": "https://lee-jaewon.github.io/Graph-GSReg/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{lee2026graphgsreg,\n  title = {Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration},\n  author = {Lee, Jaewon and Kong, Mangyu and Kim, Euntai},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2026}\n}"
+}
