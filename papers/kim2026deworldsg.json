@@ -1,0 +1,14 @@
+{
+  "TITLE": "DeWorldSG: Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors",
+  "VENUE": "ECCV26",
+  "DATE": "2026/07/01",
+  "AUTHOR": "Seok-Young Kim, Abdelrahman Elskhawy, Taewook Ha, Dooyoung Kim, Eunjae Shin, Benjamin Busam, Woontack Woo",
+  "ABSTRACT": "We present DeWorldSG, a novel framework that generates spatio-temporally robust 3D Semantic Scene Graphs from RGB-D sequences. Existing methods often struggle to construct reliable 3D scene graphs due to unstable 3D object representations and missing relations caused by frame-wise inference. DeWorldSG addresses these issues by estimating instance-level geometric 3D Gaussian distributions through depth-guided filtering and representing each object as a probabilistic 3D node rather than a single projected point. To mitigate relational sparsity from frame-wise inference, our framework further aggregates spatiotemporal evidence across object pairs and refines relations using contextual priors derived from a world model (V-JEPA 2). Experiments on the 3DSSG and ReplicaSSG datasets demonstrate state-of-the-art (SoTA) performance in both object and predicate prediction, while producing temporally consistent scene structures. In particular, our method improves triplet recall by 77.4% and predicate recall by 23.2% over prior SoTA approaches, making it suitable for robotic manipulation and AR applications. Our code and models are open-sourced.",
+  "ARXIV": "https://arxiv.org/abs/2607.00889",
+  "FIRSTINSTITUTE": "KAIST",
+  "KEYWORD": "Application, SUN, Indoor, RGB-D, Short-Term Dynamics",
+  "SITE": "https://deworldsg2026.github.io/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{kim2026deworldsg,\n  title = {DeWorldSG: Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors},\n  author = {Kim, Seok-Young and Elskhawy, Abdelrahman and Ha, Taewook and Kim, Dooyoung and Shin, Eunjae and Busam, Benjamin and Woo, Woontack},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2026}\n}"
+}
