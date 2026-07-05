@@ -9,11 +9,23 @@ import { isBookmarked, toggleBookmark } from '../utils/bookmarks';
 
 type DetailLevel = 'mini' | 'small' | 'detail';
 
-function SuggestionCard({ sugg, detailLevel }: { sugg: Paper; detailLevel: DetailLevel }) {
+function SuggestionCard({
+  sugg,
+  detailLevel,
+  onKeywordClick,
+}: {
+  sugg: Paper;
+  detailLevel: DetailLevel;
+  onKeywordClick?: (term: string) => void;
+}) {
   const [showToast, setShowToast] = useState(false);
   const [bookmarked, setBookmarked] = useState(() => isBookmarked(sugg['ID']));
 
   const links = getPaperLinks(sugg);
+  const keywords = (sugg['KEYWORD'] || '')
+    .split(',')
+    .map((k) => k.trim())
+    .filter(Boolean);
 
   const handleBookmark = () => setBookmarked(toggleBookmark(sugg['ID']));
 
@@ -116,12 +128,21 @@ function SuggestionCard({ sugg, detailLevel }: { sugg: Paper; detailLevel: Detai
             </Card.Subtitle>
           )}
 
-          {/* Keyword (left aligned only) */}
-          {showKeyword && sugg['KEYWORD'] && (
-            <Card.Text className="mt-0 mb-0 align-text-left keywords w-100">
-              <strong>Keywords: </strong>
-              {sugg['KEYWORD']}
-            </Card.Text>
+          {/* Keywords as clickable filter chips */}
+          {showKeyword && keywords.length > 0 && (
+            <div className="keyword-chips w-100 mb-1">
+              {keywords.map((term) => (
+                <button
+                  key={term}
+                  type="button"
+                  className="keyword-chip"
+                  title={`Filter by "${term}"`}
+                  onClick={() => onKeywordClick?.(term)}
+                >
+                  {term}
+                </button>
+              ))}
+            </div>
           )}
 
           {/* Abstract grows to fill remaining space */}

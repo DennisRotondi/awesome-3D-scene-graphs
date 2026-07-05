@@ -5,7 +5,7 @@
   padding-bottom: 0.15rem;
   padding-top: 0.15rem;
   border-radius: 0.25rem;
-  font-size: 1.3rem !important;
+  font-size: 1.15rem !important;
   /* color: #fff !important; */
   color: #3b4248 !important;
   flex-shrink: 0;
@@ -21,7 +21,7 @@
   background-color: #d5d7d8 !important;
   border: none !important;
   /* border-color: #9CAFAA !important; */
-  font-size: 1.3rem !important;
+  font-size: 1.15rem !important;
   /* color: #3b4248 !important; */
   color: #3b4248 !important;
 }
@@ -35,7 +35,7 @@
   border-radius: 0.25rem;
   border-width: 0.15rem;
   /* border-color: #9CAFAA !important; */
-  font-size: 1.3rem !important;
+  font-size: 1.15rem !important;
   /* color: #3b4248 !important; */
   color: #fff !important;
 }
@@ -92,10 +92,44 @@
 
 .card{
   font-family: 'Ubuntu Sans', sans-serif;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(59, 66, 72, 0.08);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(59, 66, 72, 0.08), 0 4px 12px rgba(59, 66, 72, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
   overflow: hidden;
   position: relative;
   opacity: 1;
+}
+
+.card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(59, 66, 72, 0.16);
+}
+
+/* Clickable keyword filter chips on cards */
+.keyword-chips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-start;
+}
+
+.keyword-chip{
+  font-family: 'Ubuntu Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #3b4248;
+  background: #D6DAC8;
+  border: 1px solid rgba(59, 66, 72, 0.25);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.keyword-chip:hover{
+  background: #9CAFAA;
+  color: #fff;
 }
 
 .card-copy-icon{
