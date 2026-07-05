@@ -1,0 +1,14 @@
+{
+  "TITLE": "Think While You Map: Asynchronous Vision-Language Agents for Incremental 3D Scene Graphs",
+  "VENUE": "ECCV26",
+  "DATE": "2026/06/30",
+  "AUTHOR": "Deniz Bickici, Michael Pabst, Shohei Mori, Dieter Schmalstieg",
+  "ABSTRACT": "Open-vocabulary 3D scene graph methods typically operate in two stages: first reconstruct, then enrich with vision-language models, leaving the graph unqueryable during exploration. We argue that this sequential coupling is unnecessary and propose an asynchronous architecture in which lightweight online mapping runs concurrently with heavyweight semantic refinement. A probabilistic voxel-based backbone maintains stable object identities incrementally, while background VLM agents progressively enrich the graph. This framework resolves duplicate object tracks through semantic loop closure, attaches fine-grained visual attributes and derives spatial relations between objects. A multi-target frame scheduler amortizes VLM cost by selecting a small set of informative frames that jointly cover multiple targets. The resulting scene graph is queryable during exploration and grows in semantic richness over time. Our method matches or outperforms existing open-vocabulary 3D scene graph methods on semantic segmentation (ScanNet, Replica) and surpasses the prior state-of-the-art across three visual grounding benchmarks (Sr3D+, Nr3D, ScanRefer) by 15.3 to 18.8 A@0.25.",
+  "ARXIV": "https://arxiv.org/abs/2606.31471",
+  "FIRSTINSTITUTE": "UniStuttgart",
+  "KEYWORD": "Application, SUN, Indoor, Open-Vocabulary, Incremental, LLM, RGB-D",
+  "SITE": "https://denizbickici.github.io/thinkgraphs/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{bickici2026thinkgraphs,\n  title = {Think While You Map: Asynchronous Vision-Language Agents for Incremental 3D Scene Graphs},\n  author = {Bickici, Deniz and Pabst, Michael and Mori, Shohei and Schmalstieg, Dieter},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2026}\n}"
+}
