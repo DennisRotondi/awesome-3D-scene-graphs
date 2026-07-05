@@ -1,1 +1,3 @@
 src/assets/papers/
+# no trailing slash: also matches the local-dev symlink (docker mounts a real dir)
+src/assets/papers

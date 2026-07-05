@@ -2,6 +2,7 @@
 // Survives browser restarts; scoped per browser/device.
 
 const STORAGE_KEY = 'bookmarkedPapers';
+const CHANGE_EVENT = 'bookmarks-changed';
 
 function read(): Set<string> {
   try {
@@ -20,6 +21,17 @@ function write(ids: Set<string>): void {
   } catch {
     /* localStorage unavailable (e.g. private mode) -> degrade to in-session only */
   }
+  window.dispatchEvent(new Event(CHANGE_EVENT));
+}
+
+export function getBookmarkCount(): number {
+  return read().size;
+}
+
+/** Subscribe to bookmark changes; returns an unsubscribe function. */
+export function onBookmarksChange(callback: () => void): () => void {
+  window.addEventListener(CHANGE_EVENT, callback);
+  return () => window.removeEventListener(CHANGE_EVENT, callback);
 }
 
 export function isBookmarked(id: string): boolean {

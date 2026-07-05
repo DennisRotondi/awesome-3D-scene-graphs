@@ -10,6 +10,7 @@ import { DatePicker } from '../components/DatePicker';
 import { papers } from '../components/papers';
 import StatsPlot from '../components/StatsPlot';
 import TimelinePlot, { type TimelineHandle } from '../components/Timeline';
+import { isBookmarked, onBookmarksChange } from '../utils/bookmarks';
 import './AdvancedSearch.css';
 
 type SearchBarConfig = {
@@ -28,6 +29,16 @@ export default function AdvancedSearch() {
   const [detailLevel, setDetailLevel] = useState<'mini' | 'small' | 'detail'>('detail');
   const [onlyWithCode, setOnlyWithCode] = useState(false);
   const [onlyReviewed, setOnlyReviewed] = useState(false);
+  const [onlyBookmarked, setOnlyBookmarked] = useState(Boolean(location.state?.bookmarked));
+  // Bumped whenever bookmarks change so an active "Bookmarked" filter re-runs.
+  const [bookmarkVersion, setBookmarkVersion] = useState(0);
+
+  useEffect(() => onBookmarksChange(() => setBookmarkVersion((v) => v + 1)), []);
+
+  // Navbar bookmark badge navigates here with state; sync when already on this page.
+  useEffect(() => {
+    if (location.state?.bookmarked) setOnlyBookmarked(true);
+  }, [location.state]);
   // Default to no explicit sort: papers already load oldest-first (see papers.tsx),
   // so the initial order is correct without a re-sort flash on load.
   const [sortBy, setSortBy] = useState('');
@@ -125,6 +136,11 @@ export default function AdvancedSearch() {
         (paper) => !String(paper['VENUE']).toLowerCase().includes('arxiv')
       );
     }
+    if (onlyBookmarked) {
+      // bookmarkVersion ties this filter to bookmark toggles (isBookmarked reads localStorage)
+      void bookmarkVersion;
+      advancedSugg = advancedSugg.filter((paper) => isBookmarked(paper['ID']));
+    }
     const searchMap = new Map();
     searchBars.forEach((bar) => {
       const field = bar.field;
@@ -198,7 +214,7 @@ export default function AdvancedSearch() {
       });
     }
     setSuggestions(advancedSugg);
-  }, [searchBars, onlyWithCode, onlyReviewed, sortBy]);
+  }, [searchBars, onlyWithCode, onlyReviewed, onlyBookmarked, bookmarkVersion, sortBy]);
 
   useEffect(() => {
     onSearch();
@@ -223,6 +239,28 @@ export default function AdvancedSearch() {
     id: number
   ) => {
     onUpdateBar(id, suggestionValue);
+  };
+
+  // Clicking a keyword chip on a card fills (or adds) a keyword search bar.
+  const handleKeywordClick = (term: string) => {
+    setSearchBars((prev) => {
+      const keywordBar = prev.find((bar) => bar.field === 'KEYWORD');
+      if (keywordBar) {
+        return prev.map((bar) => (bar.id === keywordBar.id ? { ...bar, value: term } : bar));
+      }
+      return [
+        ...prev,
+        {
+          id: nextId,
+          field: 'KEYWORD',
+          value: term,
+          placeholder: 'Search by keyword.',
+          option: 'Keyword',
+        },
+      ];
+    });
+    setNextId((prev) => prev + 1);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const buildSearchBar = (bar: SearchBarConfig) => {
@@ -252,7 +290,14 @@ export default function AdvancedSearch() {
                 <SearchBar
                   field={bar.field}
                   placeholder={bar.placeholder}
-                  initialValue={isTitleBar ? bar.value : ''}
+                  // Keyword bars stay synced so keyword-chip clicks show up in the input.
+                  initialValue={
+                    isTitleBar || bar.field === 'KEYWORD'
+                      ? typeof bar.value === 'string'
+                        ? bar.value
+                        : ''
+                      : ''
+                  }
                   id={bar.id}
                   icon="X"
                   onSuggestionSelected={(event, data) =>
@@ -384,6 +429,19 @@ export default function AdvancedSearch() {
                 With code
               </label>
             </div>
+
+            <div className="d-flex align-items-center">
+              <input
+                type="checkbox"
+                id="bookmarkCheck"
+                checked={onlyBookmarked}
+                onChange={(e) => setOnlyBookmarked(e.target.checked)}
+                className="form-check-input m-0"
+              />
+              <label htmlFor="bookmarkCheck" className="form-check-label ms-1 mb-0">
+                Bookmarked
+              </label>
+            </div>
           </div>
         </Col>
 
@@ -478,7 +536,12 @@ export default function AdvancedSearch() {
         // Browse: suggestion cards
         <Row>
           {suggestions.map((sugg) => (
-            <SuggestionCard key={sugg['ID']} sugg={sugg} detailLevel={detailLevel} />
+            <SuggestionCard
+              key={sugg['ID']}
+              sugg={sugg}
+              detailLevel={detailLevel}
+              onKeywordClick={handleKeywordClick}
+            />
           ))}
         </Row>
       )}
