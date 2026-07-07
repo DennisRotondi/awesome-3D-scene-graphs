@@ -1,0 +1,14 @@
+{
+  "TITLE": "Beyond Isolated Objects: Relationship-aware Open-Vocabulary 3D Scene Understanding via 3D Scene Graph Analysis",
+  "VENUE": "ECCV26",
+  "DATE": "2026/07/06",
+  "AUTHOR": "Xianhao Chen, Jiarui Hu, Yuanbo Yang, Xiyu Zhang, Tengyue Wang, Hujun Bao, Guofeng Zhang, Zhaopeng Cui",
+  "ABSTRACT": "Open-vocabulary 3D scene understanding aims to segment 3D scenes beyond predefined categories by transferring semantic knowledge from vision-language models. Existing methods have advanced this task by lifting language-aligned 2D features into 3D, yet they often rely on context-independent semantic representations, leaving object relationships underexplored for contextual refinement. We propose RelGraphOV, a relationship-aware framework that uses 3D scene graphs to enhance open-vocabulary 3D understanding. Our method constructs relational scene graphs from multi-view observations by leveraging vision-language reasoning to infer object relationships and prune geometrically implausible connections, without manual relationship annotations. To aggregate relational context while avoiding feature interference, we introduce an Adaptive Gated Dual-Stream Contextual GAT that separates dense geometric features and semantic CLIP embeddings, performs edge-guided message passing, and adaptively fuses complementary semantics. A hierarchical contrastive objective further promotes instance-level consistency and category-level discrimination. Experiments on ScanNetV2, ScanNet200, ScanNet++, and Replica demonstrate strong performance and generalization ability.",
+  "ARXIV": "https://arxiv.org/abs/2607.05348",
+  "FIRSTINSTITUTE": "ZJU",
+  "KEYWORD": "Application, SUN, Indoor, Open-Vocabulary, LLM, RGB-D",
+  "SITE": "https://cxavireh.github.io/relgraphov-projectpage/",
+  "CODE": "https://github.com/CXavireH/relgraphov",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{chen2026relgraphov,\n  title = {Beyond Isolated Objects: Relationship-aware Open-Vocabulary 3D Scene Understanding via 3D Scene Graph Analysis},\n  author = {Chen, Xianhao and Hu, Jiarui and Yang, Yuanbo and Zhang, Xiyu and Wang, Tengyue and Bao, Hujun and Zhang, Guofeng and Cui, Zhaopeng},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2026}\n}"
+}
