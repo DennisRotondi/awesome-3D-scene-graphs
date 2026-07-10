@@ -1,0 +1,14 @@
+{
+  "TITLE": "PUF: Plug-and-Play Uncertainty-Aware Fusion for Online 3D Scene Graph Generation",
+  "VENUE": "ECCV26",
+  "DATE": "2026/07/08",
+  "AUTHOR": "Yi Yang, Myrna Castillo, Bodo Rosenhahn, Michael Ying Yang",
+  "ABSTRACT": "Online 3D scene graph generation builds a persistent, structured representation of a scene by incrementally fusing 2D observations into a global 3D graph. Existing online methods treat this fusion as a fully deterministic pipeline, where we identify three sources of uncertainty that are overlooked: observation, 2D model, and 3D representation. We propose PUF: a Plug-and-play, Uncertainty-aware, and training-free Fusion framework. Scene graph node association is reformulated as a probabilistic likelihood over semantic and spatial factors, replacing binary accept/reject gates. Dirichlet evidence accumulation distributes class and relationship evidence across plausible candidates proportional to association likelihood. An optional class-conditional prior completes edges for sparsely or never co-observed object pairs. We instantiate PUF with both a 3D Gaussian and a 3D voxel backend and observe consistent improvements, demonstrating its ability to generalize across different representations. Experiments on the 3DSSG and ReplicaSSG benchmarks show that our method substantially outperforms existing approaches while maintaining real-time latency. These results establish uncertainty-aware fusion as a principled and effective paradigm for online 3D scene understanding.",
+  "ARXIV": "https://arxiv.org/abs/2607.07170",
+  "FIRSTINSTITUTE": "LUH",
+  "KEYWORD": "Application, SUN, Indoor, Real-Time, Incremental, RGB-D",
+  "SITE": "",
+  "CODE": "https://github.com/yyyyangyi/PUF",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{yang2026puf,\n  title = {PUF: Plug-and-Play Uncertainty-Aware Fusion for Online 3D Scene Graph Generation},\n  author = {Yang, Yi and Castillo, Myrna and Rosenhahn, Bodo and Yang, Michael Ying},\n  booktitle = {European Conf. on Computer Vision (ECCV)},\n  year = {2026}\n}"
+}
