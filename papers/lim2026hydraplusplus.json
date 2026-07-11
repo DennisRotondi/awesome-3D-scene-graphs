@@ -1,0 +1,14 @@
+{
+  "TITLE": "Hydra++: Real-Time Hierarchical 3D Scene Graph Construction With Object-Level Shape Estimation",
+  "VENUE": "IROS26",
+  "DATE": "2026/07/11",
+  "AUTHOR": "Hyungtae Lim, Nathan Hughes, Xihang Yu, Ruihan Xu, Yun Chang, Jingnan Shi, Rajat Talak, Luca Carlone",
+  "ABSTRACT": "3D scene graphs provide a hierarchical abstraction of environments by encoding spatial entities and their relationships. Existing scene graph systems usually model object geometry with partial point clouds or class-level CAD templates, limiting instance-specific shape detail. Hydra++ integrates category-agnostic shape estimation into a hierarchical 3D scene graph pipeline, adds a reprojection-mask consistency check to reject degenerate shape predictions, and supports a hybrid LiDAR-camera configuration for large-scale outdoor operation. Experiments in simulation and real-world outdoor scenes show improved object-level and scene-level reconstruction quality.",
+  "ARXIV": "https://hydra-plusplus.github.io/static/pdfs/hydra-plusplus.pdf",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "RGB-D, LiDAR, Hierarchical, Real-Time, SLAM, Indoor, Outdoor, Incremental",
+  "SITE": "https://hydra-plusplus.github.io/",
+  "CODE": "https://github.com/MIT-SPARK/Hydra",
+  "VIDEO": "https://www.youtube.com/watch?v=CklXMpqG_Vk",
+  "BIBTEX": "@inproceedings{lim2026hydraplusplus,\n  title = {{Hydra++}: Real-Time Hierarchical 3D Scene Graph Construction With Object-Level Shape Estimation},\n  author = {Lim, Hyungtae and Hughes, Nathan and Yu, Xihang and Xu, Ruihan and Chang, Yun and Shi, Jingnan and Talak, Rajat and Carlone, Luca},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2026}\n}"
+}
