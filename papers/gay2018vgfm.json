@@ -1,0 +1,14 @@
+{
+  "TITLE": "Visual graphs from motion (vgfm): Scene understanding with object geometry reasoning",
+  "VENUE": "ACCV18",
+  "DATE": "2019/05/29",
+  "AUTHOR": "Paul Gay, Stuart James, Alessio Del Bue",
+  "ABSTRACT": "Recent approaches on visual scene understanding attempt to build a scene graph – a computational representation of objects and their pairwise relationships. Such rich semantic representation is very appealing, yet difficult to obtain from a single image, especially when considering complex spatial arrangements in the scene. Differently, an image sequence conveys useful information using the multi-view geometric relations arising from camera motions. Indeed, object relationships are naturally related to the 3D scene structure. To this end, this paper proposes a system that first computes the geometrical location of objects in a generic scene and then efficiently constructs scene graphs from video by embedding such geometrical reasoning. Such compelling representation is obtained using a new model where geometric and visual features are merged using an RNN framework. We report results on a dataset we created for the task of 3D scene graph generation in multiple views.",
+  "ARXIV": "https://arxiv.org/abs/1807.05933",
+  "FIRSTINSTITUTE": "Italian Institute of Technology",
+  "KEYWORD": "Indoor,SLAM,SUN,Incremental",
+  "SITE": "https://github.com/paulgay/VGfM",
+  "CODE": "https://github.com/paulgay/VGfM",
+  "VIDEO": "",
+  "BIBTEX": "@InProceedings{gay2018vgfm,author={Gay, Paul and Stuart, James and Del Bue, Alessio}, \n editor={Jawahar, C. V. and Li, Hongdong and Mori, Greg and Schindler, Konrad},\n title={Visual Graphs from Motion (VGfM): Scene Understanding with Object Geometry Reasoning},\n booktitle={Asian Conf. on Computer Vision (ACCV)}, \n year={2018}, \n publisher={Springer International Publishing}, \n address={Cham}, \n pages={330--346}, \n isbn={978-3-030-20893-6}}"
+}
