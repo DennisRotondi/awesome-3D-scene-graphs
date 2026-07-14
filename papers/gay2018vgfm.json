@@ -1,7 +1,7 @@
 {
   "TITLE": "Visual graphs from motion (vgfm): Scene understanding with object geometry reasoning",
   "VENUE": "Asian Conference on Computer Vision",
-  "DATE": "2018/",
+  "DATE": "2019/05/29",
   "AUTHOR": "Paul Gay, Stuart James, Alessio Del Bue",
   "ABSTRACT": "Recent approaches on visual scene understanding attempt to build a scene graph – a computational representation of objects and their pairwise relationships. Such rich semantic representation is very appealing, yet difficult to obtain from a single image, especially when considering complex spatial arrangements in the scene. Differently, an image sequence conveys useful information using the multi-view geometric relations arising from camera motions. Indeed, object relationships are naturally related to the 3D scene structure. To this end, this paper proposes a system that first computes the geometrical location of objects in a generic scene and then efficiently constructs scene graphs from video by embedding such geometrical reasoning. Such compelling representation is obtained using a new model where geometric and visual features are merged using an RNN framework. We report results on a dataset we created for the task of 3D scene graph generation in multiple views.",
   "ARXIV": "https://arxiv.org/abs/1807.05933",
