@@ -1,0 +1,14 @@
+{
+  "TITLE": "3D Scene Graph Prediction: Generating Hierarchical Models from Partially Observed Environments",
+  "VENUE": "IROS26",
+  "DATE": "2026/07/12",
+  "AUTHOR": "Siyi Hu, Jared Strader, Hyungtae Lim, Luca Carlone",
+  "ABSTRACT": "Generating realistic 3D indoor scenes is an area of growing interest in computer vision and robotics. Existing methods, often motivated by applications such as interior design, generally focus on object layout generation within a single room. The generation of high-level scene structure, such as room-level layout and traversability, remains underexplored despite its importance for robotics applications. In this paper, we consider the case where a robot has explored part of an environment and needs to predict the unexplored parts to support downstream tasks such as exploration or object search. We propose a top-down framework for synthesizing hierarchical 3D scene graphs, including a room layer -- describing the floor plan and traversability -- and an object layer modeling object layouts within each room. For the room layer, we propose a novel mixed-domain graph diffusion model jointly predicting room categories, floor boundaries, and traversability between rooms. Via corruption and masking, this model supports partial constraints such as incomplete floor plans, avoiding the need for partially observed training data. For the object layer, we integrate an existing mixed discrete-continuous diffusion model for joint prediction of object categories, locations, sizes, and orientations within each room given the floor plan. We compare our method with state-of-the-art occupancy-based and LLM-based floor plan generation methods on a standard benchmark. Compared with an occupancy-based learning baseline, our method generalizes substantially better to out-of-distribution partial floor plans. We also demonstrate our integrated prediction pipeline on real-world scenes from robot-collected data, enabling prediction beyond explored areas.",
+  "ARXIV": "https://arxiv.org/abs/2607.10879",
+  "FIRSTINSTITUTE": "MIT",
+  "KEYWORD": "Application, SUN, Indoor, Hierarchical",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@inproceedings{hu2026scenegraphprediction,\n  title = {3D Scene Graph Prediction: Generating Hierarchical Models from Partially Observed Environments},\n  author = {Hu, Siyi and Strader, Jared and Lim, Hyungtae and Carlone, Luca},\n  booktitle = {IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n  year = {2026}\n}"
+}
