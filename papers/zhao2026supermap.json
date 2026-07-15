@@ -1,0 +1,14 @@
+{
+  "TITLE": "SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation",
+  "VENUE": "RSS26",
+  "DATE": "2026/07/14",
+  "AUTHOR": "Shibo Zhao, Guofei Chen, Honghao Zhu, Zhiheng Li, Changwei Yao, Nader Zantout, Seungchan Kim, Wenshan Wang, Ji Zhang, Sebastian Scherer",
+  "ABSTRACT": "Robotic navigation in human environments requires a spatio-temporal semantic representation that can reconcile open-vocabulary perception with long-term environmental changes. While foundation models provide strong zero-shot recognition, their predictions are intermittent and view-dependent, and naively integrating them into mapping pipelines leads to identity drift and stale semantics over time. We present SuperMap, a 4D spatio-temporal mapping framework for language-guided navigation that integrates high-frequency geometric SLAM with asynchronous open-vocabulary perception. Our core contribution is a consistency-driven mapping engine that combines 3D-aware instance association/re-activation with a principled existence-and-label confidence update to maintain stable object identities and prune outdated map content under occlusions and scene changes. SuperMap produces a queryable 4D scene-graph representation that interfaces naturally with Vision-Language Models by supporting compositional queries over object semantics, relations, and history. We demonstrate SuperMap on benchmarks and real robots, including dynamic scenes with appearance/disappearance and relocation, and provide ablations and runtime analysis. We release the full system as open-source to provide the community with a deployable baseline for open-vocabulary spatio-temporal mapping.",
+  "ARXIV": "https://www.roboticsproceedings.org/rss22/p052.pdf",
+  "FIRSTINSTITUTE": "CMU",
+  "KEYWORD": "Navigation, LLM, SUN, Outdoor, Indoor, Short-Term Dynamics, Long-Term Dynamics, Incremental, Real-Time, RGB-D, LiDAR, SLAM, Open-Vocabulary",
+  "SITE": "https://superodometry.com/supermap",
+  "CODE": "",
+  "VIDEO": "https://www.youtube.com/watch?v=TQjTTqEewNQ",
+  "BIBTEX": "@inproceedings{zhao2026supermap,\n  title     = {SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation},\n  author    = {Zhao, Shibo and Chen, Guofei and Zhu, Honghao and Li, Zhiheng and Yao, Changwei and Zantout, Nader and Kim, Seungchan and Wang, Wenshan and Zhang, Ji and Scherer, Sebastian},\n  booktitle = {Proceedings of Robotics: Science and Systems (RSS)},\n  year      = {2026}\n}"
+}
