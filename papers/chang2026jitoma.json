@@ -1,0 +1,14 @@
+{
+  "TITLE": "Just-In-Time Scene Graph Growth: Combating Perceptual Saturation in Long-Horizon Robotics",
+  "VENUE": "arXiv26",
+  "DATE": "2026/07/14",
+  "AUTHOR": "Yue Chang, Rufeng Chen, Yifan Tian, Dazhi Huang, Zhaofan Zhang, Yi Chen, Wenze Zhang, Li Chen, Hui Xiong, Sihong Xie",
+  "ABSTRACT": "While 3D Scene Graphs (3DSGs) provide crucial structured representations for embodied agents, conventional Ahead-of-Time, build-everything-then-filter pipelines conflict with the real-time, low-latency demands of edge platforms, inducing a perceptual saturation effect via severe observation redundancy. To resolve this, we present JITOMA (Just-In-Time On-demand Memory Activation), a closed-loop framework that unifies task reasoning, perception, and memory into a just-in-time growth process. Instead of exhaustively mapping the entire environment, JITOMA leverages a top-down task heatmap at the frontend to filter continuous observations, routing minimal streams to maintain a global foundation of low-cost, dormant anchors. Upon a cognitive query, the backend Large Language Model (LLM) parses the robotic intent to dynamically awaken task-relevant anchors, triggering resource-intensive operations — such as dense node captioning and functional inference — exclusively within the activated local subgraph. To evaluate these dynamic capabilities and study perceptual saturation trade-offs, we introduce JITOMA-Bench, a comprehensive suite for long-horizon multi-tasking and complex multi-step reasoning. Extensive experiments demonstrate that JITOMA substantially reduces active graph size and captioning latency, while maintaining stable processing time under long-horizon task switching.",
+  "ARXIV": "https://arxiv.org/abs/2607.13245",
+  "FIRSTINSTITUTE": "HKUST",
+  "KEYWORD": "Application, LLM, SUN, Indoor, Active, Incremental, Real-Time, RGB-D",
+  "SITE": "",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{chang2026jitoma,\n  title = {Just-In-Time Scene Graph Growth: Combating Perceptual Saturation in Long-Horizon Robotics},\n  author = {Chang, Yue and Chen, Rufeng and Tian, Yifan and Huang, Dazhi and Zhang, Zhaofan and Chen, Yi and Zhang, Wenze and Chen, Li and Xiong, Hui and Xie, Sihong},\n  year = {2026},\n  eprint = {2607.13245},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.CV}\n}"
+}
