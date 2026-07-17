@@ -1,0 +1,14 @@
+{
+  "TITLE": "OSMa-Bench: Evaluating Open Semantic Mapping Under Varying Lighting Conditions",
+  "VENUE": "IROS25",
+  "DATE": "2025/10/19",
+  "AUTHOR": "Maxim Popov, Regina Kurkova, Mikhail Iumanov, Jaafar Mahmoud, Sergey Kolyubin",
+  "ABSTRACT": "Open Semantic Mapping (OSM) is a key technology in robotic perception, combining semantic segmentation and SLAM techniques. This paper introduces a dynamically configurable and highly automated LLM/LVLM-powered pipeline for evaluating OSM solutions called OSMa-Bench (Open Semantic Mapping Benchmark). The study focuses on evaluating state-of-the-art semantic mapping algorithms under varying indoor lighting conditions, a critical challenge in indoor environments. We introduce a novel dataset with simulated RGB-D sequences and ground truth 3D reconstructions, facilitating the rigorous analysis of mapping performance across different lighting conditions. Through experiments on leading models such as ConceptGraphs, BBQ, and OpenScene, we evaluate the semantic fidelity of object recognition and segmentation. Additionally, we introduce a Scene Graph evaluation method to analyze the ability of models to interpret semantic structure. The results provide insights into the robustness of these models, forming future research directions for developing resilient and adaptable robotic systems.",
+  "ARXIV": "https://arxiv.org/abs/2503.10331",
+  "FIRSTINSTITUTE": "ITMO University",
+  "KEYWORD": "LLM, SUN, Indoor, Dataset, RGB-D, Open-Vocabulary",
+  "SITE": "https://be2rlab.github.io/OSMa-Bench/",
+  "CODE": "https://github.com/be2rlab/OSMa-Bench",
+  "VIDEO": "https://www.youtube.com/watch?v=HqpZ1gDhvKU",
+  "BIBTEX": "@inproceedings{popov2025osmabench,\n    title={OSMa-Bench: Evaluating Open Semantic Mapping Under Varying Lighting Conditions},\n    author={Popov, Maxim and Kurkova, Regina and Iumanov, Mikhail and Mahmoud, Jaafar and Kolyubin, Sergey},\n    booktitle={IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)},\n    year={2025}\n}"
+}
