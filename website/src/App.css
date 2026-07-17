@@ -367,7 +367,18 @@ title {
 }
 
 .stat-tile-label {
+  font-family: 'Ubuntu Sans', sans-serif;
   font-size: 0.85rem;
   color: #6b7280;
   margin-top: 0.25rem;
+}
+
+/* Chart text (axis ticks, legends, labels) inherits the body font, which
+   Bootstrap resets to system-ui; force the site font like everywhere else. */
+.recharts-wrapper text,
+.recharts-legend-wrapper,
+.recharts-tooltip-wrapper,
+.chart-tooltip,
+.paper-graph text {
+  font-family: 'Ubuntu Sans', sans-serif !important;
 }

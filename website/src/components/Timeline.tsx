@@ -477,6 +477,7 @@ const TimelinePlot = forwardRef<TimelineHandle, TimelinePlotProps>(function Time
 
       {hoveredPoint && tooltipPos && (
         <div
+          className="chart-tooltip"
           style={{
             position: 'fixed',
             left: tooltipPos.x + 14,

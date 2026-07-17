@@ -430,6 +430,7 @@ export default function PaperGraph({ suggestions }: { suggestions?: Paper[] }) {
   return (
     <>
       <svg
+        className="paper-graph"
         viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
         width="100%"
         style={{
@@ -498,6 +499,7 @@ export default function PaperGraph({ suggestions }: { suggestions?: Paper[] }) {
 
       {hovered !== null && tooltipPos && (
         <div
+          className="chart-tooltip"
           style={{
             position: 'fixed',
             left: tooltipPos.x + 14,
