@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -125,9 +125,10 @@
   min-height: 100%;
 }
 /* Override Bootstrap bg-body-tertiary */
-footer, nav.bg-body-tertiary {
+footer,
+nav.bg-body-tertiary {
   --bs-bg-opacity: 1;
-  background-color: #9CAFAA !important; /* your custom color */
+  background-color: #9cafaa !important; /* your custom color */
   font-family: 'Ubuntu Sans', sans-serif !important;
 }
 
@@ -162,7 +163,7 @@ a.nav-link::after {
   bottom: 0.15rem;
   height: 2px;
   border-radius: 1px;
-  background: #FBF3D5;
+  background: #fbf3d5;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.2s ease;
@@ -175,11 +176,12 @@ a.nav-link.active::after {
 
 /* change font color if active */
 .active {
-  color: #FBF3D5 !important;
+  color: #fbf3d5 !important;
 }
 
-footer a:hover, a.nav-link:hover {
-  color: #FBF3D5 !important;
+footer a:hover,
+a.nav-link:hover {
+  color: #fbf3d5 !important;
 }
 
 /* Navbar bookmark badge */
@@ -195,7 +197,7 @@ footer a:hover, a.nav-link:hover {
 
 .nav-bookmarks-count {
   background: #3b4248;
-  color: #FBF3D5;
+  color: #fbf3d5;
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 700;
@@ -203,7 +205,8 @@ footer a:hover, a.nav-link:hover {
   padding: 0 0.45rem;
 }
 
-footer, footer a {
+footer,
+footer a {
   font-size: 0.9rem;
   font-family: 'Ubuntu Sans', sans-serif !important;
   color: #3b4248 !important;
@@ -220,19 +223,19 @@ footer, footer a {
   display: inline-block;
 }
 /* medium screens */
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   .preview-img {
     width: 25%;
   }
 }
 /* small screens */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .preview-img {
     width: 35%;
   }
 }
 /* extra small screens */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   .preview-img {
     width: 35%;
   }
@@ -254,7 +257,7 @@ footer, footer a {
 
 /* change bootstrap primary button color and lg font */
 .btn-primary {
-  background-color: #9CAFAA !important;
+  background-color: #9cafaa !important;
   border: none !important;
   /* border-color: #9CAFAA !important; */
   font-size: 1.15rem !important;
@@ -264,7 +267,7 @@ footer, footer a {
 
 /* change bootstrap primary button color and lg font */
 .btn-secondary {
-  background-color: #9CAFAA !important;
+  background-color: #9cafaa !important;
   border-color: #3b4248ff;
   border-radius: 0.25rem;
   border-width: 0.15rem;
@@ -274,9 +277,9 @@ footer, footer a {
   color: #fff !important;
 }
 
-.keyword{
+.keyword {
   font-family: 'Ubuntu Sans', sans-serif;
-  background-color: #9CAFAA !important;
+  background-color: #9cafaa !important;
   border: 0.15rem solid #3b4248 !important;
   border-radius: 0.25rem;
   font-size: 1.15rem !important;
@@ -286,33 +289,31 @@ footer, footer a {
   height: 100%;
 }
 
-
-.date-box{
+.date-box {
   font-family: 'Ubuntu Sans', sans-serif;
   border: 0.15rem solid #3b4248 !important;
   border-radius: 0.25rem;
   font-size: 1.15rem !important;
   text-align: center;
   max-width: 6%;
-
 }
 
-.form-select:focus{
-    box-shadow: none !important;
+.form-select:focus {
+  box-shadow: none !important;
 }
 
-title{
-    background-color: #9CAFAA !important;
+title {
+  background-color: #9cafaa !important;
 }
 
 .btn-uniform {
   min-width: 200px; /* same width for all buttons */
   max-width: 220px; /* optional: prevents huge buttons on large screens */
-  flex: 1 1 auto;   /* allows wrapping on small screens */
+  flex: 1 1 auto; /* allows wrapping on small screens */
 }
 
 .searchbar-dropdown {
-  z-index: 1050;      /* Bootstrap modals use 1050, so this is above most things */
+  z-index: 1050; /* Bootstrap modals use 1050, so this is above most things */
 }
 
 /* Prevent selecting ticks, labels, axes, etc */
@@ -338,4 +339,46 @@ title{
   font-weight: 700;
   color: #3b4248;
   margin-bottom: 0.5rem;
+}
+
+/* Stats page */
+.stats-page-title {
+  font-family: 'Ubuntu Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #3b4248;
+}
+
+.stat-tile {
+  border: 1px solid rgba(59, 66, 72, 0.15);
+  border-radius: 10px;
+  padding: 1rem 0.75rem;
+  text-align: center;
+  background: #fff;
+  height: 100%;
+}
+
+.stat-tile-value {
+  font-family: 'Ubuntu Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3b4248;
+  line-height: 1.1;
+}
+
+.stat-tile-label {
+  font-family: 'Ubuntu Sans', sans-serif;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+/* Chart text (axis ticks, legends, labels) inherits the body font, which
+   Bootstrap resets to system-ui; force the site font like everywhere else. */
+.recharts-wrapper text,
+.recharts-legend-wrapper,
+.recharts-tooltip-wrapper,
+.chart-tooltip,
+.paper-graph text {
+  font-family: 'Ubuntu Sans', sans-serif !important;
 }

@@ -9,6 +9,9 @@ import SuggestionCard from '../components/SuggestionCard';
 import { DatePicker } from '../components/DatePicker';
 import { papers } from '../components/papers';
 import StatsPlot from '../components/StatsPlot';
+import StatTiles from '../components/StatTiles';
+import KeywordTrends from '../components/KeywordTrends';
+import PaperGraph from '../components/PaperGraph';
 import TimelinePlot, { type TimelineHandle } from '../components/Timeline';
 import { isBookmarked, onBookmarksChange } from '../utils/bookmarks';
 import './AdvancedSearch.css';
@@ -43,8 +46,10 @@ export default function AdvancedSearch() {
   // so the initial order is correct without a re-sort flash on load.
   const [sortBy, setSortBy] = useState('');
 
-  const [viewMode, setViewMode] = useState<'browse' | 'statistics' | 'timeline'>('browse');
-  const [statsMode, setStatsMode] = useState<'year' | 'venue' | 'keyword'>('year');
+  const [viewMode, setViewMode] = useState<'browse' | 'statistics' | 'timeline' | 'graph'>(
+    'browse'
+  );
+  const [statsMode, setStatsMode] = useState<'year' | 'venue' | 'keyword' | 'trends'>('year');
 
   // default bars
   const [searchBars, setSearchBars] = useState([
@@ -355,7 +360,7 @@ export default function AdvancedSearch() {
           variant={viewMode === 'statistics' ? 'primary' : 'outline-primary'}
           onClick={() => setViewMode('statistics')}
         >
-          Statistics
+          Year-by-Year
         </Button>
 
         <Button
@@ -364,6 +369,14 @@ export default function AdvancedSearch() {
           onClick={() => setViewMode('timeline')}
         >
           Timeline
+        </Button>
+
+        <Button
+          className="mx-2"
+          variant={viewMode === 'graph' ? 'primary' : 'outline-primary'}
+          onClick={() => setViewMode('graph')}
+        >
+          Connected Papers
         </Button>
       </div>
 
@@ -472,9 +485,9 @@ export default function AdvancedSearch() {
               </ButtonGroup>
             )}
 
-            {/* Statistics: Year / Venue / Keyword */}
+            {/* Year-by-Year: chart selector */}
             {viewMode === 'statistics' && (
-              <ButtonGroup size="sm" className="w-100 w-md-auto">
+              <ButtonGroup size="sm" className="w-100 w-md-auto flex-wrap">
                 <Button
                   variant={statsMode === 'keyword' ? 'outline-secondary' : 'outline-primary'}
                   onClick={() => setStatsMode('keyword')}
@@ -492,6 +505,12 @@ export default function AdvancedSearch() {
                   onClick={() => setStatsMode('year')}
                 >
                   Year
+                </Button>
+                <Button
+                  variant={statsMode === 'trends' ? 'outline-secondary' : 'outline-primary'}
+                  onClick={() => setStatsMode('trends')}
+                >
+                  Trends
                 </Button>
               </ButtonGroup>
             )}
@@ -518,8 +537,20 @@ export default function AdvancedSearch() {
       {viewMode === 'statistics' ? (
         <Row>
           <Col xs={12}>
-            {/* You can use statsMode inside Venuestat to switch the visualization */}
-            <StatsPlot suggestions={suggestions} mode={statsMode} />
+            <div className="mb-4">
+              <StatTiles suggestions={suggestions} />
+            </div>
+            {statsMode === 'trends' ? (
+              <KeywordTrends suggestions={suggestions} />
+            ) : (
+              <StatsPlot suggestions={suggestions} mode={statsMode} />
+            )}
+          </Col>
+        </Row>
+      ) : viewMode === 'graph' ? (
+        <Row>
+          <Col xs={12}>
+            <PaperGraph suggestions={suggestions} />
           </Col>
         </Row>
       ) : viewMode === 'timeline' ? (

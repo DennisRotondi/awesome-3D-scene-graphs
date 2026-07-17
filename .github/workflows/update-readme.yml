@@ -25,10 +25,15 @@ jobs:
       - name: Generate README and plots
         run: cd scripts && uv run python json_to_md.py
 
-      - name: Commit updated README and plots
+      # Keep the committed citation counts (Connected Papers node sizes) in
+      # sync with the paper list; also the fallback if fetching fails on deploy
+      - name: Refresh citation counts
+        run: python3 scripts/fetch_citations.py || echo "citation fetch failed, keeping committed citations.json"
+
+      - name: Commit updated README, plots, and citation counts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md plots/
+          git add README.md plots/ website/src/citations.json
           git diff --staged --quiet || git commit -m "auto: update README from papers/"
           git push
