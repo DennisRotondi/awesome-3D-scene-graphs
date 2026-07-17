@@ -12,7 +12,6 @@ import StatsPlot from '../components/StatsPlot';
 import StatTiles from '../components/StatTiles';
 import KeywordTrends from '../components/KeywordTrends';
 import PaperGraph from '../components/PaperGraph';
-import InstituteChart from '../components/InstituteChart';
 import TimelinePlot, { type TimelineHandle } from '../components/Timeline';
 import { isBookmarked, onBookmarksChange } from '../utils/bookmarks';
 import './AdvancedSearch.css';
@@ -50,9 +49,7 @@ export default function AdvancedSearch() {
   const [viewMode, setViewMode] = useState<'browse' | 'statistics' | 'timeline' | 'graph'>(
     'browse'
   );
-  const [statsMode, setStatsMode] = useState<
-    'year' | 'venue' | 'keyword' | 'trends' | 'institutes'
-  >('year');
+  const [statsMode, setStatsMode] = useState<'year' | 'venue' | 'keyword' | 'trends'>('year');
 
   // default bars
   const [searchBars, setSearchBars] = useState([
@@ -515,12 +512,6 @@ export default function AdvancedSearch() {
                 >
                   Trends
                 </Button>
-                <Button
-                  variant={statsMode === 'institutes' ? 'outline-secondary' : 'outline-primary'}
-                  onClick={() => setStatsMode('institutes')}
-                >
-                  Institutes
-                </Button>
               </ButtonGroup>
             )}
 
@@ -551,8 +542,6 @@ export default function AdvancedSearch() {
             </div>
             {statsMode === 'trends' ? (
               <KeywordTrends suggestions={suggestions} />
-            ) : statsMode === 'institutes' ? (
-              <InstituteChart suggestions={suggestions} />
             ) : (
               <StatsPlot suggestions={suggestions} mode={statsMode} />
             )}

@@ -16,7 +16,6 @@ import StatsPlot from '../components/StatsPlot';
 import StatTiles from '../components/StatTiles';
 import KeywordTrends from '../components/KeywordTrends';
 import PaperGraph from '../components/PaperGraph';
-import InstituteChart from '../components/InstituteChart';
 import { formatDate } from '../components/Constants';
 
 // Single-series charts use the deeper rose: the only palette step with >= 3:1
@@ -134,10 +133,6 @@ export default function Stats() {
       {/* Connected papers */}
       <SectionTitle>Connected papers</SectionTitle>
       <PaperGraph />
-
-      {/* Most active first institutes */}
-      <SectionTitle>Most active institutes</SectionTitle>
-      <InstituteChart />
       <div className="mb-5" />
     </Container>
   );
