@@ -34,6 +34,12 @@ jobs:
       - name: Sync papers into website
         run: rm -rf website/src/assets/papers && cp -r papers website/src/assets/papers
 
+      # Node sizes in the Connected Papers graph come from citation counts.
+      # Refresh them at deploy time so newly added papers get sized; if the
+      # citation APIs are down, the committed citations.json is used instead.
+      - name: Refresh citation counts
+        run: python3 scripts/fetch_citations.py || echo "citation fetch failed, using committed citations.json"
+
       - name: Install dependencies
         working-directory: website
         run: npm install

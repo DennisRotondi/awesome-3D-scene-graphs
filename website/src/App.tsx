@@ -8,6 +8,7 @@ import About from './pages/About';
 import FAQ from './pages/FAQ';
 import AdvancedSearch from './pages/AdvancedSearch';
 import Contribute from './pages/Contribute';
+import Stats from './pages/Stats';
 
 import Container from 'react-bootstrap/Container';
 import FooterComponent from './components/FooterComponent';
@@ -25,6 +26,7 @@ const PAGE_TITLES: Record<string, string> = {
   '/faq': 'FAQ',
   '/contribute': 'Contribute',
   '/advanced-search': 'Advanced Search',
+  '/stats': 'Stats',
 };
 
 // Set a distinct browser-tab title per route and report it with the GA pageview.
@@ -65,6 +67,7 @@ const App: React.FC = () => {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/advanced-search" element={<AdvancedSearch />} />
+          <Route path="/stats" element={<Stats />} />
           {/* fallback */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

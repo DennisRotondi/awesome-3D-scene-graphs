@@ -28,6 +28,7 @@ function NavbarComponent() {
             {[
               { to: '/', label: 'Home' },
               { to: '/advanced-search', label: 'Advanced Search' },
+              { to: '/stats', label: 'Stats' },
               { to: '/contribute', label: 'Contribute' },
               { to: '/about', label: 'About Us' },
               { to: '/faq', label: 'FAQ' },
