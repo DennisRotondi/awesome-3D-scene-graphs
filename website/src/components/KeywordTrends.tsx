@@ -15,7 +15,8 @@ import type { Paper } from './papers';
 const INK = '#3b4248';
 const TOP_KEYWORDS = 6;
 // Years with fewer papers than this are dropped: percentage shares over a
-// handful of papers are all noise.
+// handful of papers are all noise. Relaxed for small filtered sets, where a
+// hard floor of 5 would drop every year and blank the chart.
 const MIN_PAPERS_PER_YEAR = 5;
 
 // The most hue-distinct steps of YEAR_COLORS, assigned in fixed order.
@@ -51,8 +52,9 @@ export default function KeywordTrends({ suggestions }: { suggestions?: Paper[] }
       .slice(0, TOP_KEYWORDS)
       .map(([k]) => k);
 
+    const minPerYear = Math.min(MIN_PAPERS_PER_YEAR, Math.max(1, Math.round(items.length / 20)));
     const rows: YearRow[] = Object.entries(perYear)
-      .filter(([, { total }]) => total >= MIN_PAPERS_PER_YEAR)
+      .filter(([, { total }]) => total >= minPerYear)
       .sort((a, b) => Number(a[0]) - Number(b[0]))
       .map(([year, { total, counts }]) => {
         const row: YearRow = { year };
@@ -65,14 +67,23 @@ export default function KeywordTrends({ suggestions }: { suggestions?: Paper[] }
     return { rows, topKeywords };
   }, [items]);
 
-  if (!rows.length) return null;
+  if (!rows.length) {
+    return (
+      <div className="text-font-small py-5 text-center" style={{ color: '#6b7280' }}>
+        Not enough papers match the current filters to show keyword trends.
+      </div>
+    );
+  }
 
   // Direct label on the last point only, so each line is identifiable
-  // without the legend (the palette alone is not CVD-safe).
+  // without the legend (the palette alone is not CVD-safe). With few years —
+  // typical for filtered sets — the endpoints coincide and the labels smear
+  // over each other, so fall back to legend + tooltip only.
+  const showEndLabels = rows.length >= 4;
   const endLabel =
     (keyword: string) =>
     ({ x, y, index }: { x?: number; y?: number; index?: number }) => {
-      if (index !== rows.length - 1 || x == null || y == null) return null;
+      if (!showEndLabels || index !== rows.length - 1 || x == null || y == null) return null;
       return (
         <text x={x + 8} y={y + 4} fill={INK} fontSize={12}>
           {keyword}
