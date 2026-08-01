@@ -1,0 +1,14 @@
+{
+  "TITLE": "CinemaTraj: Composing Atomic Camera Trajectories for 3D Scenes with LLM Agents",
+  "VENUE": "arXiv26",
+  "DATE": "2026/07/29",
+  "AUTHOR": "Qianru Li, Xuyang Chen, Erkin Türköz, Lu Liu, Xuqin Wang, Liqiu Meng, Tao Wu, Yanfeng Zhang",
+  "ABSTRACT": "Automatically generating cinematically expressive camera trajectories through 3D scenes from natural language descriptions is a challenging task of high practical value, with applications ranging from real-estate advertising to virtual tour creation. Existing methods either lack true 3D spatial awareness by relying on 2D image priors, or treat trajectory generation as a geometric path planning problem divorced from cinematographic semantics. We present CinemaTraj, a framework that reframes camera trajectory planning as a language-grounded spatial reasoning problem. Given a set of RGB-D images and a user prompt, CinemaTraj equips an LLM agent with a structured 3D scene graph: the agent decomposes the prompt into a sequence of atomic cinematographic movements (dolly, orbit, crane, pan, tilt, zoom, arc). Each movement is instantiated via a novel parametric trajectory representation that is both cinematographically expressive and optimizable for collision avoidance. The scene graph acts as a structured spatial prior, grounding the agent's reasoning in accurate geometric and semantic knowledge of the environment. CinemaTraj further generates synchronized voiceover and subtitles aligned with camera motion, producing narrated cinematic video outputs. We evaluate CinemaTraj on real-world ScanNet++ environments, and show that it produces prompt-faithful, collision-free trajectories with high cinematographic quality, outperforming existing approaches on prompt alignment, trajectory quality, and safety metrics.",
+  "ARXIV": "https://arxiv.org/abs/2607.26910",
+  "FIRSTINSTITUTE": "TUM",
+  "KEYWORD": "Application, Planning, LLM, Indoor, RGB-D",
+  "SITE": "https://cinematraj.github.io/",
+  "CODE": "",
+  "VIDEO": "",
+  "BIBTEX": "@misc{li2026cinematraj,\n  title = {CinemaTraj: Composing Atomic Camera Trajectories for 3D Scenes with LLM Agents},\n  author = {Li, Qianru and Chen, Xuyang and Türköz, Erkin and Liu, Lu and Wang, Xuqin and Meng, Liqiu and Wu, Tao and Zhang, Yanfeng},\n  year = {2026},\n  eprint = {2607.26910},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.CV}\n}"
+}
